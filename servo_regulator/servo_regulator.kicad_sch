@@ -900,7 +900,7 @@
     (pin "1" (uuid c95f2128-cf1f-4ff1-8cc5-d0e222a08014))
     (pin "2" (uuid 37c7de70-c2ab-4343-89e1-6840d60b84bc))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "R3") (unit 1)
         )
@@ -925,7 +925,7 @@
     )
     (pin "1" (uuid a6c141a2-4695-4300-8858-9e9afc82ad12))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "#PWR01") (unit 1)
         )
@@ -950,7 +950,7 @@
     )
     (pin "1" (uuid fc02c07a-74b2-4b27-ba6d-c2f9a915edd0))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "#PWR05") (unit 1)
         )
@@ -961,10 +961,10 @@
   (symbol (lib_id "Device:R_US") (at 125.73 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18bdc76f-056e-4e3c-bf53-bfaa951c9e66)
-    (property "Reference" "R5" (at 128.27 136.525 0)
+    (property "Reference" "R5" (at 128.27 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "420" (at 128.27 139.065 0)
+    (property "Value" "430" (at 128.27 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 126.746 137.414 90)
@@ -976,7 +976,7 @@
     (pin "1" (uuid 7fa9b746-2570-43bf-8c17-b6c287339be4))
     (pin "2" (uuid f243ae40-30c7-43a1-b6f8-616f8d47b25c))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "R5") (unit 1)
         )
@@ -987,10 +987,10 @@
   (symbol (lib_id "Regulators:TPS563208DDCR") (at 142.24 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1a50ec40-121c-4bf1-9cbe-050eee0c16ad)
-    (property "Reference" "U1" (at 142.24 81.28 0)
+    (property "Reference" "U1" (at 142.24 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 123.19 102.87 0)
+    (property "Value" "TPS563208DDCR" (at 142.24 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6" (at 123.19 102.87 0)
@@ -1006,7 +1006,7 @@
     (pin "5" (uuid ba9c8df4-a17f-4407-8cd3-a26edc323b0c))
     (pin "6" (uuid 4e79a0f3-bc87-44c4-b4ab-6fc6cb090246))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "U1") (unit 1)
         )
@@ -1038,7 +1038,7 @@
           (reference "Q1") (unit 1)
         )
       )
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "Q1") (unit 1)
         )
@@ -1063,7 +1063,7 @@
     )
     (pin "1" (uuid c0cae6b6-00d6-4551-853a-9110e9923e10))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "#PWR07") (unit 1)
         )
@@ -1088,7 +1088,7 @@
     )
     (pin "1" (uuid 07ab9116-bdb7-49c2-824a-d6a57107363f))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "#PWR08") (unit 1)
         )
@@ -1114,7 +1114,7 @@
     (pin "1" (uuid dc4bd6fa-158f-4aeb-8648-80b0b869a2e7))
     (pin "2" (uuid 9efe53db-9227-45b1-95bd-b241cfd510ee))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "C7") (unit 1)
         )
@@ -1140,7 +1140,7 @@
     (pin "1" (uuid f7b0bbb2-399b-455c-9426-9e055a2dc220))
     (pin "2" (uuid bc1c6d17-40eb-438a-a84e-75194fa7d9e4))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "L1") (unit 1)
         )
@@ -1165,7 +1165,7 @@
     )
     (pin "1" (uuid 373d278b-1e96-4e41-a96d-d2f85aceff43))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "#PWR09") (unit 1)
         )
@@ -1190,7 +1190,7 @@
     )
     (pin "1" (uuid ceee7c7c-46c6-4272-8201-799a90f4287b))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "#PWR03") (unit 1)
         )
@@ -1215,7 +1215,7 @@
     )
     (pin "1" (uuid e9479f2e-1212-4aaf-8197-b903f02ab8cd))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "#PWR011") (unit 1)
         )
@@ -1240,7 +1240,7 @@
     )
     (pin "1" (uuid e03fde60-2dad-4abb-a7a0-09a37a6ee079))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "#PWR010") (unit 1)
         )
@@ -1267,7 +1267,7 @@
     (pin "2" (uuid 35475cc5-9783-4233-8c2d-e8645229d9c8))
     (pin "3" (uuid e8e4a00b-f544-4f17-b3c3-25d97b4535c3))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "SER1") (unit 1)
         )
@@ -1293,7 +1293,7 @@
     (pin "1" (uuid 7d0ff57d-9ffe-4273-a44a-568922792096))
     (pin "2" (uuid 6800f317-16b5-454e-af4a-f7d60eb4066e))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "C3") (unit 1)
         )
@@ -1318,7 +1318,7 @@
     )
     (pin "1" (uuid cd723462-b830-45b7-a594-6492ff5dfff7))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "#PWR06") (unit 1)
         )
@@ -1343,7 +1343,7 @@
     )
     (pin "1" (uuid 6d7faccc-2e3d-42a5-b485-d7f6b27f7638))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "#PWR04") (unit 1)
         )
@@ -1369,7 +1369,7 @@
     (pin "1" (uuid f7584537-dd72-4505-9eac-1f9617e88af5))
     (pin "2" (uuid cfe032ab-2fb8-43d7-9fc5-5a7f59170ca0))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "C9") (unit 1)
         )
@@ -1395,7 +1395,7 @@
     (pin "1" (uuid a10e723a-dee2-4fea-bd64-1c89742c06fb))
     (pin "2" (uuid 4392f69b-0ceb-4c72-965f-3dfad95b9199))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "C8") (unit 1)
         )
@@ -1421,7 +1421,7 @@
     (pin "1" (uuid 0bc4c768-322b-4d9e-82a4-384b4bbf1ac7))
     (pin "2" (uuid 3eb4d84c-bbf9-4d36-8dfb-6a3846baae87))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "C4") (unit 1)
         )
@@ -1446,7 +1446,7 @@
     )
     (pin "1" (uuid f776bc2c-4c67-442b-9fc5-65c1430826bd))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "#PWR02") (unit 1)
         )
@@ -1472,7 +1472,7 @@
     (pin "1" (uuid 30125723-8aff-419b-ac49-ec8231aee647))
     (pin "2" (uuid 9d919886-191c-4a78-ade7-797bd13a5581))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "C2") (unit 1)
         )
@@ -1499,7 +1499,7 @@
     (pin "2" (uuid 7145a3c5-8304-4488-9d11-05546a1c251b))
     (pin "3" (uuid 22909d89-b75a-4068-94a9-1a59704264d2))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "J1") (unit 1)
         )
@@ -1525,7 +1525,7 @@
     (pin "1" (uuid eb1e04e3-9a6e-48fb-9fa2-2c8530ba6093))
     (pin "2" (uuid 50f51b2d-e644-41f8-8b9e-39aac88876b9))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "R1") (unit 1)
         )
@@ -1551,7 +1551,7 @@
     (pin "1" (uuid 25f6485a-8aa2-4bb4-9ad9-eb4540b98fd0))
     (pin "2" (uuid 18156fbe-3a8b-4aac-99b0-17e20fb5e429))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "C1") (unit 1)
         )
@@ -1576,7 +1576,7 @@
     )
     (pin "1" (uuid e2219d54-7b45-438c-9d5b-92a2c48aee3f))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "#PWR012") (unit 1)
         )
@@ -1608,7 +1608,7 @@
           (reference "Q1") (unit 1)
         )
       )
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "Q2") (unit 1)
         )
@@ -1619,10 +1619,10 @@
   (symbol (lib_id "Device:R_US") (at 109.22 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f24449b1-e301-4620-98a0-843729b8831d)
-    (property "Reference" "R4" (at 111.76 142.875 0)
+    (property "Reference" "R4" (at 111.76 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "420" (at 111.76 145.415 0)
+    (property "Value" "430" (at 111.76 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 110.236 143.764 90)
@@ -1634,7 +1634,7 @@
     (pin "1" (uuid 56ed94c5-3fc5-4891-b9d3-e10b9aa923c7))
     (pin "2" (uuid 52a5e278-1b97-4a32-8530-07788fe15c80))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "R4") (unit 1)
         )
@@ -1660,7 +1660,7 @@
     (pin "1" (uuid bd377c56-f4e9-4758-ab0e-2574b505fa96))
     (pin "2" (uuid 14afbabb-41ee-4e2d-a091-b83863a8ae0f))
     (instances
-      (project "servoregulatorsv1"
+      (project "servo_regulator"
         (path "/73a2c705-23c6-4b38-b747-fa1f3c1277cb"
           (reference "R2") (unit 1)
         )

@@ -6,8 +6,10 @@
 
   (paper "USLetter")
   (title_block
+    (title "Propellor Pitch and Monitor")
     (date "2023-06-28")
     (rev "1")
+    (company "HPVDT")
   )
 
   (layers
@@ -832,7 +834,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ef289e40-a61f-42f5-8190-9730c49b30b6)
     )
-    (fp_text value "5k" (at 0 1.43 90) (layer "F.Fab")
+    (fp_text value "5.1k" (at 0 1.43 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1fd0f1f8-a5a6-4285-b63d-56efdef4d1be)
     )
@@ -1102,7 +1104,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp de18ca42-5a14-4a38-a9e1-b7717f0685d0)
     )
-    (fp_text value "MMS8550" (at 0 2.4 90) (layer "F.Fab")
+    (fp_text value "MMBT2907" (at 0 2.4 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5182bdca-a63a-460b-b57a-2168a7dc5281)
     )
@@ -2488,7 +2490,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 58e6348b-1249-41ad-99ae-045b03249ca3)
     )
-    (fp_text value "Resonator_Small" (at 0 1.8 90) (layer "F.Fab")
+    (fp_text value "16M" (at 0 1.8 90) (layer "F.Fab")
         (effects (font (size 0.2 0.2) (thickness 0.03)))
       (tstamp 2e346093-6f59-42f5-8a89-acf23c4a3afb)
     )
