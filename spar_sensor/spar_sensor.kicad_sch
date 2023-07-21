@@ -1416,6 +1416,12 @@
     (uuid fe95e1d1-d86f-45c8-a955-d7c7c1d36ec8)
   )
 
+  (text "Resistive division used determine address for the board"
+    (at 161.925 25.4 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 68a25212-e5ac-4456-820d-cd03481e5c6d)
+  )
+
   (label "MOSI" (at 176.53 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0b8c222a-2949-47bb-b48a-78eabc35743f)
@@ -1558,7 +1564,7 @@
     (pin "8" (uuid ec3bf6cb-bbbc-4387-b761-41159bbe6211))
     (pin "9" (uuid 63f4e147-217a-4423-8ef0-38acb8c6cc41))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "U2") (unit 1)
         )
@@ -1584,7 +1590,7 @@
     (pin "1" (uuid b76bb35d-8cbe-45bb-94be-b00cb2e51f5f))
     (pin "2" (uuid 5d81c77b-d65a-4363-bc3c-c8ae5dab43df))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "R10") (unit 1)
         )
@@ -1610,7 +1616,7 @@
     (pin "1" (uuid 5f577408-359d-412a-81a5-d40b331efe03))
     (pin "2" (uuid e1351b0e-258f-436f-b245-22097c36392e))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "R3") (unit 1)
         )
@@ -1635,7 +1641,7 @@
     )
     (pin "1" (uuid 3d4d3bb4-a7e2-4e4b-899e-490bb6c957d6))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#FLG03") (unit 1)
         )
@@ -1660,7 +1666,7 @@
     )
     (pin "1" (uuid eabb5b96-19dc-4f10-a713-caeb1369f50c))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR05") (unit 1)
         )
@@ -1685,7 +1691,7 @@
     )
     (pin "1" (uuid b198d245-3c47-4b4e-bbb6-82a41e4a8332))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR07") (unit 1)
         )
@@ -1710,7 +1716,7 @@
     )
     (pin "1" (uuid 5271cd3f-dc67-4f40-914a-23e84a05859e))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR014") (unit 1)
         )
@@ -1721,10 +1727,10 @@
   (symbol (lib_id "Device:R_US") (at 220.98 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25852ba6-ae10-4a9d-89a5-2682a10a4388)
-    (property "Reference" "R2" (at 223.52 45.085 0)
+    (property "Reference" "R2" (at 223.52 44.45 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "5 k" (at 223.52 47.625 0)
+    (property "Value" "5.6k" (at 223.52 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 221.996 45.974 90)
@@ -1736,7 +1742,7 @@
     (pin "1" (uuid 9fe8725e-38c9-46b1-913b-0ff4ee096d06))
     (pin "2" (uuid 0423d786-60b7-4e32-ac7f-4df2584d147c))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "R2") (unit 1)
         )
@@ -1761,7 +1767,7 @@
     )
     (pin "1" (uuid 5fd89b80-55a4-43f0-9d8f-cd6f3caaf3bd))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR012") (unit 1)
         )
@@ -1786,7 +1792,7 @@
     )
     (pin "1" (uuid 88a57bbd-e8b6-435a-9862-1f4ab1a363ef))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR02") (unit 1)
         )
@@ -1812,7 +1818,7 @@
     (pin "1" (uuid 99ba0a5c-38ad-4265-8721-2de0388064fd))
     (pin "2" (uuid 4fefef19-7167-4149-afcc-b62938402008))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "R7") (unit 1)
         )
@@ -1823,10 +1829,10 @@
   (symbol (lib_id "Device:C") (at 48.26 129.54 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31fe1289-3376-4136-b3ca-2e5ba306c562)
-    (property "Reference" "C5" (at 52.07 128.905 0)
+    (property "Reference" "C5" (at 52.07 128.27 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "0.1 u" (at 52.07 131.445 0)
+    (property "Value" "0.1u" (at 52.07 130.81 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 47.2948 125.73 0)
@@ -1838,7 +1844,7 @@
     (pin "1" (uuid 3880131e-e42a-4c68-929d-8dd85beb587c))
     (pin "2" (uuid 4f259e09-0837-42c2-8681-19664f028ab9))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "C5") (unit 1)
         )
@@ -1863,7 +1869,7 @@
     )
     (pin "1" (uuid 1bae4c38-15f2-457e-843a-23b215e775c6))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR01") (unit 1)
         )
@@ -1888,7 +1894,7 @@
     )
     (pin "1" (uuid 4015a345-55a2-4551-867f-2144ab444f90))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR010") (unit 1)
         )
@@ -1914,7 +1920,7 @@
     (pin "1" (uuid 5c8fc77c-b79b-4ff1-b088-d32fe57d2150))
     (pin "2" (uuid 347424a4-ae7b-424c-9f02-4bddb041fb1f))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "SW1") (unit 1)
         )
@@ -1942,7 +1948,7 @@
     (pin "3" (uuid c8c5ce7e-c8a2-4fb0-ab3a-15da4fe2e54d))
     (pin "4" (uuid 6dc34d9e-9a0b-4802-9c30-2c25982942b0))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "J2") (unit 1)
         )
@@ -1968,7 +1974,7 @@
     (pin "1" (uuid ce026f77-75a3-45b4-8d04-816e03b1373d))
     (pin "2" (uuid 5ad61410-8dcd-4dde-a2b4-beaf72482b1d))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "R9") (unit 1)
         )
@@ -1993,7 +1999,7 @@
     )
     (pin "1" (uuid bb399754-3674-454f-bdaa-717415c0c1af))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR020") (unit 1)
         )
@@ -2021,7 +2027,7 @@
     (pin "3" (uuid 6d4a24ba-f5e1-4c6d-a305-331bf322ace3))
     (pin "4" (uuid 2777cb48-8672-4cb4-8427-1144ee6b8ba7))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "J3") (unit 1)
         )
@@ -2046,7 +2052,7 @@
     )
     (pin "1" (uuid 2a0fccb9-a466-4ebb-b0b2-1923def3e88d))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR015") (unit 1)
         )
@@ -2071,7 +2077,7 @@
     )
     (pin "1" (uuid 3d52d409-06da-4041-8624-bc67d1720c4b))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR08") (unit 1)
         )
@@ -2098,7 +2104,7 @@
     (pin "2" (uuid 737d7426-359e-4c06-bcec-dce22439bcac))
     (pin "3" (uuid 3e95dc42-995b-425f-a028-dfd97709e109))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "Q2") (unit 1)
         )
@@ -2123,7 +2129,7 @@
     )
     (pin "1" (uuid e0701c97-87bb-4d43-9104-304fb4d08948))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR018") (unit 1)
         )
@@ -2148,7 +2154,7 @@
     )
     (pin "1" (uuid 3efbc863-6325-487b-a11a-ce95b8678ee9))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR017") (unit 1)
         )
@@ -2173,7 +2179,7 @@
     )
     (pin "1" (uuid 5a8ef62a-9a28-467d-bcaa-b8c0dce7b8b7))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR016") (unit 1)
         )
@@ -2182,12 +2188,12 @@
   )
 
   (symbol (lib_id "Device:C") (at 46.99 40.64 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 697dc592-0dd3-4c22-94fb-997f574c4b6a)
-    (property "Reference" "C1" (at 53.34 39.37 0) (do_not_autoplace)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Reference" "C1" (at 50.8 39.37 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10 u" (at 50.8 41.275 0)
+    (property "Value" "10u" (at 50.8 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 46.0248 44.45 0)
@@ -2199,7 +2205,7 @@
     (pin "1" (uuid 5fada7dc-de6a-4ca6-9af7-8ed22ae9cf3f))
     (pin "2" (uuid dcfedf45-ade4-400f-8358-3f88d9352742))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "C1") (unit 1)
         )
@@ -2225,7 +2231,7 @@
     (pin "1" (uuid 502d261f-feaa-4afb-a74f-ea0c2741cedd))
     (pin "2" (uuid 5460940a-ef06-4500-924c-1e3921fb74cb))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "R1") (unit 1)
         )
@@ -2236,11 +2242,11 @@
   (symbol (lib_id "Device:C") (at 72.39 81.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76c68ebe-b28c-4210-9740-10aaa1806ba0)
-    (property "Reference" "C3" (at 68.58 80.645 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Reference" "C3" (at 76.2 80.01 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "0.1 u" (at 68.58 83.185 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "0.1u" (at 76.2 82.55 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 71.4248 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2251,7 +2257,7 @@
     (pin "1" (uuid 83db1130-daa3-46fe-815c-5b7938e8c7c7))
     (pin "2" (uuid f84e6f08-dafa-4848-925f-0589923f62cd))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "C3") (unit 1)
         )
@@ -2276,7 +2282,7 @@
     )
     (pin "1" (uuid 06d5df36-3170-420f-8a0b-7158e58ec4ca))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR09") (unit 1)
         )
@@ -2301,7 +2307,7 @@
     )
     (pin "1" (uuid 2f2c6985-2c1b-4844-96b1-c734373e8453))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR06") (unit 1)
         )
@@ -2315,7 +2321,7 @@
     (property "Reference" "C4" (at 54.61 109.22 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1 u" (at 52.07 111.76 0)
+    (property "Value" "0.1u" (at 52.07 111.76 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 47.2948 106.68 0)
@@ -2327,7 +2333,7 @@
     (pin "1" (uuid c2f76948-9fa7-46e4-aed8-d49bd498608b))
     (pin "2" (uuid 4c3c5d83-f97e-4267-82cd-dd3db7290de0))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "C4") (unit 1)
         )
@@ -2352,7 +2358,7 @@
     )
     (pin "1" (uuid 1adc37bc-61c9-42c4-91e7-938a1311602b))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#FLG01") (unit 1)
         )
@@ -2363,10 +2369,10 @@
   (symbol (lib_id "Device:R_US") (at 196.85 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8278600-4a49-499f-b198-01c70ae82964)
-    (property "Reference" "R6" (at 199.39 76.835 0)
+    (property "Reference" "R6" (at 199.39 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10 k" (at 199.39 79.375 0)
+    (property "Value" "10k" (at 199.39 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 197.866 77.724 90)
@@ -2378,7 +2384,7 @@
     (pin "1" (uuid 2962676b-39e4-4d36-b144-1240a9f6441b))
     (pin "2" (uuid af866374-2944-4e71-b998-098b51d94663))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "R6") (unit 1)
         )
@@ -2403,7 +2409,7 @@
     )
     (pin "1" (uuid c580e87d-45f0-445b-96cb-8ff064972c04))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#FLG02") (unit 1)
         )
@@ -2428,7 +2434,7 @@
     )
     (pin "1" (uuid 85ed6c34-1a1f-4d6b-82b4-98cb2a967fd6))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR023") (unit 1)
         )
@@ -2437,13 +2443,13 @@
   )
 
   (symbol (lib_id "Device:C") (at 54.61 58.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba499ede-8ec7-4a1e-8af1-80d94c0cb9c3)
-    (property "Reference" "C2" (at 48.26 57.15 0)
+    (property "Reference" "C2" (at 58.42 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10 u" (at 45.72 60.96 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Value" "10u" (at 58.42 59.69 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 55.5752 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2454,7 +2460,7 @@
     (pin "1" (uuid f135b034-ed43-4684-9b72-84b679dc3a17))
     (pin "2" (uuid eadfbadb-e187-44af-945d-78d6ab246c81))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "C2") (unit 1)
         )
@@ -2479,7 +2485,7 @@
     )
     (pin "1" (uuid b054efa1-db53-4e9c-bfcf-606b84657823))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR021") (unit 1)
         )
@@ -2504,7 +2510,7 @@
     )
     (pin "1" (uuid f2aec0a1-62ad-453a-88ce-167634b03390))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR011") (unit 1)
         )
@@ -2518,7 +2524,7 @@
     (property "Reference" "R4" (at 67.31 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10 k" (at 67.31 58.42 0)
+    (property "Value" "10k" (at 67.31 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 65.786 56.134 90)
@@ -2530,7 +2536,7 @@
     (pin "1" (uuid bcdfe1e9-a7f2-4871-bb43-03a4be11c871))
     (pin "2" (uuid b8147374-7dd0-4ccb-bf46-069a0f932260))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "R4") (unit 1)
         )
@@ -2555,7 +2561,7 @@
     )
     (pin "1" (uuid c374a87a-d64a-415e-b629-1bda91238aa6))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR024") (unit 1)
         )
@@ -2569,7 +2575,7 @@
     (property "Reference" "R5" (at 67.31 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "5.6 k" (at 67.31 66.04 0)
+    (property "Value" "5.6k" (at 67.31 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 65.786 63.754 90)
@@ -2581,7 +2587,7 @@
     (pin "1" (uuid 85c41506-f7c1-4ccd-ae0d-c03671e70fd9))
     (pin "2" (uuid 85381b14-1fcb-4a78-878f-99d7a4107340))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "R5") (unit 1)
         )
@@ -2608,7 +2614,7 @@
     (pin "2" (uuid f8ef1650-1ec2-45f4-afeb-8ccdb17448a4))
     (pin "3" (uuid 754af79a-7db6-4c66-abce-45b9e681d53e))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "J1") (unit 1)
         )
@@ -2638,7 +2644,7 @@
     (pin "5" (uuid 383b3526-3285-4373-a4af-e2808498754f))
     (pin "6" (uuid 63d61a5c-8eae-4156-bcaf-25a6416de717))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "J4") (unit 1)
         )
@@ -2678,7 +2684,7 @@
     (pin "8" (uuid e279610b-2388-4be0-a3e9-5b678d2b3d34))
     (pin "9" (uuid 9ad8ecad-90d5-4fdc-b81f-7cf9e6b121fe))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "U1") (unit 1)
         )
@@ -2703,7 +2709,7 @@
     )
     (pin "1" (uuid 469f26c1-812f-4d22-8bc5-25c5da65682f))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR019") (unit 1)
         )
@@ -2728,7 +2734,7 @@
     )
     (pin "1" (uuid db32f265-ae32-456c-aa8a-4d1480c4d5c3))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR013") (unit 1)
         )
@@ -2753,7 +2759,7 @@
     )
     (pin "1" (uuid d6746790-276b-4bca-9d45-2ce7216f42f0))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR04") (unit 1)
         )
@@ -2778,7 +2784,7 @@
     )
     (pin "1" (uuid 614613ae-8974-48a5-81d1-045f4b23d430))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR022") (unit 1)
         )
@@ -2803,7 +2809,7 @@
     )
     (pin "1" (uuid 2a2676a9-5148-4921-a379-d5db0cd4e090))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR03") (unit 1)
         )
@@ -2828,7 +2834,7 @@
     )
     (pin "1" (uuid 52cd100e-975b-4f75-9ce9-1839b7ba90e2))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "#PWR025") (unit 1)
         )
@@ -2854,7 +2860,7 @@
     (pin "1" (uuid 577adc16-c391-42eb-bf85-1effc8a9ddf1))
     (pin "2" (uuid e8391d88-5d82-48f1-b7a0-77e2dc339aad))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "R8") (unit 1)
         )
@@ -2868,7 +2874,7 @@
     (property "Reference" "Q1" (at 62.23 48.2601 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "MMS8550" (at 62.23 45.7201 0)
+    (property "Value" "MMSS8550" (at 62.23 45.7201 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 62.23 49.53 0)
@@ -2881,7 +2887,7 @@
     (pin "2" (uuid b36cb1b4-c84a-40bb-a477-c0f64bf7ec46))
     (pin "3" (uuid 319d1494-1944-4451-8cb4-8b337407d45f))
     (instances
-      (project "Sparsensor_May2023"
+      (project "spar_sensor"
         (path "/4c92aca5-528c-4811-a454-a46e63f9e159"
           (reference "Q1") (unit 1)
         )
