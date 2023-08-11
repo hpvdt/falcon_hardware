@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/New_Library.kicad_sym")(options "")(descr ""))
   (lib (name "TS2940CW50")(type "KiCad")(uri "${KIPRJMOD}/TS2940CW50.kicad_sym")(options "")(descr ""))
+  (lib (name "Sensor Customs")(type "KiCad")(uri "${KIPRJMOD}/Sensor Customs.kicad_sym")(options "")(descr ""))
 )
