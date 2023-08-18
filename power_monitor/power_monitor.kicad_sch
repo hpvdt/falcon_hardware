@@ -2375,7 +2375,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at -31.75 193.04 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26f95293-524e-4aca-9fed-a8e9ddfb7c06)
-    (property "Reference" "H5" (at -29.21 191.77 0)
+    (property "Reference" "H3" (at -29.21 191.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at -29.21 194.31 0)
@@ -2390,7 +2390,7 @@
     (instances
       (project "power_monitor"
         (path "/4799dcbd-1b9e-4a72-be59-db77c8db3c86"
-          (reference "H5") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -2441,31 +2441,6 @@
       (project "power_monitor"
         (path "/4799dcbd-1b9e-4a72-be59-db77c8db3c86"
           (reference "#PWR017") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 34.29 149.86 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 33fbd2ad-69ae-4d80-88b7-b4a77bc1f38d)
-    (property "Reference" "#PWR03" (at 34.29 153.67 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 34.29 144.78 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 34.29 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 34.29 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ebb9ec80-99b7-4d7a-a45b-d7245014c0ae))
-    (instances
-      (project "power_monitor"
-        (path "/4799dcbd-1b9e-4a72-be59-db77c8db3c86"
-          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -2593,6 +2568,31 @@
       (project "power_monitor"
         (path "/4799dcbd-1b9e-4a72-be59-db77c8db3c86"
           (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 82.55 166.37 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 44f67507-88d1-4cb5-8c86-6fbbe80da2b3)
+    (property "Reference" "#PWR03" (at 82.55 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 82.55 161.29 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 82.55 166.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 82.55 166.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7c399a40-23a8-4c43-b78a-6217cfe59c60))
+    (instances
+      (project "power_monitor"
+        (path "/4799dcbd-1b9e-4a72-be59-db77c8db3c86"
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -3435,6 +3435,30 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at -29.21 177.8 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bee05902-797d-43c6-bbc7-b86cff59070a)
+    (property "Reference" "H2" (at -26.67 176.53 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at -26.67 179.07 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580" (at -29.21 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at -29.21 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "power_monitor"
+        (path "/4799dcbd-1b9e-4a72-be59-db77c8db3c86"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Sensor_Current:ACS712xLCTR-20A") (at 114.3 119.38 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf7ac059-c419-4c41-b5da-29c7c4efda35)
@@ -3462,31 +3486,6 @@
       (project "power_monitor"
         (path "/4799dcbd-1b9e-4a72-be59-db77c8db3c86"
           (reference "U2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 82.55 166.37 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c1452623-fb7d-46c3-86c0-64db9ee1aefd)
-    (property "Reference" "#PWR08" (at 82.55 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 82.55 161.29 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 82.55 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 82.55 166.37 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b419fa9b-e847-4168-842f-f1e0a9edbf27))
-    (instances
-      (project "power_monitor"
-        (path "/4799dcbd-1b9e-4a72-be59-db77c8db3c86"
-          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3813,6 +3812,31 @@
       (project "power_monitor"
         (path "/4799dcbd-1b9e-4a72-be59-db77c8db3c86"
           (reference "#PWR022") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3V3") (at 34.29 149.86 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f5b48d71-b966-46aa-85ac-16e61c94af65)
+    (property "Reference" "#PWR08" (at 34.29 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 34.29 144.78 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 34.29 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 34.29 149.86 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1bac4024-3911-4213-bf58-b6efab57663b))
+    (instances
+      (project "power_monitor"
+        (path "/4799dcbd-1b9e-4a72-be59-db77c8db3c86"
+          (reference "#PWR08") (unit 1)
         )
       )
     )
