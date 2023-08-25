@@ -5,142 +5,6 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "Connector:Conn_01x02_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x02_Pin" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x02, script generated" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x02_Pin_1_1"
-        (polyline
-          (pts
-            (xy 1.27 -2.54)
-            (xy 0.8636 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 0.8636 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at 5.08 0 180) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Connector:Conn_01x03_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x03_Pin" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x03, script generated" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x03_Pin_1_1"
-        (polyline
-          (pts
-            (xy 1.27 -2.54)
-            (xy 0.8636 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 0.8636 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 2.54)
-            (xy 0.8636 2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 2.667) (end 0 2.413)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at 5.08 2.54 180) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 0 180) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 3.81)
-          (name "Pin_3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Connector:USB_C_Receptacle_USB2.0" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -10.16 19.05 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1677,6 +1541,10 @@
   (no_connect (at 246.38 53.34) (uuid 20ea8948-8e40-4793-ba20-81e9a7c86f0d))
   (no_connect (at 246.38 55.88) (uuid b6427a9c-e42f-4008-84ef-5bacb495a17a))
 
+  (wire (pts (xy 116.84 59.69) (xy 124.46 59.69))
+    (stroke (width 0) (type default))
+    (uuid 02afba02-1abb-4f5f-90e4-b7334dc1e435)
+  )
   (wire (pts (xy 74.93 52.07) (xy 76.2 52.07))
     (stroke (width 0) (type default))
     (uuid 04337033-ed47-4684-b9b5-fddc65c1d9dc)
@@ -1697,13 +1565,13 @@
     (stroke (width 0) (type default))
     (uuid 0f519ea4-d808-49c3-8d74-d072b00de498)
   )
-  (wire (pts (xy 81.28 95.25) (xy 44.45 95.25))
-    (stroke (width 0) (type default))
-    (uuid 10bc45b1-2a43-4484-b94f-fff1ec1ed44b)
-  )
   (wire (pts (xy 116.84 64.77) (xy 123.19 64.77))
     (stroke (width 0) (type default))
     (uuid 11c620ed-6382-4cfb-943a-1d25d28c718e)
+  )
+  (wire (pts (xy 160.02 118.11) (xy 160.02 121.92))
+    (stroke (width 0) (type default))
+    (uuid 133dbe94-cf92-4f5c-8fdf-7f222ba86625)
   )
   (wire (pts (xy 243.84 44.45) (xy 229.87 44.45))
     (stroke (width 0) (type default))
@@ -1733,6 +1601,14 @@
     (stroke (width 0) (type default))
     (uuid 26f8f2fe-2480-43eb-bd67-c422f307f46c)
   )
+  (wire (pts (xy 116.84 115.57) (xy 162.56 115.57))
+    (stroke (width 0) (type default))
+    (uuid 28ed8add-eda7-4067-a6fd-b8828073f0df)
+  )
+  (wire (pts (xy 116.84 118.11) (xy 160.02 118.11))
+    (stroke (width 0) (type default))
+    (uuid 342538d5-3851-4ed4-8aaa-8aa70c61d8cc)
+  )
   (wire (pts (xy 66.04 64.77) (xy 67.31 64.77))
     (stroke (width 0) (type default))
     (uuid 35feed7b-f43f-4fb0-a950-2aca8ee2713b)
@@ -1757,6 +1633,10 @@
     (stroke (width 0) (type default))
     (uuid 4027c427-706b-4a74-a730-15333c6777fb)
   )
+  (wire (pts (xy 162.56 115.57) (xy 162.56 116.84))
+    (stroke (width 0) (type default))
+    (uuid 4099b32b-3ebb-45da-90a6-aed0a1448f59)
+  )
   (wire (pts (xy 261.62 64.77) (xy 261.62 63.5))
     (stroke (width 0) (type default))
     (uuid 4227899f-d838-4111-84a4-5fae8a6fcfa5)
@@ -1768,6 +1648,10 @@
   (wire (pts (xy 99.06 46.99) (xy 101.6 46.99))
     (stroke (width 0) (type default))
     (uuid 4b78e3dd-0915-4a93-baf0-5ef0e8f0f931)
+  )
+  (wire (pts (xy 116.84 57.15) (xy 124.46 57.15))
+    (stroke (width 0) (type default))
+    (uuid 540d500a-528a-4598-900c-cd59b1b53d8d)
   )
   (wire (pts (xy 162.56 43.18) (xy 171.45 43.18))
     (stroke (width 0) (type default))
@@ -1865,6 +1749,10 @@
     (stroke (width 0) (type default))
     (uuid 84a406d8-2f93-4e41-98dc-37e96a69b578)
   )
+  (wire (pts (xy 116.84 130.81) (xy 132.08 130.81))
+    (stroke (width 0) (type default))
+    (uuid 8586304f-f65c-4193-8f84-da98f4cd9e88)
+  )
   (wire (pts (xy 62.23 57.15) (xy 81.28 57.15))
     (stroke (width 0) (type default))
     (uuid 87359ec1-fc50-4c5e-960e-d305cf4390f8)
@@ -1872,6 +1760,10 @@
   (wire (pts (xy 66.04 62.23) (xy 66.04 64.77))
     (stroke (width 0) (type default))
     (uuid 8bc68235-6586-4c69-bda9-023c0228a4ec)
+  )
+  (wire (pts (xy 116.84 125.73) (xy 132.08 125.73))
+    (stroke (width 0) (type default))
+    (uuid 8d90d978-c549-4300-8db8-5b1d25071775)
   )
   (wire (pts (xy 111.76 175.26) (xy 116.84 175.26))
     (stroke (width 0) (type default))
@@ -1900,10 +1792,6 @@
   (wire (pts (xy 116.84 80.01) (xy 132.08 80.01))
     (stroke (width 0) (type default))
     (uuid a5037aa4-bea9-496e-8ea1-2b473e20ab41)
-  )
-  (wire (pts (xy 44.45 82.55) (xy 81.28 82.55))
-    (stroke (width 0) (type default))
-    (uuid a6b27805-6983-4fdb-81df-004f1ba0251f)
   )
   (wire (pts (xy 243.84 45.72) (xy 246.38 45.72))
     (stroke (width 0) (type default))
@@ -1941,10 +1829,6 @@
     (stroke (width 0) (type default))
     (uuid c9d434ea-199d-4b69-9744-7bdacaf75000)
   )
-  (wire (pts (xy 44.45 85.09) (xy 44.45 95.25))
-    (stroke (width 0) (type default))
-    (uuid cbb0134c-5a27-4663-9a5f-721e75229044)
-  )
   (wire (pts (xy 171.45 35.56) (xy 162.56 35.56))
     (stroke (width 0) (type default))
     (uuid cc5b501a-1165-45dc-893a-451522dd86f3)
@@ -1953,9 +1837,9 @@
     (stroke (width 0) (type default))
     (uuid ce58fcef-8bed-4531-9e00-ed809f48bdb7)
   )
-  (wire (pts (xy 44.45 80.01) (xy 81.28 80.01))
+  (wire (pts (xy 116.84 128.27) (xy 132.08 128.27))
     (stroke (width 0) (type default))
-    (uuid d69fd783-7c5e-487b-80a6-5242a78899c1)
+    (uuid d6f452ae-9f51-4d6c-863b-309bdaf30ad0)
   )
   (wire (pts (xy 64.77 92.71) (xy 81.28 92.71))
     (stroke (width 0) (type default))
@@ -2014,7 +1898,15 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 214a93bf-1882-485f-9e7a-574df3fe385e)
   )
-  (label "i2c clk" (at 149.86 110.49 0) (fields_autoplaced)
+  (label "SPI2SCK" (at 132.08 125.73 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 25baff4d-1530-4609-a829-cc4e2ec4d199)
+  )
+  (label "USART6TX" (at 64.77 90.17 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 2c185170-9783-405f-9ee6-9b81e0c6196e)
+  )
+  (label "I2C_{SCK}" (at 149.86 110.49 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 33454e8d-903e-4685-abbb-5f59a1a20cca)
   )
@@ -2026,11 +1918,31 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 3b604ed8-b217-40d8-aabd-98827d18a6b4)
   )
+  (label "USART2TX" (at 124.46 57.15 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4178decc-bb72-41d2-9878-ed8949c61448)
+  )
   (label "USB+" (at 213.36 44.45 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 48de67e0-eed5-4d13-b6b1-0c65b13f5815)
   )
-  (label "i2c data" (at 149.86 113.03 0) (fields_autoplaced)
+  (label "SPI1MOSI" (at 123.19 69.85 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4c1c8824-d091-483e-8948-f932837d8538)
+  )
+  (label "USART1_{TX}" (at 148.59 90.17 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 63d422fa-c84b-42af-a646-8ab27450844d)
+  )
+  (label "USART2RX" (at 124.46 59.69 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 65761470-6d7a-4b80-a5b7-feb4548d909f)
+  )
+  (label "SPI2MISO" (at 132.08 128.27 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 768fd47e-4afb-488d-8864-d326ac3143cc)
+  )
+  (label "I2C_{SDA}" (at 149.86 113.03 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7ad8407a-1326-43d6-b106-c3fd7b81ce63)
   )
@@ -2038,21 +1950,49 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 86064e72-5224-4817-b12b-1dfb0406a70b)
   )
+  (label "SHAFTENC+" (at 162.56 116.84 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 86265268-d1a2-47ea-abb8-95d0b86e6719)
+  )
+  (label "SPI1MISO" (at 123.19 67.31 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8a76ee13-9349-45a7-9452-13500cb570ef)
+  )
   (label "USB-" (at 213.36 39.37 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8b091fee-ef63-4e85-ba8e-646bfe0edd5b)
   )
-  (label "usb dm" (at 132.08 80.01 0) (fields_autoplaced)
+  (label "USART1_{RX}" (at 148.59 92.71 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 923c0713-f4a9-41f2-bd22-07839f3bbbd0)
+  )
+  (label "USB_{D-}" (at 132.08 80.01 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a3f7d4ce-e344-4a7c-9bda-911f991c3623)
   )
-  (label "usb dp" (at 132.08 83.82 0) (fields_autoplaced)
+  (label "USB_{D-}" (at 132.08 83.82 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b425e145-5b22-41ce-8d78-d3b2eab01c23)
   )
   (label "RST" (at 77.47 52.07 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b9943baa-2504-40f5-acc1-b71a4bf11ac1)
+  )
+  (label "USART6RX" (at 64.77 92.71 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid bd07805a-6ced-4cd8-9850-02c64ccce388)
+  )
+  (label "SPI2MOSI" (at 132.08 130.81 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d952cb52-0684-4063-a799-e268ad099893)
+  )
+  (label "SHAFTENC-" (at 160.02 121.92 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f32849e9-100a-4788-be22-b427d2d80d81)
+  )
+  (label "SPI1SCK" (at 123.19 64.77 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid facc1058-17ee-4bd1-b4ea-dcb4d731caa3)
   )
 
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 261.62 40.64 0) (mirror y) (unit 1)
@@ -2093,7 +2033,7 @@
           (reference "J14") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "J6") (unit 1)
         )
@@ -2133,7 +2073,7 @@
           (reference "#PWR039") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "#PWR015") (unit 1)
         )
@@ -2173,7 +2113,7 @@
           (reference "#PWR032") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "#PWR08") (unit 1)
         )
@@ -2203,7 +2143,7 @@
           (reference "#PWR026") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "#PWR013") (unit 1)
         )
@@ -2243,7 +2183,7 @@
           (reference "#PWR036") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "#PWR011") (unit 1)
         )
@@ -2274,7 +2214,7 @@
           (reference "C6") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "C1") (unit 1)
         )
@@ -2310,7 +2250,7 @@
           (reference "R10") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "R3") (unit 1)
         )
@@ -2350,7 +2290,7 @@
           (reference "#PWR020") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "#PWR04") (unit 1)
         )
@@ -2385,7 +2325,7 @@
           (reference "#PWR017") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "#PWR01") (unit 1)
         )
@@ -2420,7 +2360,7 @@
           (reference "#PWR029") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "#PWR07") (unit 1)
         )
@@ -2455,7 +2395,7 @@
           (reference "#PWR018") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "#PWR02") (unit 1)
         )
@@ -2491,7 +2431,7 @@
           (reference "R9") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "R5") (unit 1)
         )
@@ -2504,32 +2444,6 @@
       (project "StrainGauge_Controlstick_Interface"
         (path "/c02972ce-12f7-4802-a362-236013b74ddd"
           (reference "R23") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 59.69 90.17 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5909b032-ee4e-40dc-b474-fca15a5d9649)
-    (property "Reference" "J1" (at 60.325 85.09 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "USART6" (at 60.325 87.63 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 59.69 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 59.69 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 83f97ae6-63d0-4026-a14a-82f1df253968))
-    (pin "2" (uuid e7488705-9631-49df-8554-930e8152d779))
-    (instances
-      (project "Motherboard"
-        (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
-          (reference "J1") (unit 1)
         )
       )
     )
@@ -2558,7 +2472,7 @@
           (reference "C4") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "C2") (unit 1)
         )
@@ -2593,7 +2507,7 @@
           (reference "#PWR021") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "#PWR05") (unit 1)
         )
@@ -2628,7 +2542,7 @@
           (reference "#PWR019") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "#PWR03") (unit 1)
         )
@@ -2663,7 +2577,7 @@
           (reference "#PWR027") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "#PWR014") (unit 1)
         )
@@ -2676,60 +2590,6 @@
       (project "StrainGauge_Controlstick_Interface"
         (path "/c02972ce-12f7-4802-a362-236013b74ddd"
           (reference "#PWR038") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x03_Pin") (at 39.37 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 6f11fe38-8b92-4f31-8dfb-88faf5067291)
-    (property "Reference" "J4" (at 40.005 74.93 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SPI2" (at 40.005 77.47 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 39.37 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 39.37 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c39e5abc-57e1-44cd-842a-0a2186ce4df4))
-    (pin "2" (uuid f85506e4-cc37-41de-b646-ffe7c81b1e62))
-    (pin "3" (uuid 0eb67692-1033-40e9-a3e3-d85df49fc803))
-    (instances
-      (project "Motherboard"
-        (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
-          (reference "J4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x03_Pin") (at 128.27 67.31 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7009d657-3598-48d4-a60b-49958faa5858)
-    (property "Reference" "J5" (at 129.54 66.04 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SPI1" (at 129.54 68.58 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 128.27 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 128.27 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid be69c0d0-7b01-4fb3-b737-5658f73de4dc))
-    (pin "2" (uuid da7628f0-c5e3-496e-8d40-d604f8396af3))
-    (pin "3" (uuid af8ed782-aa10-4f59-995b-3b6d15f47259))
-    (instances
-      (project "Motherboard"
-        (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
-          (reference "J5") (unit 1)
         )
       )
     )
@@ -2758,7 +2618,7 @@
           (reference "C8") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "C8") (unit 1)
         )
@@ -2788,7 +2648,7 @@
           (reference "#PWR035") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "#PWR09") (unit 1)
         )
@@ -2818,35 +2678,9 @@
           (reference "#PWR033") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "#PWR010") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x02_Pin") (at 153.67 92.71 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 83213411-8299-4684-9c45-00e5ebd74048)
-    (property "Reference" "J2" (at 154.94 90.17 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "USART1" (at 154.94 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 153.67 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 153.67 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 18b71288-a1c5-4de7-8360-47b420c27f9e))
-    (pin "2" (uuid 3be5734d-8d4d-417b-aa29-a568e43ebbb7))
-    (instances
-      (project "Motherboard"
-        (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
-          (reference "J2") (unit 1)
         )
       )
     )
@@ -2875,7 +2709,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "C6") (unit 1)
         )
@@ -2968,7 +2802,7 @@
     (pin "8" (uuid a5d8a86b-c44a-47d2-abe0-a2f6319d4798))
     (pin "9" (uuid 3696b093-b43b-4717-840c-33c4f70add6b))
     (instances
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "U2") (unit 1)
         )
@@ -2998,7 +2832,7 @@
           (reference "#PWR034") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "#PWR012") (unit 1)
         )
@@ -3029,7 +2863,7 @@
           (reference "C7") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "C7") (unit 1)
         )
@@ -3060,7 +2894,7 @@
           (reference "R12") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "R6") (unit 1)
         )
@@ -3102,7 +2936,7 @@
           (reference "U2") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "U1") (unit 1)
         )
@@ -3133,7 +2967,7 @@
           (reference "SW1") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "SW1") (unit 1)
         )
@@ -3169,7 +3003,7 @@
           (reference "C3") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "C4") (unit 1)
         )
@@ -3205,7 +3039,7 @@
           (reference "R11") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "R4") (unit 1)
         )
@@ -3246,7 +3080,7 @@
           (reference "R8") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "R1") (unit 1)
         )
@@ -3282,7 +3116,7 @@
           (reference "C5") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "C3") (unit 1)
         )
@@ -3317,7 +3151,7 @@
           (reference "#PWR028") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "#PWR06") (unit 1)
         )
@@ -3353,7 +3187,7 @@
           (reference "C2") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "C5") (unit 1)
         )
@@ -3390,7 +3224,7 @@
           (reference "Y1") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "Y1") (unit 1)
         )
@@ -3426,7 +3260,7 @@
           (reference "R2") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "R2") (unit 1)
         )
@@ -3463,7 +3297,7 @@
           (reference "JP1") (unit 1)
         )
       )
-      (project "Motherboard"
+      (project "motherboard"
         (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
           (reference "JP1") (unit 1)
         )
