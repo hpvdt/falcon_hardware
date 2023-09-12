@@ -608,7 +608,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 85622a0e-437f-4afb-9b3b-19264690e708)
     )
-    (fp_text value "VEH" (at 3.7 5.25 90) (layer "F.Fab")
+    (fp_text value "VEH" (at 3.9 5.3 90) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp c6789862-f5af-478e-85a7-d19c441edbc0)
     )
@@ -1645,7 +1645,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 18894333-0ea1-4be6-ba94-f563e77f4dd7)
     )
-    (fp_text value "BATT" (at 3.6 5.4 90) (layer "F.Fab")
+    (fp_text value "BATT" (at 10.4 -6.5 180) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 8fb00fe1-54e1-4fdd-b443-998e73c60687)
     )
@@ -2302,6 +2302,9 @@
 
   (gr_rect locked (start 128.25 74) (end 168.25 124)
     (stroke (width 0.2) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 4fae9035-8a41-490d-8ca5-84d851ea5732))
+  (gr_text "Shelly the Power Monitor\nBy Eun Gu\nSpecial contributions by Savo, Kassie, and Melani" (at 167.4 122.8) (layer "B.SilkS") (tstamp a9db5711-0a11-48c9-8588-f437e7da263a)
+    (effects (font (size 1 1) (thickness 0.1)) (justify left bottom mirror))
+  )
 
   (segment (start 157.9 101.3) (end 158.025 101.425) (width 0.2) (layer "F.Cu") (net 1) (tstamp 154f7f7c-f2b2-447d-8a4c-1a645a74b9a1))
   (segment (start 153.875 101.15) (end 152.05 101.15) (width 0.2) (layer "F.Cu") (net 1) (tstamp 3579c00c-d2b5-4836-a02e-acad0be50ced))
