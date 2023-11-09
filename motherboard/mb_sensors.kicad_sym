@@ -118,7 +118,7 @@
     (symbol "ICM-42688-P_0_1"
       (rectangle (start -7.62 -10.16) (end 13.97 -31.75)
         (stroke (width 0) (type default))
-        (fill (type none))
+        (fill (type background))
       )
     )
     (symbol "ICM-42688-P_1_1"
