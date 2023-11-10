@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
   (lib (name "mb_sensors")(type "KiCad")(uri "${KIPRJMOD}/mb_sensors.kicad_sym")(options "")(descr ""))
-  (lib (name "mb_MT3339")(type "KiCad")(uri "${KIPRJMOD}/mb_MT3339.kicad_sym")(options "")(descr ""))
 )
