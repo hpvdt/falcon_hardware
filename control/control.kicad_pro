@@ -34,8 +34,8 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.95,
-          "height": 1.95,
+          "drill": 1.0,
+          "height": 2.0,
           "width": 1.7
         },
         "silk_line_width": 0.09999999999999999,
@@ -45,15 +45,13 @@
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.15
         }
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
-        "courtyards_overlap|124129439|70500001|7cbc7d0b-a68e-4ec2-b9b6-3d9eaf130d6a|f06844ce-6d57-4861-9f70-469c1c2bf5b6",
-        "silk_overlap|139900000|82317484|7556ac09-82b0-4b07-8414-79756629f0b4|ddb935b9-e731-4fb2-9ad7-07b3eede25d3",
-        "silk_overlap|140001000|82390000|70947562-0f62-4d6e-b408-1bbcf1caaf93|ddb935b9-e731-4fb2-9ad7-07b3eede25d3",
-        "text_thickness|123750000|68000000|7430ea80-249b-4a88-9cd8-5caa2030ed3f|00000000-0000-0000-0000-000000000000"
+        "solder_mask_bridge|151700000|79450000|5483cab6-a1a2-45e9-a822-138fd66bfb4b|8f43b963-9b69-433f-834c-bdf303de14ab",
+        "solder_mask_bridge|152450000|81350000|54d19418-4bfe-4461-989e-5ad1ed7250b8|6ba82879-5dc2-4673-9a3d-61a61e1d5226"
       ],
       "meta": {
         "version": 2
@@ -90,9 +88,9 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -383,7 +381,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
