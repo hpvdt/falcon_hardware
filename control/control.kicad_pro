@@ -51,7 +51,7 @@
       "diff_pair_dimensions": [],
       "drc_exclusions": [
         "solder_mask_bridge|151700000|79450000|5483cab6-a1a2-45e9-a822-138fd66bfb4b|8f43b963-9b69-433f-834c-bdf303de14ab",
-        "solder_mask_bridge|152450000|81350000|54d19418-4bfe-4461-989e-5ad1ed7250b8|6ba82879-5dc2-4673-9a3d-61a61e1d5226"
+        "solder_mask_bridge|152450000|81350000|54d19418-4bfe-4461-989e-5ad1ed7250b8|106e8351-2d01-46f5-93d8-849dd45d5745"
       ],
       "meta": {
         "version": 2
@@ -393,7 +393,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "AbdullahsAwesomeStick2.kicad_pro",
+    "filename": "control.kicad_pro",
     "version": 1
   },
   "net_settings": {
