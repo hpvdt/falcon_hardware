@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Falcon Control MAIN")
+    (date "2023-11-30")
+    (rev "8")
+    (company "Human Powered Vehicles Design Team @ UOFT")
+    (comment 1 "Supervised by Savo Bajic")
+    (comment 2 "Designed by Abdullah Alsafar")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x02_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 2.54 0)
@@ -2687,7 +2696,7 @@
     )
     (pin "1" (uuid 6ceeda11-e04a-4e8c-92b3-25404ea5f3bd))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR06") (unit 1)
         )
@@ -2712,7 +2721,7 @@
     )
     (pin "1" (uuid b4f2301e-6d61-4a44-b951-6f334e4092f9))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR057") (unit 1)
         )
@@ -2739,7 +2748,7 @@
     (pin "2" (uuid 06403644-6ac9-46e1-88dd-041610c29b8c))
     (pin "3" (uuid a585ccb8-eb3d-4c7a-862c-7b563bd01ba6))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "S1") (unit 1)
         )
@@ -2769,7 +2778,7 @@
           (reference "#PWR01") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR047") (unit 1)
         )
@@ -2794,7 +2803,7 @@
     )
     (pin "1" (uuid cf695434-3c29-472e-9130-992b92045fe9))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR03") (unit 1)
         )
@@ -2824,7 +2833,7 @@
           (reference "#PWR01") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR030") (unit 1)
         )
@@ -2855,7 +2864,7 @@
           (reference "C7") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "C17") (unit 1)
         )
@@ -2880,7 +2889,7 @@
     )
     (pin "1" (uuid 53d4bc4d-54fc-4d1c-b4b5-5bf5f68e05fe))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR016") (unit 1)
         )
@@ -2915,7 +2924,7 @@
           (reference "#PWR023") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR042") (unit 1)
         )
@@ -2940,7 +2949,7 @@
     )
     (pin "1" (uuid 175e4bb9-ccab-4d2a-86c1-e19594dce606))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR01") (unit 1)
         )
@@ -2965,7 +2974,7 @@
     )
     (pin "1" (uuid f1c867de-fb44-4f22-8722-cfdd46d527b1))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR038") (unit 1)
         )
@@ -2990,7 +2999,7 @@
     )
     (pin "1" (uuid 2602e5d5-75fd-4d7b-bc44-2a6ff2f1d03d))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR040") (unit 1)
         )
@@ -3025,7 +3034,7 @@
           (reference "#PWR024") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR021") (unit 1)
         )
@@ -3061,7 +3070,7 @@
           (reference "R20") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "R2") (unit 1)
         )
@@ -3086,7 +3095,7 @@
     )
     (pin "1" (uuid f740bc89-7e9d-4df8-b4c8-8328b65d444c))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR09") (unit 1)
         )
@@ -3113,7 +3122,7 @@
     (pin "2" (uuid a2167ab5-4b9e-4364-99fa-09b3920e1df5))
     (pin "3" (uuid ba3c09f0-54d0-44a8-96cc-88d13e347dda))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "P2") (unit 1)
         )
@@ -3144,7 +3153,7 @@
           (reference "L1") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "L2") (unit 1)
         )
@@ -3169,7 +3178,7 @@
     )
     (pin "1" (uuid c8d1f8f8-17d9-404f-8018-f82ce526f31f))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR025") (unit 1)
         )
@@ -3194,7 +3203,7 @@
     )
     (pin "1" (uuid 0761f431-961a-436e-a0ef-bf08d8417b82))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR08") (unit 1)
         )
@@ -3231,7 +3240,7 @@
           (reference "JP1") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "JP1") (unit 1)
         )
@@ -3256,7 +3265,7 @@
     )
     (pin "1" (uuid 58e8f92a-f25e-420c-9765-2958c3563913))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR018") (unit 1)
         )
@@ -3287,7 +3296,7 @@
           (reference "C2") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "C15") (unit 1)
         )
@@ -3318,7 +3327,7 @@
           (reference "C9") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "C5") (unit 1)
         )
@@ -3345,7 +3354,7 @@
     (pin "2" (uuid 33bfc440-2fc2-4bf1-b408-4cc85e5357f2))
     (pin "3" (uuid 939bed53-bf6f-46db-97f1-09d8946f5f92))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "S5") (unit 1)
         )
@@ -3370,7 +3379,7 @@
     )
     (pin "1" (uuid a5d392a0-7df3-4a85-ab24-c332a4a7c01c))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR031") (unit 1)
         )
@@ -3395,7 +3404,7 @@
     )
     (pin "1" (uuid 4a193c03-e685-45cc-908b-e895dd79e3fc))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR019") (unit 1)
         )
@@ -3430,7 +3439,7 @@
           (reference "#PWR037") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR028") (unit 1)
         )
@@ -3455,7 +3464,7 @@
     )
     (pin "1" (uuid a4c20f58-6b23-42a8-91d9-b020e8ebe5c2))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR053") (unit 1)
         )
@@ -3486,7 +3495,7 @@
     (pin "6" (uuid 22d15a43-baad-49ff-a8bb-60cee3f9df4d))
     (pin "7" (uuid f012585a-c1a4-441e-9e9c-5f64e1d146b1))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "J4") (unit 1)
         )
@@ -3513,7 +3522,7 @@
     (pin "2" (uuid 895dfce9-a922-4679-a514-6094984e3de0))
     (pin "3" (uuid 42b914f1-940e-442e-8ee7-b5031d9eb29f))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "P3") (unit 1)
         )
@@ -3539,7 +3548,7 @@
     (pin "1" (uuid 404ee270-50be-40f3-835f-6611ca7cc3c3))
     (pin "2" (uuid cada3167-dd11-4ced-b112-8089433e0b49))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "J3") (unit 1)
         )
@@ -3570,7 +3579,7 @@
           (reference "C8") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "C6") (unit 1)
         )
@@ -3605,7 +3614,7 @@
           (reference "#PWR028") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR023") (unit 1)
         )
@@ -3630,7 +3639,7 @@
     )
     (pin "1" (uuid 21bba5e5-6d47-41c3-9d6c-d88c595f86a5))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR034") (unit 1)
         )
@@ -3655,7 +3664,7 @@
     )
     (pin "1" (uuid 3bb68391-9415-4b55-a1ce-3fd78d7d902a))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR04") (unit 1)
         )
@@ -3685,7 +3694,7 @@
           (reference "#PWR05") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR013") (unit 1)
         )
@@ -3716,7 +3725,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "R4") (unit 1)
         )
@@ -3745,7 +3754,7 @@
     (pin "4" (uuid b922287c-dda9-44da-8fd7-aa18da663ca6))
     (pin "5" (uuid badf9425-f5b0-4d22-87ea-659bc9ee1b00))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "ISC3") (unit 1)
         )
@@ -3775,7 +3784,7 @@
           (reference "#PWR03") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR046") (unit 1)
         )
@@ -3806,7 +3815,7 @@
           (reference "C3") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "C16") (unit 1)
         )
@@ -3841,7 +3850,7 @@
           (reference "#PWR023") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR020") (unit 1)
         )
@@ -3868,7 +3877,7 @@
     (pin "2" (uuid 1ea38d44-edb7-4284-8b8f-84faa13a6364))
     (pin "3" (uuid fc34ec2c-5b2f-4af3-9aca-b27eac3958c8))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "S3") (unit 1)
         )
@@ -3899,7 +3908,7 @@
           (reference "R2") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "R3") (unit 1)
         )
@@ -3934,7 +3943,7 @@
           (reference "U1") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "U2") (unit 1)
         )
@@ -3959,7 +3968,7 @@
     )
     (pin "1" (uuid 44cca0da-8edf-4b1e-999b-f7cc94c83a26))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR029") (unit 1)
         )
@@ -3994,7 +4003,7 @@
           (reference "U1") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "U3") (unit 1)
         )
@@ -4025,7 +4034,7 @@
           (reference "C2") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "C10") (unit 1)
         )
@@ -4061,7 +4070,7 @@
           (reference "C16") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "C1") (unit 1)
         )
@@ -4089,7 +4098,7 @@
     (pin "3" (uuid a238f3ab-fa08-45a1-a11d-d42f2a897b52))
     (pin "4" (uuid 6ff622bc-4fcb-4f80-bbc8-060ebc2ff4d2))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "I2C1") (unit 1)
         )
@@ -4114,7 +4123,7 @@
     )
     (pin "1" (uuid a4af2518-26a0-4fbd-8fd3-366c960279d7))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR048") (unit 1)
         )
@@ -4144,7 +4153,7 @@
           (reference "#PWR01") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR017") (unit 1)
         )
@@ -4169,7 +4178,7 @@
     )
     (pin "1" (uuid fc996d1f-4836-4f57-9888-e61902c6d384))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR035") (unit 1)
         )
@@ -4200,7 +4209,7 @@
           (reference "C8") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "C8") (unit 1)
         )
@@ -4231,7 +4240,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "C14") (unit 1)
         )
@@ -4256,7 +4265,7 @@
     )
     (pin "1" (uuid f4de6557-68c1-4257-aeca-b83b53543d71))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR033") (unit 1)
         )
@@ -4282,7 +4291,7 @@
     (pin "1" (uuid 1e1240c2-5fd2-4aa2-b7b4-e0cb7dd6e05b))
     (pin "2" (uuid 91ae2b0a-ecc1-4b0a-9f48-24ec25cdd514))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "J1") (unit 1)
         )
@@ -4307,7 +4316,7 @@
     )
     (pin "1" (uuid c124e163-7ad4-4498-9166-11a42a20daf8))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR014") (unit 1)
         )
@@ -4332,7 +4341,7 @@
     )
     (pin "1" (uuid f0ee4425-2d50-4403-ad62-ac55dea0d7e2))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR02") (unit 1)
         )
@@ -4363,7 +4372,7 @@
           (reference "C9") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "C7") (unit 1)
         )
@@ -4390,7 +4399,7 @@
     (pin "2" (uuid c1b0296c-e77f-4013-8fbf-6f5ecdcfc95b))
     (pin "3" (uuid 4831f045-ef45-4394-9900-6a724d7de397))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "P1") (unit 1)
         )
@@ -4415,7 +4424,7 @@
     )
     (pin "1" (uuid 0e60b5d8-7503-4ad8-ae6c-2286b79843de))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR051") (unit 1)
         )
@@ -4440,7 +4449,7 @@
     )
     (pin "1" (uuid 316abacd-9cf9-4e3d-9df9-132d94025c6f))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR039") (unit 1)
         )
@@ -4465,7 +4474,7 @@
     )
     (pin "1" (uuid 794048df-87dc-4529-85bb-dc97798fd9b9))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR055") (unit 1)
         )
@@ -4503,7 +4512,7 @@
           (reference "J9") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "J2") (unit 1)
         )
@@ -4528,7 +4537,7 @@
     )
     (pin "1" (uuid d2f1617b-6178-4ac3-9cb6-b2421bee30d1))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR050") (unit 1)
         )
@@ -4553,7 +4562,7 @@
     )
     (pin "1" (uuid 6fe9fbb4-b66f-49eb-afde-37fe1d0cf294))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR036") (unit 1)
         )
@@ -4578,7 +4587,7 @@
     )
     (pin "1" (uuid a2e351e9-8fcf-42be-b706-22ce18d86c33))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR05") (unit 1)
         )
@@ -4614,7 +4623,7 @@
           (reference "C18") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "C3") (unit 1)
         )
@@ -4644,7 +4653,7 @@
           (reference "#PWR01") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR049") (unit 1)
         )
@@ -4679,7 +4688,7 @@
           (reference "#PWR023") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR026") (unit 1)
         )
@@ -4709,7 +4718,7 @@
           (reference "#PWR05") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR045") (unit 1)
         )
@@ -4734,7 +4743,7 @@
     )
     (pin "1" (uuid a17e4c31-cff5-4e93-976a-94e92a50eec3))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR022") (unit 1)
         )
@@ -4759,7 +4768,7 @@
     )
     (pin "1" (uuid 75f9b295-00d4-40fb-9cf4-5e4cd9c7f5f3))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR032") (unit 1)
         )
@@ -4789,7 +4798,7 @@
           (reference "#PWR03") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR015") (unit 1)
         )
@@ -4825,7 +4834,7 @@
           (reference "C17") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "C2") (unit 1)
         )
@@ -4856,7 +4865,7 @@
           (reference "C1") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "C9") (unit 1)
         )
@@ -4882,7 +4891,7 @@
     (pin "1" (uuid 214d5b29-9236-4bb1-8f82-3ce1cf75e504))
     (pin "2" (uuid ae8bf048-8b52-4cb0-b15b-7e0fa621a551))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "LED9") (unit 1)
         )
@@ -4954,7 +4963,7 @@
     (pin "8" (uuid 6deca4c5-fbe4-4a6d-8e31-d5d2915f72ca))
     (pin "9" (uuid 74685589-1357-4d6a-a16f-32c372d18552))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "U1") (unit 1)
         )
@@ -4979,7 +4988,7 @@
     )
     (pin "1" (uuid 58febc95-f057-4dba-a67c-82051a67a8e7))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR041") (unit 1)
         )
@@ -5010,7 +5019,7 @@
           (reference "R3") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "R8") (unit 1)
         )
@@ -5035,7 +5044,7 @@
     )
     (pin "1" (uuid 020967ad-fd38-4157-809e-bd8c1259b512))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR054") (unit 1)
         )
@@ -5060,7 +5069,7 @@
     )
     (pin "1" (uuid f4cb7a3b-8e92-4d56-8b13-7a7a12010041))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR043") (unit 1)
         )
@@ -5087,7 +5096,7 @@
     (pin "2" (uuid 11c06ccc-af6f-47a1-9a9a-59c06fb62d5e))
     (pin "3" (uuid 37af3f49-ca39-4ed6-9723-7d13b220e71a))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "S4") (unit 1)
         )
@@ -5113,7 +5122,7 @@
     (pin "1" (uuid 29d1125f-2528-4c61-a460-b88212677ec1))
     (pin "2" (uuid 39e82f91-7cdf-4c9f-a92d-a2f5dd08ea6b))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "Battery1") (unit 1)
         )
@@ -5138,7 +5147,7 @@
     )
     (pin "1" (uuid 4abad1de-f980-40ca-bd04-c09edce0677a))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR011") (unit 1)
         )
@@ -5174,7 +5183,7 @@
           (reference "R19") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "R1") (unit 1)
         )
@@ -5201,7 +5210,7 @@
     (pin "2" (uuid f9deaa96-54a8-488a-9d6e-becdb0304e90))
     (pin "3" (uuid f1a6682e-19e5-455f-998f-b15565a118d5))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "S2") (unit 1)
         )
@@ -5232,7 +5241,7 @@
           (reference "R1") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "R6") (unit 1)
         )
@@ -5268,7 +5277,7 @@
           (reference "SW1") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "SW2") (unit 1)
         )
@@ -5299,7 +5308,7 @@
           (reference "R2") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "R7") (unit 1)
         )
@@ -5325,7 +5334,7 @@
     (pin "1" (uuid 24210edb-7c0c-4b15-95ab-c60481d89053))
     (pin "2" (uuid c4597650-3c5b-4f4b-87dd-f37dcb38c842))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "Battery2") (unit 1)
         )
@@ -5361,7 +5370,7 @@
           (reference "C19") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "C4") (unit 1)
         )
@@ -5386,7 +5395,7 @@
     )
     (pin "1" (uuid 7afa12c3-6a68-483f-9219-d52ba3f9f0a0))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR024") (unit 1)
         )
@@ -5411,7 +5420,7 @@
     )
     (pin "1" (uuid b4fe04b6-b253-4bf9-9d26-bd3b29aacecf))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR037") (unit 1)
         )
@@ -5442,7 +5451,7 @@
           (reference "L1") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "L1") (unit 1)
         )
@@ -5469,7 +5478,7 @@
     (pin "2" (uuid 3c8495c9-e27d-45a8-93eb-960102d9128b))
     (pin "3" (uuid 7cbc337f-eab1-43f6-a79f-0ce0c8d28e8e))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "P4") (unit 1)
         )
@@ -5494,7 +5503,7 @@
     )
     (pin "1" (uuid c4a30148-b59c-453f-85f8-e9aad6be4ae4))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR052") (unit 1)
         )
@@ -5519,7 +5528,7 @@
     )
     (pin "1" (uuid 48fcd175-7ffa-4252-9be3-c91a24c3aec3))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR044") (unit 1)
         )
@@ -5550,7 +5559,7 @@
           (reference "R1") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "R9") (unit 1)
         )
@@ -5581,7 +5590,7 @@
           (reference "C7") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "C12") (unit 1)
         )
@@ -5612,7 +5621,7 @@
           (reference "C3") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "C11") (unit 1)
         )
@@ -5647,7 +5656,7 @@
           (reference "#PWR036") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR027") (unit 1)
         )
@@ -5672,7 +5681,7 @@
     )
     (pin "1" (uuid 2b80a4b3-02fc-446f-81db-efc227784fa7))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR012") (unit 1)
         )
@@ -5698,7 +5707,7 @@
     (pin "1" (uuid d84ff405-3470-4af1-8c84-de1b8b711806))
     (pin "2" (uuid 4f67bc9e-0091-489a-81e7-ecd30cbc8515))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "R5") (unit 1)
         )
@@ -5726,7 +5735,7 @@
     (pin "3" (uuid 6841eb49-237c-4806-b222-c42749aa54cf))
     (pin "4" (uuid 11177352-839a-4100-a18c-54949b38e863))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "I2C2") (unit 1)
         )
@@ -5763,7 +5772,7 @@
           (reference "Y1") (unit 1)
         )
       )
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "Y1") (unit 1)
         )
@@ -5788,7 +5797,7 @@
     )
     (pin "1" (uuid 0d2728c1-5850-430e-9dcb-3407244c65f0))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR056") (unit 1)
         )
@@ -5813,7 +5822,7 @@
     )
     (pin "1" (uuid 56475229-ae0d-4ffe-9bd5-e919c3dc30ca))
     (instances
-      (project "AbdullahsAwesomeStick2"
+      (project "control"
         (path "/e7781990-9217-47e0-bccf-d5b77eec6675"
           (reference "#PWR010") (unit 1)
         )
