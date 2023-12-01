@@ -6,10 +6,12 @@
 
   (paper "A4")
   (title_block
-    (title "Aircraft Joystick Reader & Regulator - Main Board")
-    (date "2023-06-03")
-    (rev "5")
+    (title "Falcon Control MAIN")
+    (date "2023-11-30")
+    (rev "15")
     (company "Human Powered Vehicles Design Team @ UOFT")
+    (comment 1 "Supervised by Savo Bajic")
+    (comment 2 "Designed by Abdullah Alsafar")
   )
 
   (layers
@@ -4000,6 +4002,9 @@
   )
   (gr_text "5V" (at 123.39 59.34) (layer "F.SilkS") (tstamp 7c8a7809-ad52-457e-9962-ad3914bf870f)
     (effects (font (size 0.5 0.5) (thickness 0.1) bold) (justify left bottom))
+  )
+  (gr_text "Abdullah Alsafar\nFalcon Control Board" (at 136 66.75) (layer "F.SilkS") (tstamp 80faaeb7-4d87-47ad-ad5d-2d3c8c959b6a)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
   (gr_text "G" (at 126.11 59.33) (layer "F.SilkS") (tstamp 86ef2072-942d-49cb-bf9f-c1da6398d149)
     (effects (font (size 0.5 0.5) (thickness 0.1)) (justify left bottom))
