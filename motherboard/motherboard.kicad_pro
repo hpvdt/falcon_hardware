@@ -48,16 +48,20 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [
-        "lib_footprint_mismatch|104140000|120510300|32fa2f34-692d-4495-9ef1-72bcc351948e|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|109270800|51280988|8080d7bc-6b6e-4765-897b-803a788bc7b5|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|122885200|120611900|50c50cd1-1c24-4d27-9d1a-ce33d3bbcd67|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|132232400|43535600|75a86b19-e421-4007-89c5-1d552b994750|00000000-0000-0000-0000-000000000000",
         "malformed_courtyard|124357400|38741850|75a86b19-e421-4007-89c5-1d552b994750|00000000-0000-0000-0000-000000000000",
         "malformed_courtyard|140107400|68241850|75a86b19-e421-4007-89c5-1d552b994750|00000000-0000-0000-0000-000000000000",
-        "solder_mask_bridge|96125600|78911600|e15ac4fb-123b-4cc5-90c5-de56a1157a19|f1078cef-c3fb-4ec0-87c6-64f89987e8ce",
-        "solder_mask_bridge|96125600|82061600|fc9ebbaf-ed3b-48ba-a531-0dcc35e120cf|05b228c6-1a63-4754-b964-d865c0c9568a"
+        "solder_mask_bridge|96125600|78911600|e15ac4fb-123b-4cc5-90c5-de56a1157a19|1a383a14-7da6-40ab-9ec5-dc0fdb0547bb",
+        "solder_mask_bridge|96875600|80811600|fc9ebbaf-ed3b-48ba-a531-0dcc35e120cf|2e9f2d77-c7b5-46d0-9adc-83c0e3a3dc3c",
+        "solder_mask_bridge|97625600|80861600|fc9ebbaf-ed3b-48ba-a531-0dcc35e120cf|2e9f2d77-c7b5-46d0-9adc-83c0e3a3dc3c"
       ],
       "meta": {
         "version": 2
@@ -96,7 +100,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -174,8 +178,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -408,7 +419,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
