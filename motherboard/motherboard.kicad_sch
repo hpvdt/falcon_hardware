@@ -4617,30 +4617,6 @@
     )
   )
 
-  (symbol (lib_id "Mechanical:MountingHole") (at 327.66 223.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 41d945ee-392d-4579-8c7f-3b3b106d016a)
-    (property "Reference" "H2" (at 330.2 222.885 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole" (at 330.2 225.425 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_2.5mm_Pad" (at 327.66 223.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 327.66 223.52 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "motherboard"
-        (path "/39c7ec0f-0a05-4172-b48a-dcc9b63f77ff"
-          (reference "H2") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 189.23 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4256a364-c718-44e2-86c5-832f25f1f705)
