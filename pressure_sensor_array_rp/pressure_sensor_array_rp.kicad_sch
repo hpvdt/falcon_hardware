@@ -2371,7 +2371,7 @@
     )
     (pin "1" (uuid ce72f3c5-bc5e-4ea8-8ea1-099fe485012d))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR06") (unit 1)
         )
@@ -2402,7 +2402,7 @@
     (pin "1" (uuid 9093c6aa-b3a5-4ef3-82c3-8ed6dcb29a3e))
     (pin "2" (uuid 3ce379b2-785d-4cf5-8924-85049b676dfb))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "C15") (unit 1)
         )
@@ -2433,7 +2433,7 @@
     (pin "1" (uuid 03431ecb-01ab-4e7a-accd-25edd97d052f))
     (pin "2" (uuid a1a7aacb-b1a1-4dc4-92b0-b03e394569f4))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "C7") (unit 1)
         )
@@ -2463,7 +2463,7 @@
     )
     (pin "1" (uuid 8db52958-8549-4888-93f8-8587dcad999d))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR031") (unit 1)
         )
@@ -2495,7 +2495,7 @@
     (pin "7" (uuid 88b69a13-022f-452d-b7b1-0d1a119039c2))
     (pin "8" (uuid 419b81aa-cff3-4ec4-89fc-6f88f0921bc0))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "U5") (unit 1)
         )
@@ -2520,7 +2520,7 @@
     )
     (pin "1" (uuid 96c97d1f-79fc-412c-9716-2ead6c62359d))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR04") (unit 1)
         )
@@ -2550,7 +2550,7 @@
     )
     (pin "1" (uuid 98e1d9a5-c562-45a1-be03-e901a16d9a55))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR015") (unit 1)
         )
@@ -2580,7 +2580,7 @@
     )
     (pin "1" (uuid 8a5ea802-3855-4fdd-bb61-93993831fbc4))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR012") (unit 1)
         )
@@ -2611,7 +2611,7 @@
     (pin "1" (uuid 0bc59b1b-7df0-40be-bbe2-0d9d9aabf0fa))
     (pin "2" (uuid 5a921322-ce20-43f2-be75-0e83156855af))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "C12") (unit 1)
         )
@@ -2641,7 +2641,7 @@
     )
     (pin "1" (uuid 2e430056-6088-4cda-8484-d2b46a134629))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR025") (unit 1)
         )
@@ -2671,7 +2671,7 @@
     )
     (pin "1" (uuid ac7f619d-8a8e-4fab-ba6d-dd013e295169))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR020") (unit 1)
         )
@@ -2701,7 +2701,7 @@
     )
     (pin "1" (uuid c86e8027-6740-4dda-a293-b97b38b0b142))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR05") (unit 1)
         )
@@ -2731,7 +2731,7 @@
     )
     (pin "1" (uuid c67bab40-2a24-4a18-ad81-41429ec4e9cc))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR02") (unit 1)
         )
@@ -2761,7 +2761,7 @@
     )
     (pin "1" (uuid b616240b-d230-4123-b5b8-6bb07f3eed14))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR043") (unit 1)
         )
@@ -2796,7 +2796,7 @@
     (pin "8" (uuid dcb35951-a9cf-435d-96cf-64d2b8e7b766))
     (pin "9" (uuid 36c9281f-f8e5-42cf-9db8-5873266382f2))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "U3") (unit 1)
         )
@@ -2827,7 +2827,7 @@
     (pin "1" (uuid d89b679b-b73d-4904-a5fd-c502bb8fa2a1))
     (pin "2" (uuid 8c2f7fd4-eaa3-417b-a3b2-804b7fd7ed1f))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "R6") (unit 1)
         )
@@ -2858,7 +2858,7 @@
     (pin "1" (uuid 9cc2da1a-6e34-4d63-8b66-7ae09ded9e61))
     (pin "2" (uuid ff8eeabf-6001-49b0-8b1d-67a3fac21bf0))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "SW2") (unit 1)
         )
@@ -2888,7 +2888,7 @@
     )
     (pin "1" (uuid ab17f90f-7048-422c-885b-127faa5de95a))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR023") (unit 1)
         )
@@ -2918,7 +2918,7 @@
     )
     (pin "1" (uuid 32aaf6ee-4a4a-4ce7-87cc-a1049608f786))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR017") (unit 1)
         )
@@ -2943,7 +2943,7 @@
     )
     (pin "1" (uuid c0977d91-72f5-4287-8dd2-2e024ce8f87f))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR041") (unit 1)
         )
@@ -3024,7 +3024,7 @@
     (pin "8" (uuid cb8b6dbc-3f61-436b-a804-5a31ed2329a6))
     (pin "9" (uuid d822b08c-691f-494a-b903-925cc1adfee4))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "U6") (unit 1)
         )
@@ -3050,7 +3050,7 @@
     (pin "1" (uuid 267d88bc-6d26-4155-a6f8-068a0a535f06))
     (pin "2" (uuid aa18c102-a513-4d9f-9fbf-ee5a816a8ee3))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "C4") (unit 1)
         )
@@ -3081,7 +3081,7 @@
     (pin "1" (uuid 04cc4879-d10c-4bc6-a8fd-903d4c45c384))
     (pin "2" (uuid ce7e72b2-9876-44fb-be90-38dbe624f5ed))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "C8") (unit 1)
         )
@@ -3127,7 +3127,7 @@
     (pin "B9" (uuid 0fb1f09a-7d4b-43fe-ab4f-f927b159fb8a))
     (pin "S1" (uuid 62d804b6-fb96-46d3-a10b-be65cb41c0a6))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "J2") (unit 1)
         )
@@ -3153,7 +3153,7 @@
     (pin "1" (uuid bb115fa5-2b8d-448a-8771-e4a62df50f55))
     (pin "2" (uuid 2d8b001f-409a-49af-9204-c7c526592755))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "R10") (unit 1)
         )
@@ -3183,7 +3183,7 @@
     )
     (pin "1" (uuid 585fe124-457b-4078-821c-2b85203cbb8d))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR014") (unit 1)
         )
@@ -3223,7 +3223,7 @@
     (pin "8" (uuid 8fd7784b-4825-48c3-99e1-2652bd62c4d1))
     (pin "9" (uuid 6a973e60-4ad8-49df-8e44-0f3d63202270))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "U2") (unit 1)
         )
@@ -3253,7 +3253,7 @@
     )
     (pin "1" (uuid 9e43badd-8339-44ee-b8cc-7ca2a48a0249))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR07") (unit 1)
         )
@@ -3283,7 +3283,7 @@
     )
     (pin "1" (uuid 9e88838e-6d61-46aa-9244-d1dfc526d355))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR029") (unit 1)
         )
@@ -3308,7 +3308,7 @@
     )
     (pin "1" (uuid b27c2d29-501e-4a9c-85fc-d1a0a049076e))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR011") (unit 1)
         )
@@ -3338,7 +3338,7 @@
     )
     (pin "1" (uuid b1ac0f82-7cac-4fcc-878d-efed81f373e3))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR038") (unit 1)
         )
@@ -3363,7 +3363,7 @@
     )
     (pin "1" (uuid ed9661c3-bd3a-452a-a505-f931fe19040e))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR044") (unit 1)
         )
@@ -3389,7 +3389,7 @@
     (pin "1" (uuid 338779fc-7cb7-4aec-9b97-da40512c94cb))
     (pin "2" (uuid fdc17e4c-4a30-4fe0-bf32-31384d46522d))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "R11") (unit 1)
         )
@@ -3419,7 +3419,7 @@
     )
     (pin "1" (uuid 7829ec40-00e7-497b-8b69-d02599cd78b6))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR013") (unit 1)
         )
@@ -3448,7 +3448,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "H3") (unit 1)
         )
@@ -3479,7 +3479,7 @@
     (pin "1" (uuid 5e700a88-0117-404f-bd6e-081168c9e19e))
     (pin "2" (uuid 7fe551de-dfe4-409d-979f-9e1102da8930))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "R8") (unit 1)
         )
@@ -3509,7 +3509,7 @@
     )
     (pin "1" (uuid 3b480218-7b2d-4a1d-b010-ee3d014aca14))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR024") (unit 1)
         )
@@ -3539,7 +3539,7 @@
     )
     (pin "1" (uuid 71dc5eb3-1661-458b-a48f-d0cb1c8f0de3))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR030") (unit 1)
         )
@@ -3564,7 +3564,7 @@
     )
     (pin "1" (uuid ad56ae5b-4563-4b82-a980-57355116c7a1))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR040") (unit 1)
         )
@@ -3589,7 +3589,7 @@
     )
     (pin "1" (uuid 0d5b1806-4bff-4ddd-9173-dbe202b9a86e))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR021") (unit 1)
         )
@@ -3614,7 +3614,7 @@
     )
     (pin "1" (uuid 8eebaab3-f9b3-4105-93b6-25cfc7d525d8))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR033") (unit 1)
         )
@@ -3640,7 +3640,7 @@
     (pin "1" (uuid 5a22f645-932c-42b2-b003-7ecf7a335dfe))
     (pin "2" (uuid 0b0d1f4d-e1a4-48a9-9b9a-648be92f8b3a))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "R9") (unit 1)
         )
@@ -3672,7 +3672,7 @@
     (pin "2" (uuid 463bf778-cc0b-4d15-b9c0-5996911f208f))
     (pin "3" (uuid 2cc512de-e3db-4a89-98e4-d08f881b9bb9))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "J5") (unit 1)
         )
@@ -3697,7 +3697,7 @@
     )
     (pin "1" (uuid 8720c528-50c5-4ead-9fbc-f422abe3a415))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR018") (unit 1)
         )
@@ -3722,7 +3722,7 @@
     )
     (pin "1" (uuid b0e0c89e-5d87-4e94-b298-e263b95332da))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR039") (unit 1)
         )
@@ -3748,7 +3748,7 @@
     (pin "1" (uuid 2290dddf-dfb6-4225-b949-9cef6818d871))
     (pin "2" (uuid 459a58d1-121b-4759-89f7-69311ab40d94))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "C14") (unit 1)
         )
@@ -3778,7 +3778,7 @@
     )
     (pin "1" (uuid 28e5596d-a354-41ec-830e-42f583512f7b))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR01") (unit 1)
         )
@@ -3809,7 +3809,7 @@
     (pin "1" (uuid 31003aa9-3129-46e0-beee-ec45d6a6b376))
     (pin "2" (uuid 83b8b198-c923-4080-b12b-7cc61cd0e11d))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "Y1") (unit 1)
         )
@@ -3835,7 +3835,7 @@
     (pin "1" (uuid 4787fdb5-26fe-4a4b-864c-155a27e80e24))
     (pin "2" (uuid c662162c-708b-4170-979e-d875c4fbac0d))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "C17") (unit 1)
         )
@@ -3868,7 +3868,7 @@
     (pin "3" (uuid 232255ee-6405-418e-8ad6-72d93a7bfa60))
     (pin "4" (uuid 1a0895a3-ab8e-48c3-be1d-3752035b9fe9))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "J1") (unit 1)
         )
@@ -3900,7 +3900,7 @@
     (pin "2" (uuid 960d9e8a-5f69-4271-9b5e-8177c5ce577d))
     (pin "3" (uuid 0d5afd8a-9602-4ba4-ac31-2ec05d914b82))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "U7") (unit 1)
         )
@@ -3925,7 +3925,7 @@
     )
     (pin "1" (uuid 5f6a9898-b28c-46ce-9661-3d90af5e7933))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR036") (unit 1)
         )
@@ -3951,7 +3951,7 @@
     (pin "1" (uuid 1e4f33d8-8d86-4e93-9e95-a1d1cb6bd2f2))
     (pin "2" (uuid bdcb2739-3009-483f-94e9-549cd5660d4c))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "SW1") (unit 1)
         )
@@ -3982,7 +3982,7 @@
     (pin "1" (uuid 325a7af8-a8d9-4b61-b474-d6c40ad7d901))
     (pin "2" (uuid 40e33aed-7e1e-4874-9cc9-7ddf785589e1))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "C18") (unit 1)
         )
@@ -4013,7 +4013,7 @@
     (pin "1" (uuid 9b5fcb6f-7564-45ca-8347-fa66b6ddbda6))
     (pin "2" (uuid 9d0ae0b9-60b6-4446-b193-9d4ba2d5afd9))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "R3") (unit 1)
         )
@@ -4043,7 +4043,7 @@
     )
     (pin "1" (uuid 6f8dec60-5b17-4bd1-a599-3f8f458308d2))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR034") (unit 1)
         )
@@ -4068,7 +4068,7 @@
     )
     (pin "1" (uuid 2d8a87f6-7f28-4e47-905d-d6e115782b56))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR026") (unit 1)
         )
@@ -4098,7 +4098,7 @@
     )
     (pin "1" (uuid 971410fb-1198-4db7-b9d6-3345499df767))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR010") (unit 1)
         )
@@ -4129,7 +4129,7 @@
     (pin "1" (uuid a657f706-3526-44cb-88f2-fa878332cb5b))
     (pin "2" (uuid 720c694a-242f-4d46-a3f7-28b048adcd33))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "C2") (unit 1)
         )
@@ -4160,7 +4160,7 @@
     (pin "1" (uuid 57642a37-7b34-483a-b28b-ec095c90d00a))
     (pin "2" (uuid b2ff6156-ae4c-4b29-8e0c-a5c92e114557))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "R1") (unit 1)
         )
@@ -4200,7 +4200,7 @@
     (pin "8" (uuid 2b51eafb-9ac9-4e50-b5bf-831b77f9bb2e))
     (pin "9" (uuid 446603b9-3f12-495b-8dc5-b4a9dbe1c45f))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "U4") (unit 1)
         )
@@ -4231,7 +4231,7 @@
     (pin "1" (uuid e68d671f-a96a-4717-b871-b0746328cf1d))
     (pin "2" (uuid 2ddb6992-0c6d-40f8-a239-2e9c15686c02))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "C3") (unit 1)
         )
@@ -4262,7 +4262,7 @@
     (pin "1" (uuid ad1ed1f3-2158-4fb4-8ad0-9f75fc2560b7))
     (pin "2" (uuid 18c722b0-87d1-48e8-962d-c17d87fb8549))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "C16") (unit 1)
         )
@@ -4293,7 +4293,7 @@
     (pin "1" (uuid def064fc-4124-49c2-a5e3-3df52c147327))
     (pin "2" (uuid 54d32c02-34a3-44fb-a40a-6bf63b606f89))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "R12") (unit 1)
         )
@@ -4324,7 +4324,7 @@
     (pin "1" (uuid 0be0cadf-1128-4af3-aa47-f35dab8d8422))
     (pin "2" (uuid acd4a3cb-2b69-4d4d-b22c-30f85e95c713))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "R2") (unit 1)
         )
@@ -4354,7 +4354,7 @@
     )
     (pin "1" (uuid f60749d8-204d-420b-8769-a6a87407562a))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR03") (unit 1)
         )
@@ -4385,7 +4385,7 @@
     (pin "1" (uuid fcc64be0-fa57-4883-a62d-f529b09662c3))
     (pin "2" (uuid 5cf347eb-9af9-4646-b752-0ce0f3ae4fa7))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "C5") (unit 1)
         )
@@ -4416,7 +4416,7 @@
     (pin "1" (uuid 7eb2d1f6-9b46-4e95-ad4b-f1f876254ade))
     (pin "2" (uuid 6756c0fd-c751-4f55-b8aa-0fa723059aa8))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "C6") (unit 1)
         )
@@ -4451,7 +4451,7 @@
     (pin "5" (uuid 596f37f4-1cd9-4d29-a7c9-ca911a2d0f25))
     (pin "6" (uuid 68ab1056-d535-462c-8ba7-69c3cbe92531))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "J3") (unit 1)
         )
@@ -4481,7 +4481,7 @@
     )
     (pin "1" (uuid c9ae7db7-7eec-457f-80ec-c0917a391d3a))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR019") (unit 1)
         )
@@ -4510,7 +4510,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "H2") (unit 1)
         )
@@ -4540,7 +4540,7 @@
     )
     (pin "1" (uuid 9694bf75-7a47-4e83-97ec-ffe14b7ab9a0))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR09") (unit 1)
         )
@@ -4580,7 +4580,7 @@
     (pin "8" (uuid 3669b12c-7a3b-4184-8ec5-25af9d4f65d5))
     (pin "9" (uuid 1b3c023c-faf1-4059-bdd1-72abf4458d98))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "U1") (unit 1)
         )
@@ -4610,7 +4610,7 @@
     )
     (pin "1" (uuid 1f5ff4c3-10e7-4c9b-9806-50de9b7fb381))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR037") (unit 1)
         )
@@ -4635,7 +4635,7 @@
     )
     (pin "1" (uuid 0c074be7-6619-4846-a176-1613c9625fae))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR042") (unit 1)
         )
@@ -4660,7 +4660,7 @@
     )
     (pin "1" (uuid 3042cecc-0d45-4bb7-b99d-baaeb10ed0a8))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR08") (unit 1)
         )
@@ -4690,7 +4690,7 @@
     )
     (pin "1" (uuid 33ba1f76-bef2-470f-b057-5fa74319dd3e))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR032") (unit 1)
         )
@@ -4715,7 +4715,7 @@
     )
     (pin "1" (uuid 64c7549e-de67-4be8-8ae3-3cbce4fb7be7))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR028") (unit 1)
         )
@@ -4746,7 +4746,7 @@
     (pin "1" (uuid 2f192a71-cafb-4eb7-a5fc-b736a21cb462))
     (pin "2" (uuid 5220612b-51de-4ffe-9fe1-7c15dc13e771))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "C9") (unit 1)
         )
@@ -4776,7 +4776,7 @@
     )
     (pin "1" (uuid 8ee021f9-40c7-46f6-b17f-c466ab3e9a20))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR022") (unit 1)
         )
@@ -4807,7 +4807,7 @@
     (pin "1" (uuid 60e41883-b8ac-4678-8d16-9b01cec4122d))
     (pin "2" (uuid c6f13881-ed41-42bb-8d1c-fc21fb3b2862))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "C1") (unit 1)
         )
@@ -4837,7 +4837,7 @@
     )
     (pin "1" (uuid 420d5afb-2fd3-44a7-9f55-c28bc5935e28))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR016") (unit 1)
         )
@@ -4867,7 +4867,7 @@
     )
     (pin "1" (uuid e3f4d6d8-ed6c-40ef-a436-621f228b6040))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR027") (unit 1)
         )
@@ -4898,7 +4898,7 @@
     (pin "1" (uuid 4bf4d452-1685-4e6d-83f3-7551bf966448))
     (pin "2" (uuid 9ffda89b-7ce4-4450-b4fa-40d4d365b7f5))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "R5") (unit 1)
         )
@@ -4927,7 +4927,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "H1") (unit 1)
         )
@@ -4958,7 +4958,7 @@
     (pin "1" (uuid 0aefe821-f183-4ab0-a7fd-b84d61672fec))
     (pin "2" (uuid 41e3abdd-1ba9-4260-b45e-504a6b991297))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "R4") (unit 1)
         )
@@ -4989,7 +4989,7 @@
     (pin "1" (uuid f8cc7c52-0a53-44aa-a56b-51bb62e752d0))
     (pin "2" (uuid 0b9edd64-1de3-4e4d-b982-70890f48a0a2))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "R7") (unit 1)
         )
@@ -5019,7 +5019,7 @@
     )
     (pin "1" (uuid 7b65df26-a02a-448d-bf3b-28c671b4f6fa))
     (instances
-      (project "pressureSensorArrayRP"
+      (project "pressure_sensor_array_rp"
         (path "/a1f005af-5a98-45f6-826d-b2c3fe7a49e0"
           (reference "#PWR035") (unit 1)
         )
