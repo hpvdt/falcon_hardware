@@ -2772,7 +2772,7 @@
   (symbol (lib_id "sensor3DModel:ND005D-SM02-R") (at 156.21 67.31 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f8e4de6-59c7-4233-8452-8dbf271d1c1b)
-    (property "Reference" "U3" (at 157.9059 74.93 0)
+    (property "Reference" "U3" (at 158.0466 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "~" (at 166.37 83.82 90)

@@ -407,7 +407,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pressureSensorArrayRP.kicad_pro",
+    "filename": "pressure_sensor_array_rp.kicad_pro",
     "version": 1
   },
   "net_settings": {
