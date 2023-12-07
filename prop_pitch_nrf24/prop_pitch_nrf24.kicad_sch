@@ -6,8 +6,8 @@
 
   (title_block
     (title "Propellor Pitch Control nRF24")
-    (date "2023-08-22")
-    (rev "1")
+    (date "2023-12-06")
+    (rev "1.1")
     (company "HPVDT")
     (comment 1 "nRF24 based control for propeller pitch")
   )
