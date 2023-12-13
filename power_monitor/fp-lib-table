@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ADC Pretty")(type "KiCad")(uri "${KIPRJMOD}/ADC Pretty.pretty")(options "")(descr ""))
+)
