@@ -109,6 +109,131 @@
         )
       )
     )
+    (symbol "+5V_2" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+5V_2" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+5V_2_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+5V_2_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+5V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "2024-03-22_01-04-52:LM3940IMP-3.3_NOPB" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+      (property "Reference" "U" (at 20.32 10.16 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Value" "LM3940IMP-3.3/NOPB" (at 20.32 7.62 0)
+        (effects (font (size 1.524 1.524)))
+      )
+      (property "Footprint" "MP04A" (at 0 0 0)
+        (effects (font (size 1.27 1.27) italic) hide)
+      )
+      (property "Datasheet" "LM3940IMP-3.3/NOPB" (at 0 0 0)
+        (effects (font (size 1.27 1.27) italic) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "LM3940IMP-3.3/NOPB" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MP04A" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LM3940IMP-3.3_NOPB_0_1"
+        (polyline
+          (pts
+            (xy 7.62 -7.62)
+            (xy 33.02 -7.62)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 7.62 5.08)
+            (xy 7.62 -7.62)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 33.02 -7.62)
+            (xy 33.02 5.08)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 33.02 5.08)
+            (xy 7.62 5.08)
+          )
+          (stroke (width 0.127) (type default))
+          (fill (type none))
+        )
+        (pin input line (at 0 0 0) (length 7.62)
+          (name "IN" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -2.54 0) (length 7.62)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 40.64 0 180) (length 7.62)
+          (name "OUT" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 40.64 -2.54 180) (length 7.62)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Connector:Conn_01x04_Female" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
@@ -738,6 +863,89 @@
         )
       )
     )
+    (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "LED" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "LED diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Light emitting diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LED_0_1"
+        (polyline
+          (pts
+            (xy -1.27 -1.27)
+            (xy -1.27 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy 1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy 1.27 1.27)
+            (xy -1.27 0)
+            (xy 1.27 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.048 -0.762)
+            (xy -4.572 -2.286)
+            (xy -3.81 -2.286)
+            (xy -4.572 -2.286)
+            (xy -4.572 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 -0.762)
+            (xy -3.302 -2.286)
+            (xy -2.54 -2.286)
+            (xy -3.302 -2.286)
+            (xy -3.302 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "LED_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:Q_PNP_BEC" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 5.08 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1068,6 +1276,86 @@
         )
       )
     )
+    (symbol "GND_2" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND_2" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_2_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_2_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "GND_3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND_3" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_3_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_3_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Jumper:Jumper_3_Open" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "JP" (at -2.54 -2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -1386,49 +1674,6 @@
         (circle (center 0 0) (radius 1.27)
           (stroke (width 1.27) (type default))
           (fill (type none))
-        )
-      )
-    )
-    (symbol "Regulator_Linear:AZ1117-3.3" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -3.81 3.175 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "AZ1117-3.3" (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0 6.35 0)
-        (effects (font (size 1.27 1.27) italic) hide)
-      )
-      (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "Fixed Voltage Regulator 1A Positive LDO" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOT?223* SOT?89* TO?220* TO?252* TO?263*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "AZ1117-3.3_0_1"
-        (rectangle (start -5.08 1.905) (end 5.08 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "AZ1117-3.3_1_1"
-        (pin power_in line (at 0 -7.62 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_out line (at 7.62 0 180) (length 2.54)
-          (name "VO" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at -7.62 0 0) (length 2.54)
-          (name "VI" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1893,9 +2138,6 @@
   (junction (at 153.67 207.645) (diameter 0) (color 0 0 0 0)
     (uuid 19f3b8d8-3d94-4b8c-99e8-4c718d2327d4)
   )
-  (junction (at 294.64 58.42) (diameter 0) (color 0 0 0 0)
-    (uuid 1e1dc6a8-debc-4b84-8677-3b8303d3fe56)
-  )
   (junction (at 69.85 48.26) (diameter 0) (color 0 0 0 0)
     (uuid 211199d1-27dc-437e-88d3-53c74a909d07)
   )
@@ -1908,10 +2150,10 @@
   (junction (at 264.16 66.04) (diameter 0) (color 0 0 0 0)
     (uuid 2aa4367b-5a64-4383-814a-f96c47a985b9)
   )
-  (junction (at 280.67 203.2) (diameter 0) (color 0 0 0 0)
+  (junction (at 304.8 203.2) (diameter 0) (color 0 0 0 0)
     (uuid 2f3b9956-4700-4f4d-adc9-ddfedb54b669)
   )
-  (junction (at 313.69 203.2) (diameter 0) (color 0 0 0 0)
+  (junction (at 374.65 203.2) (diameter 0) (color 0 0 0 0)
     (uuid 350c4f2b-773b-4f4a-8b80-f4d25f6224b7)
   )
   (junction (at 269.24 80.01) (diameter 0) (color 0 0 0 0)
@@ -1923,7 +2165,7 @@
   (junction (at 74.295 128.905) (diameter 0) (color 0 0 0 0)
     (uuid 37c29c82-83cf-4da7-8ab8-8294a14926e8)
   )
-  (junction (at 302.26 67.31) (diameter 0) (color 0 0 0 0)
+  (junction (at 325.12 53.34) (diameter 0) (color 0 0 0 0)
     (uuid 382428de-705e-4dd8-a87b-ea4e7358b256)
   )
   (junction (at 148.59 71.12) (diameter 0) (color 0 0 0 0)
@@ -1983,6 +2225,9 @@
   (junction (at 140.335 165.735) (diameter 0) (color 0 0 0 0)
     (uuid 862399bd-a51b-49c2-9e32-7249d212417e)
   )
+  (junction (at 341.63 215.9) (diameter 0) (color 0 0 0 0)
+    (uuid 88e7fb0f-a6b6-43a5-938a-93ca8f65b233)
+  )
   (junction (at 170.18 55.88) (diameter 0) (color 0 0 0 0)
     (uuid 89e65932-776b-4775-a9b6-31c13f36bc0e)
   )
@@ -2022,7 +2267,7 @@
   (junction (at 95.885 151.765) (diameter 0) (color 0 0 0 0)
     (uuid a5edc9a1-891b-4f1c-b0ca-afc8d17845d4)
   )
-  (junction (at 302.26 72.39) (diameter 0) (color 0 0 0 0)
+  (junction (at 308.61 58.42) (diameter 0) (color 0 0 0 0)
     (uuid af7ca999-2dc7-499c-9862-5b1caae25c5e)
   )
   (junction (at 271.78 72.39) (diameter 0) (color 0 0 0 0)
@@ -2052,6 +2297,9 @@
   (junction (at 148.59 85.09) (diameter 0) (color 0 0 0 0)
     (uuid db7cf8d5-1b5b-428a-a320-68d1dd8dc0a1)
   )
+  (junction (at 388.62 64.77) (diameter 0) (color 0 0 0 0)
+    (uuid dc594b6a-0f9c-4f82-91e4-f7e72596bda2)
+  )
   (junction (at 271.78 66.04) (diameter 0) (color 0 0 0 0)
     (uuid ddac391a-fd4a-4e49-b3c4-efddb8371a03)
   )
@@ -2067,9 +2315,12 @@
   (junction (at 153.035 136.525) (diameter 0) (color 0 0 0 0)
     (uuid edf13f62-88a6-4d66-9812-d5c5dab04b69)
   )
+  (junction (at 309.88 44.45) (diameter 0) (color 0 0 0 0)
+    (uuid f964ec3c-c949-41db-8809-d76507d5d8ee)
+  )
 
   (no_connect (at 281.94 151.13) (uuid 00cc0371-8686-4ec2-9f60-cb616cf2bb55))
-  (no_connect (at 327.66 91.44) (uuid 0a12e58c-3b23-4bdc-bf68-6ef037459304))
+  (no_connect (at 351.79 77.47) (uuid 0a12e58c-3b23-4bdc-bf68-6ef037459304))
   (no_connect (at 261.62 80.01) (uuid 2def698b-09d8-4807-a590-32f4de77ee3e))
   (no_connect (at 248.92 107.95) (uuid 469ec0c0-9758-4b0d-a6d7-66f407e495a6))
   (no_connect (at 281.94 125.73) (uuid 51b5c7c2-74a6-41ff-88e8-17bd77f1d3c8))
@@ -2083,10 +2334,8 @@
   (no_connect (at 281.94 128.27) (uuid d46ee6d9-8d34-4ed5-8c39-8f00dedd79b8))
   (no_connect (at 248.92 105.41) (uuid d761d6be-c680-4a23-a199-4842a85cc3e1))
   (no_connect (at 117.475 154.305) (uuid de91d209-296b-4b37-b982-4ffe0b16b60c))
-  (no_connect (at 304.8 83.82) (uuid eed34273-7f54-48e6-80a6-825ac66f4f2d))
-  (no_connect (at 304.8 81.28) (uuid eed34273-7f54-48e6-80a6-825ac66f4f2e))
-  (no_connect (at 281.94 130.81) (uuid f76130ef-6148-4514-b259-a2ea943c83bb))
-  (no_connect (at 281.94 133.35) (uuid f9e93a44-7147-4768-83d9-99679bd48f1b))
+  (no_connect (at 328.93 69.85) (uuid eed34273-7f54-48e6-80a6-825ac66f4f2d))
+  (no_connect (at 328.93 67.31) (uuid eed34273-7f54-48e6-80a6-825ac66f4f2e))
 
   (wire (pts (xy 174.625 128.905) (xy 142.875 128.905))
     (stroke (width 0) (type default))
@@ -2095,6 +2344,10 @@
   (wire (pts (xy 288.29 97.79) (xy 295.91 97.79))
     (stroke (width 0) (type default))
     (uuid 0190a2fd-651a-4611-a2a7-35c1ea46c4d8)
+  )
+  (wire (pts (xy 332.74 130.81) (xy 335.28 130.81))
+    (stroke (width 0) (type default))
+    (uuid 025a8cf5-f68f-4195-9b3a-b984771e3ad4)
   )
   (wire (pts (xy 293.37 113.03) (xy 297.18 113.03))
     (stroke (width 0) (type default))
@@ -2132,6 +2385,10 @@
     (stroke (width 0) (type default))
     (uuid 06ec07ea-980f-464a-88db-14d4d4847118)
   )
+  (wire (pts (xy 331.47 139.7) (xy 327.66 139.7))
+    (stroke (width 0) (type default))
+    (uuid 071ecae9-7276-4659-bdd7-b5772a8fc8fa)
+  )
   (wire (pts (xy 95.885 144.145) (xy 95.885 141.605))
     (stroke (width 0) (type default))
     (uuid 0747fd85-5861-4e06-99be-eb04e342c32c)
@@ -2139,6 +2396,10 @@
   (wire (pts (xy 104.14 222.885) (xy 104.14 215.265))
     (stroke (width 0) (type default))
     (uuid 077b2803-bcee-4152-b53e-8c284e837a60)
+  )
+  (wire (pts (xy 295.91 87.63) (xy 295.91 90.17))
+    (stroke (width 0) (type default))
+    (uuid 085aad77-9432-4be3-bdbb-d20990b11738)
   )
   (wire (pts (xy 261.62 156.21) (xy 264.16 156.21))
     (stroke (width 0) (type default))
@@ -2148,7 +2409,11 @@
     (stroke (width 0) (type default))
     (uuid 0a398d10-375b-409f-af48-49fdcb16b901)
   )
-  (wire (pts (xy 283.21 58.42) (xy 294.64 58.42))
+  (wire (pts (xy 388.62 73.66) (xy 388.62 77.47))
+    (stroke (width 0) (type default))
+    (uuid 0abd728f-133f-4799-9b2c-2885530027c7)
+  )
+  (wire (pts (xy 302.26 44.45) (xy 309.88 44.45))
     (stroke (width 0) (type default))
     (uuid 0c2b9c20-85bf-42f0-ba90-f004ebe21647)
   )
@@ -2164,6 +2429,10 @@
     (stroke (width 0) (type default))
     (uuid 0ed7a7ff-6b79-4a65-a88c-d121cd651f87)
   )
+  (wire (pts (xy 372.11 71.12) (xy 372.11 74.93))
+    (stroke (width 0) (type default))
+    (uuid 0f815ff2-be83-43c0-93c6-b94b751e98bb)
+  )
   (wire (pts (xy 175.26 200.025) (xy 143.51 200.025))
     (stroke (width 0) (type default))
     (uuid 1081a738-6f9b-466c-a27a-db7eb2289f42)
@@ -2171,6 +2440,10 @@
   (wire (pts (xy 81.28 68.58) (xy 81.28 71.12))
     (stroke (width 0) (type default))
     (uuid 11d9761b-ecac-4ebd-a2fc-9709b66ec229)
+  )
+  (wire (pts (xy 167.64 165.735) (xy 163.195 165.735))
+    (stroke (width 0) (type default))
+    (uuid 11d9ea94-c185-4c0d-bffe-3092f384c2ad)
   )
   (wire (pts (xy 243.84 67.31) (xy 248.92 67.31))
     (stroke (width 0) (type default))
@@ -2184,6 +2457,10 @@
     (stroke (width 0) (type default))
     (uuid 12c03dbb-1e27-4121-a9b9-427c8ceb74ad)
   )
+  (wire (pts (xy 320.04 207.01) (xy 320.04 215.9))
+    (stroke (width 0) (type default))
+    (uuid 133221e0-22a7-4ee9-a4ad-ef90710dc6a3)
+  )
   (wire (pts (xy 320.04 97.79) (xy 320.04 111.76))
     (stroke (width 0) (type default))
     (uuid 14464912-f4b7-4a7a-8c16-790908a2e62f)
@@ -2196,11 +2473,15 @@
     (stroke (width 0) (type default))
     (uuid 1908dd91-fce3-4ae6-a46b-adde7a81d9d8)
   )
+  (wire (pts (xy 341.63 215.9) (xy 360.68 215.9))
+    (stroke (width 0) (type default))
+    (uuid 1a56118d-09e2-4acc-b02e-395b1fb32f79)
+  )
   (wire (pts (xy 359.41 161.29) (xy 359.41 171.45))
     (stroke (width 0) (type default))
     (uuid 1ac81c66-8ab0-4c75-8691-b0df0223ea7f)
   )
-  (wire (pts (xy 280.67 203.2) (xy 288.29 203.2))
+  (wire (pts (xy 304.8 203.2) (xy 320.04 203.2))
     (stroke (width 0) (type default))
     (uuid 1b1a3eb9-4f44-4f1c-80fd-54e58ac2753e)
   )
@@ -2216,6 +2497,10 @@
     (stroke (width 0) (type default))
     (uuid 1d0170e2-e34e-4c80-9b2d-954227f1a411)
   )
+  (wire (pts (xy 364.49 204.47) (xy 364.49 203.2))
+    (stroke (width 0) (type default))
+    (uuid 1d24c144-48e2-459a-9228-2bf6ac7da787)
+  )
   (wire (pts (xy 312.42 123.19) (xy 312.42 121.92))
     (stroke (width 0) (type default))
     (uuid 1d362386-f102-45d9-910f-ba7c17efc971)
@@ -2228,7 +2513,7 @@
     (stroke (width 0) (type default))
     (uuid 1dc32df3-abf3-4cb5-a2a1-cd6aee0a42ec)
   )
-  (wire (pts (xy 304.8 68.58) (xy 302.26 68.58))
+  (wire (pts (xy 328.93 54.61) (xy 325.12 54.61))
     (stroke (width 0) (type default))
     (uuid 1dcbe0ca-7f90-422f-af5f-a31d7efa9014)
   )
@@ -2312,6 +2597,10 @@
     (stroke (width 0) (type default))
     (uuid 2ba435da-14ed-4d9b-a313-565d582b943e)
   )
+  (wire (pts (xy 320.04 215.9) (xy 341.63 215.9))
+    (stroke (width 0) (type default))
+    (uuid 2d25172c-ed6e-4e80-bead-21e9e65014fd)
+  )
   (wire (pts (xy 117.475 139.065) (xy 95.885 139.065))
     (stroke (width 0) (type default))
     (uuid 2d796b64-3dc5-460a-856e-6794048a162c)
@@ -2344,7 +2633,7 @@
     (stroke (width 0) (type default))
     (uuid 30cbee27-e989-4490-b02b-4325e7ee1a1f)
   )
-  (wire (pts (xy 303.53 53.34) (xy 304.8 53.34))
+  (wire (pts (xy 309.88 39.37) (xy 328.93 39.37))
     (stroke (width 0) (type default))
     (uuid 34e0e388-7ae2-4169-9fa1-4b2ebe9ad2a8)
   )
@@ -2355,6 +2644,10 @@
   (wire (pts (xy 322.58 123.19) (xy 326.39 123.19))
     (stroke (width 0) (type default))
     (uuid 368da581-7e1d-45bd-b5da-a5cad7d96588)
+  )
+  (wire (pts (xy 168.91 165.1) (xy 167.64 165.1))
+    (stroke (width 0) (type default))
+    (uuid 36e65611-3b03-48f6-a5a1-929deb01b65f)
   )
   (wire (pts (xy 377.19 147.32) (xy 381 147.32))
     (stroke (width 0) (type default))
@@ -2392,7 +2685,7 @@
     (stroke (width 0) (type default))
     (uuid 3c406033-0665-4520-aaf1-3b309e807b1e)
   )
-  (wire (pts (xy 290.83 72.39) (xy 290.83 83.82))
+  (wire (pts (xy 307.34 58.42) (xy 307.34 60.96))
     (stroke (width 0) (type default))
     (uuid 3c65629f-357f-466c-bc4c-abe8556086c4)
   )
@@ -2416,6 +2709,10 @@
     (stroke (width 0) (type default))
     (uuid 40d07d22-817b-4479-aeee-9abdfddf4234)
   )
+  (wire (pts (xy 388.62 64.77) (xy 397.51 64.77))
+    (stroke (width 0) (type default))
+    (uuid 42599b6c-63e1-4e7f-839e-decfe6ed5f06)
+  )
   (wire (pts (xy 241.3 115.57) (xy 248.92 115.57))
     (stroke (width 0) (type default))
     (uuid 434327e9-5173-4841-8a13-f466cb0ba4ee)
@@ -2435,6 +2732,10 @@
   (wire (pts (xy 241.3 135.89) (xy 248.92 135.89))
     (stroke (width 0) (type default))
     (uuid 44c5ce6e-9f60-45d8-8bbb-b84845a71f73)
+  )
+  (wire (pts (xy 360.68 215.9) (xy 360.68 207.01))
+    (stroke (width 0) (type default))
+    (uuid 46defb4a-3e25-4abb-8d10-f7c9e8e1430c)
   )
   (wire (pts (xy 316.23 110.49) (xy 316.23 118.11))
     (stroke (width 0) (type default))
@@ -2456,15 +2757,27 @@
     (stroke (width 0) (type default))
     (uuid 48cc4fc3-bb6e-457c-aa83-1fecef51f2df)
   )
-  (wire (pts (xy 273.05 203.2) (xy 280.67 203.2))
+  (wire (pts (xy 405.13 64.77) (xy 406.4 64.77))
+    (stroke (width 0) (type default))
+    (uuid 4aede64d-5d30-4f9b-b3e3-8b273e88f648)
+  )
+  (wire (pts (xy 297.18 203.2) (xy 304.8 203.2))
     (stroke (width 0) (type default))
     (uuid 4b5d1952-92de-497f-a445-d1abe6a22ad3)
   )
-  (wire (pts (xy 288.29 67.31) (xy 302.26 67.31))
+  (wire (pts (xy 281.94 130.81) (xy 325.12 130.81))
+    (stroke (width 0) (type default))
+    (uuid 4c865e75-5012-41f1-8d73-6f6634ccee2a)
+  )
+  (wire (pts (xy 300.99 53.34) (xy 325.12 53.34))
     (stroke (width 0) (type default))
     (uuid 4ca8aaf7-52f7-40a5-8e9f-d8a5b837c663)
   )
-  (wire (pts (xy 303.53 50.8) (xy 303.53 53.34))
+  (wire (pts (xy 309.88 133.35) (xy 309.88 139.7))
+    (stroke (width 0) (type default))
+    (uuid 4dea1355-eddf-432b-9fa7-ab9437e6845a)
+  )
+  (wire (pts (xy 309.88 39.37) (xy 309.88 36.83))
     (stroke (width 0) (type default))
     (uuid 4df22909-620c-41ac-b387-29193ebefe6c)
   )
@@ -2544,7 +2857,7 @@
     (stroke (width 0) (type default))
     (uuid 5ac1b862-8913-4aa0-a9a1-3a697fb6326e)
   )
-  (wire (pts (xy 302.26 72.39) (xy 290.83 72.39))
+  (wire (pts (xy 307.34 58.42) (xy 308.61 58.42))
     (stroke (width 0) (type default))
     (uuid 5b01fabc-4c5d-42bf-876f-214d53638ccc)
   )
@@ -2584,7 +2897,7 @@
     (stroke (width 0) (type default))
     (uuid 64b7fecf-8342-4b86-9a7d-3865dd68a561)
   )
-  (wire (pts (xy 217.17 118.11) (xy 217.17 119.38))
+  (wire (pts (xy 217.17 118.11) (xy 217.17 120.65))
     (stroke (width 0) (type default))
     (uuid 64e5384a-bb5e-40d0-b861-6158bbf20d85)
   )
@@ -2624,6 +2937,10 @@
     (stroke (width 0) (type default))
     (uuid 69e89483-2019-4f44-90e7-dfd7dff04161)
   )
+  (wire (pts (xy 406.4 64.77) (xy 406.4 73.66))
+    (stroke (width 0) (type default))
+    (uuid 6a1ccf7e-93fb-4c3f-bc4b-3ec248d04125)
+  )
   (wire (pts (xy 155.575 165.735) (xy 153.035 165.735))
     (stroke (width 0) (type default))
     (uuid 6b2dd882-9431-447d-8326-47f112803c47)
@@ -2648,6 +2965,14 @@
     (stroke (width 0) (type default))
     (uuid 6ec710ab-af1e-4cc6-b6a4-ce3cc7fb0528)
   )
+  (wire (pts (xy 372.11 52.07) (xy 372.11 54.61))
+    (stroke (width 0) (type default))
+    (uuid 72df9419-60ad-4bd6-bb1b-f5552b117526)
+  )
+  (wire (pts (xy 360.68 204.47) (xy 364.49 204.47))
+    (stroke (width 0) (type default))
+    (uuid 735b9af1-f076-4c3e-b4fd-a789f138724b)
+  )
   (wire (pts (xy 227.33 204.47) (xy 227.33 208.28))
     (stroke (width 0) (type default))
     (uuid 73cba65f-d449-4fbe-8db5-63dda6d8ce4b)
@@ -2668,17 +2993,21 @@
     (stroke (width 0) (type default))
     (uuid 764d827f-fbb2-4771-9af6-80ba95976d94)
   )
-  (wire (pts (xy 217.17 119.38) (xy 220.98 119.38))
-    (stroke (width 0) (type default))
-    (uuid 766cf411-cfd2-4e1c-ba7b-bcdf1ad45f45)
-  )
   (wire (pts (xy 241.3 125.73) (xy 248.92 125.73))
     (stroke (width 0) (type default))
     (uuid 777ca352-4a1b-41bd-9e76-55002dc46318)
   )
-  (wire (pts (xy 295.91 213.36) (xy 295.91 210.82))
+  (wire (pts (xy 281.94 133.35) (xy 309.88 133.35))
+    (stroke (width 0) (type default))
+    (uuid 7808669a-916b-431d-af87-394312945ce4)
+  )
+  (wire (pts (xy 341.63 215.9) (xy 341.63 226.06))
     (stroke (width 0) (type default))
     (uuid 781180a2-881c-4b03-8632-49aa9d9f0cc3)
+  )
+  (wire (pts (xy 388.62 64.77) (xy 388.62 66.04))
+    (stroke (width 0) (type default))
+    (uuid 7941032c-0a78-48dd-ba5e-f7189b7ff397)
   )
   (wire (pts (xy 95.885 141.605) (xy 117.475 141.605))
     (stroke (width 0) (type default))
@@ -2696,7 +3025,7 @@
     (stroke (width 0) (type default))
     (uuid 7b4924b4-f6da-4abd-b554-a0c4b450ad55)
   )
-  (wire (pts (xy 313.69 203.2) (xy 313.69 204.47))
+  (wire (pts (xy 374.65 203.2) (xy 374.65 204.47))
     (stroke (width 0) (type default))
     (uuid 7be08441-233a-40c8-ab8e-46542e03ad83)
   )
@@ -2704,19 +3033,19 @@
     (stroke (width 0) (type default))
     (uuid 7c806e56-b0d7-40dd-a4ad-b177836cda73)
   )
+  (wire (pts (xy 372.11 62.23) (xy 372.11 63.5))
+    (stroke (width 0) (type default))
+    (uuid 7d3a3ad8-32c3-46ea-8b1d-84a73aa9c4df)
+  )
   (wire (pts (xy 281.94 143.51) (xy 289.56 143.51))
     (stroke (width 0) (type default))
     (uuid 7d61e5ca-ccc7-41eb-a188-a57b7a87f858)
   )
-  (wire (pts (xy 302.26 68.58) (xy 302.26 67.31))
+  (wire (pts (xy 325.12 54.61) (xy 325.12 53.34))
     (stroke (width 0) (type default))
     (uuid 7d68380e-1a57-40ce-8fd3-5091cc8c4eaa)
   )
-  (wire (pts (xy 220.98 120.65) (xy 217.17 120.65))
-    (stroke (width 0) (type default))
-    (uuid 7e59e486-eb12-4006-b6f6-61f7db684aa0)
-  )
-  (wire (pts (xy 302.26 71.12) (xy 302.26 72.39))
+  (wire (pts (xy 308.61 57.15) (xy 308.61 58.42))
     (stroke (width 0) (type default))
     (uuid 7ec2767b-8e51-42a2-901b-33c4d033da29)
   )
@@ -2728,7 +3057,7 @@
     (stroke (width 0) (type default))
     (uuid 7ffe5a4d-8d58-47a6-8913-6da2a39112a0)
   )
-  (wire (pts (xy 288.29 67.31) (xy 288.29 69.85))
+  (wire (pts (xy 300.99 53.34) (xy 300.99 54.61))
     (stroke (width 0) (type default))
     (uuid 8018b1e9-e2f9-4db2-930a-f7448d7d1619)
   )
@@ -2748,11 +3077,15 @@
     (stroke (width 0) (type default))
     (uuid 82e7c387-5f8b-44b5-852d-3753c0e0204a)
   )
-  (wire (pts (xy 280.67 83.82) (xy 283.21 83.82))
+  (wire (pts (xy 294.64 60.96) (xy 299.72 60.96))
     (stroke (width 0) (type default))
     (uuid 8363e740-7b76-4117-9cbf-3ad6726c594e)
   )
-  (wire (pts (xy 280.67 212.09) (xy 280.67 213.36))
+  (wire (pts (xy 345.44 130.81) (xy 342.9 130.81))
+    (stroke (width 0) (type default))
+    (uuid 839a5c77-6eeb-4262-b284-1274397590ef)
+  )
+  (wire (pts (xy 304.8 212.09) (xy 304.8 213.36))
     (stroke (width 0) (type default))
     (uuid 83bacca4-a34b-426b-aa27-119b16db342e)
   )
@@ -2767,6 +3100,10 @@
   (wire (pts (xy 271.78 49.53) (xy 271.78 59.69))
     (stroke (width 0) (type default))
     (uuid 85d8a0e3-3121-42d3-b122-e03282c463c2)
+  )
+  (wire (pts (xy 314.96 44.45) (xy 309.88 44.45))
+    (stroke (width 0) (type default))
+    (uuid 8682cb42-cf01-4111-bcde-3a010b127d8b)
   )
   (wire (pts (xy 306.07 93.98) (xy 314.96 93.98))
     (stroke (width 0) (type default))
@@ -2828,7 +3165,7 @@
     (stroke (width 0) (type default))
     (uuid 9705a55d-d362-4d99-b028-bde13396ac18)
   )
-  (wire (pts (xy 274.32 69.85) (xy 280.67 69.85))
+  (wire (pts (xy 287.02 54.61) (xy 293.37 54.61))
     (stroke (width 0) (type default))
     (uuid 979132d0-e054-413f-a9dc-f206840b5733)
   )
@@ -2864,7 +3201,7 @@
     (stroke (width 0) (type default))
     (uuid 9f1fdced-7531-47a7-99aa-bd4ef0785856)
   )
-  (wire (pts (xy 280.67 203.2) (xy 280.67 204.47))
+  (wire (pts (xy 304.8 203.2) (xy 304.8 204.47))
     (stroke (width 0) (type default))
     (uuid 9ffca34f-7bad-4ab5-8f69-28121881669f)
   )
@@ -2924,7 +3261,7 @@
     (stroke (width 0) (type default))
     (uuid a8b0fedb-808b-4d07-a77a-0ec43ca284f1)
   )
-  (wire (pts (xy 302.26 66.04) (xy 304.8 66.04))
+  (wire (pts (xy 325.12 52.07) (xy 328.93 52.07))
     (stroke (width 0) (type default))
     (uuid a9304414-f986-4a8d-903f-a0ab2530ccce)
   )
@@ -2935,6 +3272,10 @@
   (wire (pts (xy 288.29 97.79) (xy 288.29 113.03))
     (stroke (width 0) (type default))
     (uuid a9e6936c-6a1e-44e5-95d2-0a0ad13ca612)
+  )
+  (wire (pts (xy 345.44 132.08) (xy 345.44 130.81))
+    (stroke (width 0) (type default))
+    (uuid ab615093-17fb-4cbc-b8ad-9db14ea05df1)
   )
   (wire (pts (xy 293.37 118.11) (xy 293.37 113.03))
     (stroke (width 0) (type default))
@@ -3016,9 +3357,17 @@
     (stroke (width 0) (type default))
     (uuid b4ad7851-6952-4a49-96c8-2d96f809987f)
   )
+  (wire (pts (xy 388.62 63.5) (xy 388.62 64.77))
+    (stroke (width 0) (type default))
+    (uuid b531176a-0463-472a-8d2b-1ed6eb332a47)
+  )
   (wire (pts (xy 306.07 109.22) (xy 309.88 109.22))
     (stroke (width 0) (type default))
     (uuid b56d1b11-7b77-4eba-91eb-ba4dad34ccda)
+  )
+  (wire (pts (xy 344.17 77.47) (xy 336.55 77.47))
+    (stroke (width 0) (type default))
+    (uuid b5e74d64-fb41-4698-bf53-9bb0aa75064e)
   )
   (wire (pts (xy 151.13 85.09) (xy 148.59 85.09))
     (stroke (width 0) (type default))
@@ -3056,7 +3405,7 @@
     (stroke (width 0) (type default))
     (uuid bb7dc19a-cbb3-4221-9f40-847627c26505)
   )
-  (wire (pts (xy 302.26 58.42) (xy 304.8 58.42))
+  (wire (pts (xy 322.58 44.45) (xy 328.93 44.45))
     (stroke (width 0) (type default))
     (uuid bc16845f-91e8-4c48-9830-70ddfcb7b1e6)
   )
@@ -3064,13 +3413,17 @@
     (stroke (width 0) (type default))
     (uuid bcdb550c-14ef-4cc4-b18e-eb60b22f4030)
   )
-  (wire (pts (xy 302.26 60.96) (xy 304.8 60.96))
+  (wire (pts (xy 317.5 46.99) (xy 328.93 46.99))
     (stroke (width 0) (type default))
     (uuid bdc86023-f9e9-4d4b-995a-0aad1ca34779)
   )
   (wire (pts (xy 83.185 146.685) (xy 85.725 146.685))
     (stroke (width 0) (type default))
     (uuid bdf23dbd-81b1-4c5c-94f2-91c2a71b4eca)
+  )
+  (wire (pts (xy 167.64 165.1) (xy 167.64 165.735))
+    (stroke (width 0) (type default))
+    (uuid bee8119d-bf0b-43c0-92ce-b5bf69c7a07f)
   )
   (wire (pts (xy 86.36 200.025) (xy 86.36 202.565))
     (stroke (width 0) (type default))
@@ -3088,7 +3441,7 @@
     (stroke (width 0) (type default))
     (uuid c1c647d4-a529-4dd8-bdc4-15c9711f083a)
   )
-  (wire (pts (xy 302.26 72.39) (xy 302.26 73.66))
+  (wire (pts (xy 308.61 59.69) (xy 308.61 58.42))
     (stroke (width 0) (type default))
     (uuid c2749444-ec23-4a68-8b67-776eb86540ab)
   )
@@ -3104,7 +3457,7 @@
     (stroke (width 0) (type default))
     (uuid c77808b2-48ff-43fb-b821-b32e9f421ab9)
   )
-  (wire (pts (xy 302.26 67.31) (xy 302.26 66.04))
+  (wire (pts (xy 325.12 53.34) (xy 325.12 52.07))
     (stroke (width 0) (type default))
     (uuid c970b16e-5f7a-4bf5-b03e-64a08582a342)
   )
@@ -3144,13 +3497,9 @@
     (stroke (width 0) (type default))
     (uuid d24fddc8-ba84-4961-9d9f-68e43d5bb292)
   )
-  (wire (pts (xy 303.53 203.2) (xy 313.69 203.2))
+  (wire (pts (xy 364.49 203.2) (xy 374.65 203.2))
     (stroke (width 0) (type default))
     (uuid d2cca713-f0b7-494d-91ba-64ae266b7d89)
-  )
-  (wire (pts (xy 220.98 119.38) (xy 220.98 120.65))
-    (stroke (width 0) (type default))
-    (uuid d2d6ba30-2d01-418c-829a-92ce3f1b0f83)
   )
   (wire (pts (xy 153.035 161.925) (xy 153.035 165.735))
     (stroke (width 0) (type default))
@@ -3208,7 +3557,7 @@
     (stroke (width 0) (type default))
     (uuid dc4226e4-472e-4de9-8829-f442a14db5c4)
   )
-  (wire (pts (xy 313.69 203.2) (xy 321.31 203.2))
+  (wire (pts (xy 374.65 203.2) (xy 382.27 203.2))
     (stroke (width 0) (type default))
     (uuid de1b629a-1aba-48e5-9ea3-ad9665e47102)
   )
@@ -3216,7 +3565,7 @@
     (stroke (width 0) (type default))
     (uuid debaa8db-7f41-4752-831c-4b7a72cc28b4)
   )
-  (wire (pts (xy 294.64 58.42) (xy 294.64 60.96))
+  (wire (pts (xy 309.88 44.45) (xy 309.88 46.99))
     (stroke (width 0) (type default))
     (uuid dfd56ff9-2af8-414a-9f13-8b15e118ae0e)
   )
@@ -3224,7 +3573,7 @@
     (stroke (width 0) (type default))
     (uuid dfd88bd0-356e-4462-a872-c2bc3613ac14)
   )
-  (wire (pts (xy 313.69 212.09) (xy 313.69 213.36))
+  (wire (pts (xy 374.65 212.09) (xy 374.65 213.36))
     (stroke (width 0) (type default))
     (uuid e2100dea-01ef-4c33-a234-737168ed968a)
   )
@@ -3264,7 +3613,7 @@
     (stroke (width 0) (type default))
     (uuid e6c9a8b4-034e-4e39-bfc7-6722824d399f)
   )
-  (wire (pts (xy 304.8 71.12) (xy 302.26 71.12))
+  (wire (pts (xy 328.93 57.15) (xy 308.61 57.15))
     (stroke (width 0) (type default))
     (uuid e760612e-200f-4ab2-8ba8-ee4307639cdc)
   )
@@ -3276,11 +3625,15 @@
     (stroke (width 0) (type default))
     (uuid e8ae6b72-1c09-4324-bb9d-2098933dc27c)
   )
+  (wire (pts (xy 320.04 203.2) (xy 320.04 204.47))
+    (stroke (width 0) (type default))
+    (uuid e8d1139b-711f-4477-be7a-6e44d78bef5f)
+  )
   (wire (pts (xy 312.42 121.92) (xy 326.39 121.92))
     (stroke (width 0) (type default))
     (uuid e921e840-3c2c-4b0f-bb1b-2d6b5abdaf97)
   )
-  (wire (pts (xy 302.26 73.66) (xy 304.8 73.66))
+  (wire (pts (xy 308.61 59.69) (xy 328.93 59.69))
     (stroke (width 0) (type default))
     (uuid e95b3925-5532-4a32-9c37-fdf9f83c4998)
   )
@@ -3311,6 +3664,10 @@
   (wire (pts (xy 85.725 144.145) (xy 95.885 144.145))
     (stroke (width 0) (type default))
     (uuid eedb2582-3c89-4c54-9e7f-6816af8fa340)
+  )
+  (wire (pts (xy 388.62 53.34) (xy 388.62 55.88))
+    (stroke (width 0) (type default))
+    (uuid eee4de2b-a044-4775-8081-9d668b078b9b)
   )
   (wire (pts (xy 153.67 222.885) (xy 140.97 222.885))
     (stroke (width 0) (type default))
@@ -3393,7 +3750,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1efca51c-8595-485a-9380-5b56e1e2d7dd)
   )
-  (label "D-" (at 274.32 69.85 0) (fields_autoplaced)
+  (label "D-" (at 287.02 54.61 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1fcbc0c4-5544-40ac-ad2d-4c166ec1ad33)
   )
@@ -3433,7 +3790,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4dd9b0ed-6211-40b4-9ecc-3fdebb95d293)
   )
-  (label "D+" (at 280.67 83.82 0) (fields_autoplaced)
+  (label "D+" (at 294.64 60.96 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 65d20219-0cba-4b3b-a5c9-f54bdb624543)
   )
@@ -3639,7 +3996,7 @@
     (pin "3" (uuid af0c1f25-15de-4936-92ba-6c47f267ded2))
     (pin "4" (uuid b787fb26-5679-438f-9f6f-6d69f66b2276))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "J5") (unit 1)
         )
@@ -3671,7 +4028,7 @@
     (pin "2" (uuid fea04911-8d92-4d9f-83f9-c4a21cb92d6e))
     (pin "3" (uuid 00ad8598-8db9-4704-a3d2-6975d63168a1))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "Q2") (unit 1)
         )
@@ -3701,7 +4058,7 @@
     )
     (pin "1" (uuid f9b890e6-93f3-4af0-bbc1-b815c8a3b105))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR022") (unit 1)
         )
@@ -3714,25 +4071,25 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 313.69 208.28 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized") (at 374.65 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0520504b-1c20-4efe-ae28-a39e71d859b8)
-    (property "Reference" "C21" (at 317.5 206.1209 0)
+    (property "Reference" "C21" (at 378.46 206.1209 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22uF" (at 317.5 208.6609 0)
+    (property "Value" "33uF" (at 378.46 208.6609 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 314.6552 212.09 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 375.6152 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 313.69 208.28 0)
+    (property "Datasheet" "~" (at 374.65 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f52f2a31-a51a-4887-a2a5-e699ce3eb915))
     (pin "2" (uuid 1a12327a-1612-4e5c-985c-bd39251a0846))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C21") (unit 1)
         )
@@ -3763,7 +4120,7 @@
     (pin "1" (uuid 9bb79188-c684-45f1-93f9-9247201e7099))
     (pin "2" (uuid 7a93ae40-2e69-4b5d-87b2-bd9274b8f424))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R11") (unit 1)
         )
@@ -3794,7 +4151,7 @@
     (pin "1" (uuid 4f6c6f4b-b793-4f00-b51d-795f5326e796))
     (pin "2" (uuid a7209424-c83b-45af-bab1-b072c6a7e58a))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R19") (unit 1)
         )
@@ -3807,24 +4164,24 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 303.53 50.8 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 309.88 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0b779fdb-5f52-43b1-aeee-d499ce788232)
-    (property "Reference" "#PWR038" (at 303.53 54.61 0)
+    (property "Reference" "#PWR038" (at 309.88 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 303.53 45.72 0)
+    (property "Value" "+5V" (at 309.88 31.75 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 303.53 50.8 0)
+    (property "Footprint" "" (at 309.88 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 303.53 50.8 0)
+    (property "Datasheet" "" (at 309.88 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bd6600d6-c229-4627-b144-8c76b5cb2b76))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR038") (unit 1)
         )
@@ -3857,7 +4214,7 @@
     (pin "3" (uuid abe4fa0b-92aa-46ae-963f-8e8668c220ce))
     (pin "4" (uuid 0474cc55-b1bc-4c8f-be74-f71480fd5ecc))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "J2") (unit 1)
         )
@@ -3887,7 +4244,7 @@
     )
     (pin "1" (uuid 287bb750-8fc0-4d77-bc13-bf87e2b32c01))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR016") (unit 1)
         )
@@ -3895,6 +4252,32 @@
       (project "StrainGauge_Controlstick_Interface"
         (path "/c02972ce-12f7-4802-a362-236013b74ddd"
           (reference "#PWR016") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 323.85 139.7 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1516dcac-12c2-4d9a-9e87-9cf0171bc6ee)
+    (property "Reference" "R33" (at 323.85 135.1844 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "R_US" (at 323.85 137.7244 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 324.104 138.684 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 323.85 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 27936c46-15fb-4309-8f2e-211c1b0b2248))
+    (pin "2" (uuid ffe2b49b-905e-45a1-b8fb-3768d16d363d))
+    (instances
+      (project "flight_stick"
+        (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -3917,9 +4300,35 @@
     )
     (pin "1" (uuid 0e6813d2-3202-4026-a5bd-c75fe3818f13))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR045") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 401.32 64.77 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 17f923f1-2b9d-4873-aea5-d1b313452153)
+    (property "Reference" "R34" (at 401.32 59.69 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "30" (at 401.32 62.23 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 401.574 63.754 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 401.32 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b4841a6c-68a6-43ac-bd41-5b81084b36fc))
+    (pin "2" (uuid a651a60a-dc37-45e0-a1b6-c0555fb79b0a))
+    (instances
+      (project "flight_stick"
+        (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -3943,7 +4352,7 @@
     (pin "1" (uuid a1429b70-3f04-49f2-93bd-476a8a6a52e2))
     (pin "2" (uuid 77ca5c65-ee0e-4415-b185-f387ff57db76))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C4") (unit 1)
         )
@@ -4020,7 +4429,7 @@
     (pin "8" (uuid 8f0a4628-2067-4523-846c-aeb1df861e27))
     (pin "9" (uuid 951b3b87-e4ec-4bee-864a-16f7f5cda139))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "U4") (unit 1)
         )
@@ -4049,7 +4458,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "H3") (unit 1)
         )
@@ -4075,7 +4484,7 @@
     (pin "1" (uuid 256da861-91e5-443d-be68-11de28ec4e74))
     (pin "2" (uuid ff12a484-a98a-486c-9124-08e5bdf8f7ff))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C10") (unit 1)
         )
@@ -4106,7 +4515,7 @@
     (pin "1" (uuid 6b5c6836-27a2-451d-9c94-b21aa67dc9ef))
     (pin "2" (uuid dcbbe66c-9f0d-40c1-b740-aea5cb392ecc))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R16") (unit 1)
         )
@@ -4136,7 +4545,7 @@
     )
     (pin "1" (uuid ae48596c-3c2c-4482-a00e-3e6381bd0536))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR015") (unit 1)
         )
@@ -4161,7 +4570,7 @@
     )
     (pin "1" (uuid ca51aafe-6922-440a-8332-43a157ea1969))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR029") (unit 1)
         )
@@ -4191,7 +4600,7 @@
     )
     (pin "1" (uuid 46fadbdf-7a6f-462f-bc30-26734ab4321d))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR01") (unit 1)
         )
@@ -4222,7 +4631,7 @@
     (pin "1" (uuid 26ae0386-732c-45a5-a559-993867ad1f16))
     (pin "2" (uuid 400ffec6-27d7-49b9-b190-440c3d09233d))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C6") (unit 1)
         )
@@ -4230,6 +4639,31 @@
       (project "StrainGauge_Controlstick_Interface"
         (path "/c02972ce-12f7-4802-a362-236013b74ddd"
           (reference "C6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "+5V_2") (lib_id "power:+5V") (at 372.11 52.07 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2bb6ae1e-705a-49c1-8730-a0fd71b21fc1)
+    (property "Reference" "#PWR014" (at 372.11 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "3V3" (at 372.11 48.26 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 372.11 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 372.11 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 81ee06fb-7272-4350-9e72-acdd2d605226))
+    (instances
+      (project "flight_stick"
+        (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -4252,7 +4686,7 @@
     )
     (pin "1" (uuid 590fa5ca-9f60-4a4d-ab10-d95c268db546))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR037") (unit 1)
         )
@@ -4282,7 +4716,7 @@
     )
     (pin "1" (uuid b3855da2-ff5a-4ff8-9379-a4abd2f3db6a))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR027") (unit 1)
         )
@@ -4312,7 +4746,7 @@
     )
     (pin "1" (uuid 11b82d44-1e00-40ed-97ec-667c4ee573d6))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR036") (unit 1)
         )
@@ -4320,6 +4754,31 @@
       (project "StrainGauge_Controlstick_Interface"
         (path "/c02972ce-12f7-4802-a362-236013b74ddd"
           (reference "#PWR036") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "GND_3") (lib_id "power:GND") (at 345.44 132.08 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 3439fa9a-d69d-4531-bbec-fa68c237670e)
+    (property "Reference" "#PWR051" (at 345.44 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 345.44 137.16 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 345.44 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 345.44 132.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 96477bac-213d-4c04-ab40-5ed5bdd273e5))
+    (instances
+      (project "flight_stick"
+        (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -4342,7 +4801,7 @@
     )
     (pin "1" (uuid 2209139c-fefe-486e-b22a-25f72b324df6))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR06") (unit 1)
         )
@@ -4372,7 +4831,7 @@
     )
     (pin "1" (uuid 493a9103-b563-4c59-b00d-5d0ddd3e3889))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR09") (unit 1)
         )
@@ -4380,24 +4839,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 320.04 91.44 0) (mirror y) (unit 1)
+  (symbol (lib_id "power:GND") (at 336.55 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35ab8d18-8459-4e69-8e37-5d813bf0ddfc)
-    (property "Reference" "#PWR040" (at 320.04 97.79 0)
+    (property "Reference" "#PWR040" (at 336.55 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 320.04 96.52 0)
+    (property "Value" "GND" (at 336.55 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 320.04 91.44 0)
+    (property "Footprint" "" (at 336.55 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 320.04 91.44 0)
+    (property "Datasheet" "" (at 336.55 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0a46731e-58d8-4681-a3f4-e5b03235f5ec))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR040") (unit 1)
         )
@@ -4428,7 +4887,7 @@
     (pin "1" (uuid 7e759262-783d-45e1-87c6-148805209316))
     (pin "2" (uuid e1f36232-895f-4365-8058-638dc230c6bd))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C12") (unit 1)
         )
@@ -4458,7 +4917,7 @@
     )
     (pin "1" (uuid d4d15d90-8f51-474e-b67e-a3c5e8bf4080))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR024") (unit 1)
         )
@@ -4471,25 +4930,25 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 280.67 208.28 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized") (at 304.8 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39e81dda-dd4e-483e-b25c-c40e86c43d74)
-    (property "Reference" "C20" (at 284.48 206.1209 0)
+    (property "Reference" "C20" (at 308.61 206.756 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10uF" (at 284.48 208.6609 0)
+    (property "Value" "0.47uF" (at 308.61 209.296 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 281.6352 212.09 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 305.7652 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 280.67 208.28 0)
+    (property "Datasheet" "~" (at 304.8 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6feab061-088a-4c14-a669-3bf685f6c5c4))
     (pin "2" (uuid 0929530f-2041-424d-a8ec-b5bd468598b9))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C20") (unit 1)
         )
@@ -4519,7 +4978,7 @@
     )
     (pin "1" (uuid f1045051-5171-4966-a1ad-d494a455f9b2))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR03") (unit 1)
         )
@@ -4550,7 +5009,7 @@
     (pin "1" (uuid 382f0f71-b0bf-4c82-a597-fb1de5f3f31d))
     (pin "2" (uuid 5451f1e8-44c4-4ef0-ad9d-39a51440a8f9))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R27") (unit 1)
         )
@@ -4590,7 +5049,7 @@
     (pin "8" (uuid e8c24c87-9cd7-4913-9ff1-804750828db3))
     (pin "9" (uuid c7cf0cfd-2f5f-433a-843b-513488235112))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "U3") (unit 1)
         )
@@ -4621,7 +5080,7 @@
     (pin "1" (uuid 6e179572-c6ac-4210-829d-3112e28ec34a))
     (pin "2" (uuid 3a9bb3fa-b07b-45e4-a54a-a91a37f43107))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R9") (unit 1)
         )
@@ -4653,7 +5112,7 @@
     (pin "2" (uuid 96ca5b68-3acc-402e-82c9-158880ba2698))
     (pin "3" (uuid bfd18be0-d943-4661-a7d4-b7ed6e65d74d))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "Q3") (unit 1)
         )
@@ -4684,7 +5143,7 @@
     (pin "1" (uuid f37dab9f-5ee4-44c4-a97f-968aa0058353))
     (pin "2" (uuid 03ae4673-e277-424f-8b3f-f04352d040a9))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R13") (unit 1)
         )
@@ -4715,7 +5174,7 @@
     (pin "1" (uuid 74f4cee7-4e18-43ea-a80f-0f3b9ca62511))
     (pin "2" (uuid 456a79e7-d4fe-406c-bb2f-8e47be9194fc))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R20") (unit 1)
         )
@@ -4728,24 +5187,24 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 321.31 203.2 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 382.27 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 465a093f-74ab-48da-a202-342810c757b9)
-    (property "Reference" "#PWR042" (at 321.31 207.01 0)
+    (property "Reference" "#PWR042" (at 382.27 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 321.31 198.12 0)
+    (property "Value" "+3.3V" (at 382.27 198.12 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 321.31 203.2 0)
+    (property "Footprint" "" (at 382.27 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 321.31 203.2 0)
+    (property "Datasheet" "" (at 382.27 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d979b5c6-9cf8-433a-9e3e-4e8b0d5d22a1))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR042") (unit 1)
         )
@@ -4777,7 +5236,7 @@
     (pin "2" (uuid 16a4a8f6-a973-41b0-adaa-b70885a8d967))
     (pin "3" (uuid 84c7b8fe-a992-4f69-8723-0e8d93a1b8ba))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "Y1") (unit 1)
         )
@@ -4807,7 +5266,7 @@
     )
     (pin "1" (uuid 38bd8e0f-12b1-4819-a17b-f51f7eb7ab82))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR043") (unit 1)
         )
@@ -4838,7 +5297,7 @@
     (pin "1" (uuid 46604867-3bb2-4ab7-9d0e-c35ea1c6d34e))
     (pin "2" (uuid 42bdda86-f88a-4c6d-8cd1-e9a3498ee487))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R10") (unit 1)
         )
@@ -4868,7 +5327,7 @@
     )
     (pin "1" (uuid 6ee54f5d-79c5-4de5-88b2-b1c74acea498))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR023") (unit 1)
         )
@@ -4899,7 +5358,7 @@
     (pin "1" (uuid fa57bf7e-9842-4f98-bc2b-f4828837e768))
     (pin "2" (uuid 0b3eb1e9-8d4b-4edd-8cb2-51776be974f6))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C2") (unit 1)
         )
@@ -4932,7 +5391,7 @@
     (pin "3" (uuid 10eb338c-7de8-4c22-9c52-bfe26d367a17))
     (pin "4" (uuid 359c41e2-b01b-4c3a-98ec-6c948a25cd18))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "J7") (unit 1)
         )
@@ -4963,7 +5422,7 @@
     (pin "1" (uuid 7bb4844c-f460-4db7-b381-dc93f1c0ca79))
     (pin "2" (uuid 5a30ed23-2283-4207-9a39-d3a32c4669e5))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C16") (unit 1)
         )
@@ -4971,6 +5430,57 @@
       (project "StrainGauge_Controlstick_Interface"
         (path "/c02972ce-12f7-4802-a362-236013b74ddd"
           (reference "C16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 339.09 130.81 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4e2d1fd1-15bf-40ac-adda-587566e36e52)
+    (property "Reference" "D3" (at 340.6775 124.46 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LED" (at 340.6775 127 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "LED_SMD:LED_2010_5025Metric" (at 339.09 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 339.09 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 38df432b-c45f-4972-9d93-d7521873839e))
+    (pin "2" (uuid 5a401a18-2951-4734-b901-549b9172e0a8))
+    (instances
+      (project "flight_stick"
+        (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+          (reference "D3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "+3.3V_1") (lib_id "power:+3.3V") (at 331.47 139.7 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 510a5928-187f-4a04-b7b5-5ce5d45b0b0e)
+    (property "Reference" "#PWR052" (at 331.47 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 331.47 135.89 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 331.47 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 331.47 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d032ec61-647b-44d3-b78a-4cb03332b42b))
+    (instances
+      (project "flight_stick"
+        (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -4996,7 +5506,7 @@
     (pin "3" (uuid e94ddfe6-0e7e-4f5a-8bad-429143d17dc0))
     (pin "4" (uuid 021455f0-8456-4408-a78e-c7de0aef4f14))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "J9") (unit 1)
         )
@@ -5028,7 +5538,7 @@
     (pin "2" (uuid 28839396-bb28-438e-9353-c6cd5ae8eb07))
     (pin "3" (uuid 52320115-6ac8-4aeb-9070-ec9af5ea6fe7))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "Q5") (unit 1)
         )
@@ -5053,7 +5563,7 @@
     )
     (pin "1" (uuid 39ca29b6-04fe-4a1d-be4a-6c65a5a3509b))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR049") (unit 1)
         )
@@ -5079,7 +5589,7 @@
     (pin "1" (uuid 90486ba8-822d-48d5-9db3-7a52d7cacfde))
     (pin "2" (uuid 14ab95c0-718a-4c65-a3c1-f0cdd5031f14))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C15") (unit 1)
         )
@@ -5109,7 +5619,7 @@
     )
     (pin "1" (uuid 2b6763fe-d442-49ab-9cd4-c1445160e975))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR0103") (unit 1)
         )
@@ -5117,6 +5627,31 @@
       (project "StrainGauge_Controlstick_Interface"
         (path "/c02972ce-12f7-4802-a362-236013b74ddd"
           (reference "#PWR0103") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "+5V_2") (lib_id "power:+5V") (at 388.62 53.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5b3be39b-5322-4427-9a4d-82502c90bc3c)
+    (property "Reference" "#PWR08" (at 388.62 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 388.62 49.53 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 388.62 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 388.62 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a759582c-2455-48f5-8427-7d3340c7cd94))
+    (instances
+      (project "flight_stick"
+        (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -5140,7 +5675,7 @@
     (pin "1" (uuid 32c412f0-50ba-4874-9811-102a4788397d))
     (pin "2" (uuid 477a9966-566a-4645-b715-4feb5e09c1bc))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C18") (unit 1)
         )
@@ -5169,7 +5704,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "H2") (unit 1)
         )
@@ -5177,25 +5712,25 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 298.45 58.42 90) (unit 1)
+  (symbol (lib_id "Device:R_US") (at 318.77 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 60a2164b-9afd-44fc-a92e-eb1c9d8399cb)
-    (property "Reference" "R23" (at 298.45 52.07 90)
+    (property "Reference" "R23" (at 318.77 38.1 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "5.1K" (at 298.45 54.61 90)
+    (property "Value" "5.1K" (at 318.77 40.64 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 298.704 57.404 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 319.024 43.434 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 298.45 58.42 0)
+    (property "Datasheet" "~" (at 318.77 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 49536e4a-010a-432e-bd13-ea494ddfddb0))
     (pin "2" (uuid 180beebe-29f0-416e-b3eb-fc74c64350e4))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R23") (unit 1)
         )
@@ -5226,7 +5761,7 @@
     (pin "1" (uuid cb2dba9b-e309-4d9b-9b64-f49c5028ff94))
     (pin "2" (uuid 1a9451e8-375c-4a62-830e-3871d2128fbe))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R25") (unit 1)
         )
@@ -5251,9 +5786,34 @@
     )
     (pin "1" (uuid e15dad81-0003-4c4a-9ad0-6d2629ce5b45))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR034") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "GND_2") (lib_id "power:GND") (at 372.11 74.93 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 64ee83b2-e4e6-4430-9788-d7f52dd76ff1)
+    (property "Reference" "#PWR050" (at 372.11 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 372.11 80.01 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 372.11 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 372.11 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7ccc5c61-191f-4537-93e0-419f27b369b8))
+    (instances
+      (project "flight_stick"
+        (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -5278,7 +5838,7 @@
     (pin "2" (uuid 24afc7ca-ff54-473b-acbb-7037980c34d5))
     (pin "3" (uuid b17a09fa-511b-47c0-9440-25cd1b67859d))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "Q6") (unit 1)
         )
@@ -5318,7 +5878,7 @@
     (pin "8" (uuid 9ea9c217-1246-47b1-8a2b-9a3ec7ef7729))
     (pin "9" (uuid 2cac35a6-f022-4b16-8c48-f80cfe542d98))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "U1") (unit 1)
         )
@@ -5350,7 +5910,7 @@
     (pin "2" (uuid fe721e42-4876-44e7-9a51-6db54ae0a866))
     (pin "3" (uuid e1e9fa00-1c27-4e43-8f61-ccad7fb926fe))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "JP1") (unit 1)
         )
@@ -5363,24 +5923,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 280.67 213.36 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 304.8 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ba5393a-bce8-49c9-91d3-d88df187cc46)
-    (property "Reference" "#PWR033" (at 280.67 219.71 0)
+    (property "Reference" "#PWR033" (at 304.8 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 280.67 218.44 0)
+    (property "Value" "GND" (at 304.8 218.44 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 280.67 213.36 0)
+    (property "Footprint" "" (at 304.8 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 280.67 213.36 0)
+    (property "Datasheet" "" (at 304.8 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0d37bd96-819c-4449-bfec-2688b9675fd2))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR033") (unit 1)
         )
@@ -5410,7 +5970,7 @@
     )
     (pin "1" (uuid a14b44fe-aef9-492b-8c3c-91523b2e8ccd))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR05") (unit 1)
         )
@@ -5440,7 +6000,7 @@
     )
     (pin "1" (uuid 7354b500-fef2-4fc7-bd98-7d7a5634d8d8))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR017") (unit 1)
         )
@@ -5473,7 +6033,7 @@
     (pin "3" (uuid 2c25a200-16c6-498d-8334-41a587a0cac7))
     (pin "4" (uuid 5fa9495c-ee50-479b-9cd8-5cc74889163e))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "J6") (unit 1)
         )
@@ -5504,7 +6064,7 @@
     (pin "1" (uuid fe9d16a9-1cef-463e-a743-6c3664d7c127))
     (pin "2" (uuid 5e550475-8cc2-4db2-b5aa-c972ad836231))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R18") (unit 1)
         )
@@ -5534,7 +6094,7 @@
     )
     (pin "1" (uuid de18521a-2bbe-49e7-838c-2779e972a5c8))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR035") (unit 1)
         )
@@ -5542,24 +6102,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 163.195 165.735 90) (unit 1)
+  (symbol (lib_id "power:GND") (at 168.91 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7973abbe-fa10-4895-8c7e-69811182b0e8)
-    (property "Reference" "#PWR018" (at 169.545 165.735 0)
+    (property "Reference" "#PWR018" (at 168.91 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 168.275 165.735 90)
+    (property "Value" "GND" (at 168.91 170.18 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 163.195 165.735 0)
+    (property "Footprint" "" (at 168.91 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 163.195 165.735 0)
+    (property "Datasheet" "" (at 168.91 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c30645b2-881a-4900-ab50-387cac169193))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR018") (unit 1)
         )
@@ -5572,25 +6132,25 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 284.48 69.85 90) (unit 1)
+  (symbol (lib_id "Device:R_US") (at 297.18 54.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7bf46921-35d3-4e3c-a03d-b37086e57471)
-    (property "Reference" "R21" (at 284.48 63.5 90)
+    (property "Reference" "R21" (at 297.18 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "22" (at 284.48 66.04 90)
+    (property "Value" "22" (at 297.18 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 284.734 68.834 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 297.434 53.594 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 284.48 69.85 0)
+    (property "Datasheet" "~" (at 297.18 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1352a793-cd9a-45cf-b2a2-55d11009d216))
     (pin "2" (uuid db413d34-faa6-47e0-9e00-63de335a8695))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R21") (unit 1)
         )
@@ -5620,7 +6180,7 @@
     )
     (pin "1" (uuid 14a9dc1d-5eca-48f8-a630-efa29b97472e))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR019") (unit 1)
         )
@@ -5651,7 +6211,7 @@
     (pin "1" (uuid 2d00cbbb-3a13-4e96-8a9c-c96d0f38f5a2))
     (pin "2" (uuid 6c22e614-1fb5-413f-be47-8a8c04bd9358))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R2") (unit 1)
         )
@@ -5683,7 +6243,7 @@
     (pin "2" (uuid 7cc1473b-c984-4d30-9dcd-30e2120f85ab))
     (pin "3" (uuid 5a964596-8807-433b-928c-64f488cc62a0))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "Q7") (unit 1)
         )
@@ -5709,7 +6269,7 @@
     (pin "1" (uuid 3ac08817-44e8-42ca-b7df-480705c93740))
     (pin "2" (uuid 5f72e643-fddf-4707-ab23-e780656cca62))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C11") (unit 1)
         )
@@ -5740,7 +6300,7 @@
     (pin "1" (uuid 43a8e87f-fdca-4ddb-90e5-3406c8f1acb6))
     (pin "2" (uuid c6dab90b-2648-478b-b522-2ac710e0be9d))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R15") (unit 1)
         )
@@ -5770,7 +6330,7 @@
     )
     (pin "1" (uuid 9d279436-6d25-4e5d-95c5-3e4d02519353))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR046") (unit 1)
         )
@@ -5796,7 +6356,7 @@
     (pin "1" (uuid 72d345f0-b979-4d13-8b9a-9d8eb1ec3c9e))
     (pin "2" (uuid 4923ee06-52d0-47e4-b625-89c30b7ec138))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C13") (unit 1)
         )
@@ -5826,7 +6386,7 @@
     )
     (pin "1" (uuid 86ecdbb0-4fb2-47f0-b5db-a8ac656ee28d))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR021") (unit 1)
         )
@@ -5859,7 +6419,7 @@
     (pin "3" (uuid 77f1c869-99b4-4de7-af85-a21f6ea636af))
     (pin "4" (uuid 34df4041-20af-4639-a4dc-4a71feeb1daf))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "J4") (unit 1)
         )
@@ -5890,7 +6450,7 @@
     (pin "1" (uuid 736111f4-13ce-4dff-b8f6-2892993cfdef))
     (pin "2" (uuid 71829715-92ca-4c3f-91f1-e534da5e5811))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R4") (unit 1)
         )
@@ -5921,7 +6481,7 @@
     (pin "1" (uuid 2fd318d2-079b-46a3-8f5f-fd75c4482034))
     (pin "2" (uuid 05e47995-573d-4504-bf14-7acacf71a677))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C1") (unit 1)
         )
@@ -5952,7 +6512,7 @@
     (pin "1" (uuid 0a0d8690-6d8c-4f63-93f1-12ed4da3d13d))
     (pin "2" (uuid aa7724bb-7b14-46fd-9e33-a8b4a15bc65e))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C14") (unit 1)
         )
@@ -5983,7 +6543,7 @@
     (pin "1" (uuid db39f84e-6834-41d1-962c-5a366de496be))
     (pin "2" (uuid 53060d39-f44f-4baa-8b92-6c578dedc42c))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "SW1") (unit 1)
         )
@@ -5996,25 +6556,25 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 298.45 60.96 90) (unit 1)
+  (symbol (lib_id "Device:R_US") (at 313.69 46.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 962057f3-a9c5-48ab-96bc-810507ad2d4c)
-    (property "Reference" "R24" (at 294.64 63.5 90)
+    (property "Reference" "R24" (at 309.88 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "5.1K" (at 303.53 63.5 90)
+    (property "Value" "5.1K" (at 318.77 49.53 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 298.704 59.944 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 313.944 45.974 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 298.45 60.96 0)
+    (property "Datasheet" "~" (at 313.69 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 927a4e90-d12a-4c98-bce9-5d2c3c1ae66d))
     (pin "2" (uuid 9354b9a1-1404-4bbd-976b-f780cc61bffe))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R24") (unit 1)
         )
@@ -6045,7 +6605,7 @@
     (pin "1" (uuid a654683b-0555-477c-834a-b2818f374f90))
     (pin "2" (uuid 7a93d85e-5e4d-4b56-86b3-08365bba0dd3))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R6") (unit 1)
         )
@@ -6076,7 +6636,7 @@
     (pin "1" (uuid b32643e9-cfec-4353-8787-6d4d91c167b8))
     (pin "2" (uuid 5d5ef07c-7309-47f9-92cc-d2aefa2d330a))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R28") (unit 1)
         )
@@ -6102,7 +6662,7 @@
     (pin "1" (uuid f814ceb3-05ad-4ff2-b361-355b86d172ad))
     (pin "2" (uuid 129d62cf-eaed-4bfe-a443-ab17841e5357))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R17") (unit 1)
         )
@@ -6133,7 +6693,7 @@
     (pin "1" (uuid 5e7ff088-a855-4d1b-9bda-613efb2e7470))
     (pin "2" (uuid a294e704-4f0a-42a4-abcb-3126fa59ae18))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C3") (unit 1)
         )
@@ -6146,24 +6706,24 @@
     )
   )
 
-  (symbol (lib_id "power:+5V") (at 273.05 203.2 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 297.18 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9afbfb9c-21b1-47a6-8030-8687f891e91f)
-    (property "Reference" "#PWR031" (at 273.05 207.01 0)
+    (property "Reference" "#PWR031" (at 297.18 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 273.05 198.12 0)
+    (property "Value" "+5V" (at 297.18 198.12 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 273.05 203.2 0)
+    (property "Footprint" "" (at 297.18 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 273.05 203.2 0)
+    (property "Datasheet" "" (at 297.18 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2eb658b3-44bc-4cf6-9574-d9c91d7b70ae))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR031") (unit 1)
         )
@@ -6193,7 +6753,7 @@
     )
     (pin "1" (uuid a3fab9c4-19f2-44e4-b5d8-e70aec3bfc95))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR02") (unit 1)
         )
@@ -6201,6 +6761,58 @@
       (project "StrainGauge_Controlstick_Interface"
         (path "/c02972ce-12f7-4802-a362-236013b74ddd"
           (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 328.93 130.81 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9b6d25ba-7ed4-48d8-8cc9-4b8e23f9b194)
+    (property "Reference" "R32" (at 328.93 126.2944 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "R_US" (at 328.93 128.8344 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 329.184 129.794 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 328.93 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8b68eea2-5659-420c-a49d-1916b7ddab94))
+    (pin "2" (uuid 86e8d0c6-efb4-403f-b6fd-9cb16b0e9b24))
+    (instances
+      (project "flight_stick"
+        (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+          (reference "R32") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 388.62 69.85 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9b9dc0ed-fdfc-4f5c-acf5-a143efe009fe)
+    (property "Reference" "D1" (at 392.43 70.8025 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "LED" (at 392.43 73.3425 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "LED_SMD:LED_2010_5025Metric" (at 388.62 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 388.62 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a0373017-fbbb-4504-b5bc-2f601342f508))
+    (pin "2" (uuid 287f9415-de3b-4a8f-9135-f482fb2774f2))
+    (instances
+      (project "flight_stick"
+        (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -6223,7 +6835,7 @@
     )
     (pin "1" (uuid fcd777c8-cf3e-42cd-9b8f-6831c99a3bd1))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR0102") (unit 1)
         )
@@ -6256,7 +6868,7 @@
     (pin "3" (uuid 5b7729c6-dc71-4b7d-a348-6b25526b222f))
     (pin "4" (uuid 2e98188c-5701-4dd1-be54-76e0e311bb71))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "J1") (unit 1)
         )
@@ -6286,7 +6898,7 @@
     )
     (pin "1" (uuid 0a641812-e015-4dde-a786-3ffa5f4d044f))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR028") (unit 1)
         )
@@ -6317,7 +6929,7 @@
     (pin "1" (uuid 207ea120-cec4-42ab-8dc3-814dcb3f7588))
     (pin "2" (uuid dd102d49-e634-4197-b5b2-9f3a7a82d6fd))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R14") (unit 1)
         )
@@ -6347,7 +6959,7 @@
     )
     (pin "1" (uuid d089334c-677d-4aca-9e54-6ff4b2c20182))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR013") (unit 1)
         )
@@ -6378,7 +6990,7 @@
     (pin "1" (uuid ba6c4958-a51c-45cf-9ec2-e3b53ab3723a))
     (pin "2" (uuid 6a9bf4fc-665b-4ce1-a238-52d6e5a3d3c5))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R8") (unit 1)
         )
@@ -6409,7 +7021,7 @@
     (pin "1" (uuid 8f269f11-365b-4e83-a80d-eea203a99b8e))
     (pin "2" (uuid 09826406-7a84-4523-a722-d636a9d02ed8))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C17") (unit 1)
         )
@@ -6440,7 +7052,7 @@
     (pin "1" (uuid ed7ae9f3-65fd-4b57-8c9a-66e1f0ff53f0))
     (pin "2" (uuid 5df74d4f-8ef2-4610-9afb-7cd12e23acb3))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C5") (unit 1)
         )
@@ -6470,7 +7082,7 @@
     )
     (pin "1" (uuid 747da02a-f66e-495c-bdfb-c0f375700595))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR026") (unit 1)
         )
@@ -6515,7 +7127,7 @@
     (pin "8" (uuid 4900ecea-0181-4d71-bf37-7993491de67e))
     (pin "9" (uuid 33367bb8-ec82-4133-b4a6-4fda0c116f38))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "U2") (unit 1)
         )
@@ -6528,24 +7140,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 313.69 213.36 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 374.65 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abc855bd-e2fa-482f-acf9-416f6a1bd1c3)
-    (property "Reference" "#PWR041" (at 313.69 219.71 0)
+    (property "Reference" "#PWR041" (at 374.65 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 313.69 218.44 0)
+    (property "Value" "GND" (at 374.65 218.44 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 313.69 213.36 0)
+    (property "Footprint" "" (at 374.65 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 313.69 213.36 0)
+    (property "Datasheet" "" (at 374.65 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 45812241-0c3d-4a97-90d6-466b1e5d1162))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR041") (unit 1)
         )
@@ -6576,7 +7188,7 @@
     (pin "1" (uuid 2576b523-699a-48fd-b378-1c317cb252b3))
     (pin "2" (uuid b196e772-eb90-477d-a83e-9ccc75c14733))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R26") (unit 1)
         )
@@ -6601,7 +7213,7 @@
     )
     (pin "1" (uuid 82104f14-ada1-4017-8c8b-424580e1cd17))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR048") (unit 1)
         )
@@ -6627,7 +7239,7 @@
     (pin "1" (uuid e01ccf02-6114-4910-8df1-c806cca3fdb5))
     (pin "2" (uuid 45cf2e9c-1126-44e0-99c4-04bc4a31ad08))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C19") (unit 1)
         )
@@ -6658,7 +7270,7 @@
     (pin "1" (uuid ad43f824-b213-4e1a-9cae-19035b01daa3))
     (pin "2" (uuid bd4ddb70-4558-4331-af9e-6bbec690820a))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R5") (unit 1)
         )
@@ -6691,7 +7303,7 @@
     (pin "3" (uuid a3f6ea35-0d81-4019-94fd-fb8e03356972))
     (pin "4" (uuid fa8f0679-f026-4423-9140-f71dcb0b6a7c))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "J3") (unit 1)
         )
@@ -6725,7 +7337,7 @@
     (pin "4" (uuid 03aefd6f-ac87-4889-8351-0f252cf4204e))
     (pin "5" (uuid 94d4ca00-108b-4a34-a8e0-c0fb7a20c380))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "J11") (unit 1)
         )
@@ -6750,7 +7362,7 @@
     )
     (pin "1" (uuid 5444b31b-d7ea-4446-9f64-626ab03da5a2))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR030") (unit 1)
         )
@@ -6758,6 +7370,32 @@
       (project "StrainGauge_Controlstick_Interface"
         (path "/c02972ce-12f7-4802-a362-236013b74ddd"
           (reference "#PWR030") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 372.11 67.31 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bb8db44c-c186-40a1-9eeb-0c687d586e03)
+    (property "Reference" "D2" (at 375.92 68.2625 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "LED" (at 375.92 70.8025 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "LED_SMD:LED_2010_5025Metric" (at 372.11 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 372.11 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2b8fa9c2-e6d5-4306-acef-fecfc38d15d0))
+    (pin "2" (uuid 8b5984af-e698-4224-8673-7deb0041a63b))
+    (instances
+      (project "flight_stick"
+        (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -6780,7 +7418,7 @@
     )
     (pin "1" (uuid 27435bce-3009-453d-9cf1-5e25960d578a))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR044") (unit 1)
         )
@@ -6814,9 +7452,35 @@
     (pin "4" (uuid 615e325b-cf1b-43ff-b2b6-89d7c3c7fa17))
     (pin "5" (uuid 22738f74-5c49-455d-896c-05ca13b8db4d))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "J8") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 388.62 59.69 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c6940b82-f28c-40ef-adce-af0c690bac83)
+    (property "Reference" "R30" (at 391.16 59.055 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "50" (at 391.16 61.595 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 389.636 59.944 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 388.62 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aea90603-9b79-47f3-90ec-d5f206533011))
+    (pin "2" (uuid 2d2c9696-207a-476c-8e81-9681208e43b9))
+    (instances
+      (project "flight_stick"
+        (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -6838,7 +7502,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "H1") (unit 1)
         )
@@ -6846,24 +7510,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 295.91 213.36 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 341.63 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c7b37373-8330-49a8-a2d6-fc0224aad0be)
-    (property "Reference" "#PWR039" (at 295.91 219.71 0)
+    (property "Reference" "#PWR039" (at 341.63 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 295.91 218.44 0)
+    (property "Value" "GND" (at 341.63 231.14 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 295.91 213.36 0)
+    (property "Footprint" "" (at 341.63 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 295.91 213.36 0)
+    (property "Datasheet" "" (at 341.63 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 052b64f5-ab88-45b5-91b5-3f0c63364c1c))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR039") (unit 1)
         )
@@ -6871,6 +7535,32 @@
       (project "StrainGauge_Controlstick_Interface"
         (path "/c02972ce-12f7-4802-a362-236013b74ddd"
           (reference "#PWR039") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Switch:SW_Push") (at 314.96 139.7 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c996a224-eee5-4230-897d-fa29235d0e84)
+    (property "Reference" "SW2" (at 314.96 133.35 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SW_Push" (at 314.96 135.89 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 314.96 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 314.96 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e9a89925-d3c7-40cd-a4df-fb1cb132aba8))
+    (pin "2" (uuid 5ab7dc67-c306-4875-8aaa-1ea6ce5e8b9d))
+    (instances
+      (project "flight_stick"
+        (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -6895,7 +7585,7 @@
     (pin "2" (uuid 63cab2c5-9a96-4cc5-93f2-f79730bdee5f))
     (pin "3" (uuid ca07acb3-7bc1-482c-ba2a-c042d0060411))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "Q4") (unit 1)
         )
@@ -6922,7 +7612,7 @@
     (pin "2" (uuid 4c8a8ad2-05e7-4b7f-b50b-76e8820649fb))
     (pin "3" (uuid f89413ae-626b-479b-8af5-9904f5f89324))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "Q1") (unit 1)
         )
@@ -6953,7 +7643,7 @@
     (pin "1" (uuid 78b26be5-20fc-4f68-8f09-f1a861d48771))
     (pin "2" (uuid ebc5174b-e4c8-4a9d-b23f-db98d52ec3d2))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C7") (unit 1)
         )
@@ -6966,33 +7656,27 @@
     )
   )
 
-  (symbol (lib_id "Regulator_Linear:AZ1117-3.3") (at 295.91 203.2 0) (unit 1)
+  (symbol (lib_id "Device:R_US") (at 372.11 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d1185af2-26b5-4010-98e8-a52e939b8c86)
-    (property "Reference" "U5" (at 295.91 195.58 0)
-      (effects (font (size 1.27 1.27)))
+    (uuid d16bf284-d4de-460c-930d-e46aa493d9f5)
+    (property "Reference" "R31" (at 374.65 57.785 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "AZ1117-3.3" (at 295.91 198.12 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "30" (at 374.65 60.325 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2" (at 295.91 196.85 0)
-      (effects (font (size 1.27 1.27) italic) hide)
-    )
-    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" (at 295.91 203.2 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 373.126 58.674 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 769d25d4-4007-482e-82df-802b46df9650))
-    (pin "2" (uuid d920c626-c0ce-44c4-b74b-5165a46e4db6))
-    (pin "3" (uuid 6e5390af-f771-47b4-94c2-c95f6bd6d8cb))
+    (property "Datasheet" "~" (at 372.11 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a67b1df0-e267-4cb1-95d8-6f8c41d8c2ab))
+    (pin "2" (uuid 966f06f7-fc9f-4dca-8679-57e6f1816ab2))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
-          (reference "U5") (unit 1)
-        )
-      )
-      (project "StrainGauge_Controlstick_Interface"
-        (path "/c02972ce-12f7-4802-a362-236013b74ddd"
-          (reference "U5") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -7015,7 +7699,7 @@
     )
     (pin "1" (uuid 694dbf5a-b779-4329-a4e4-956224a327bd))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR020") (unit 1)
         )
@@ -7045,7 +7729,7 @@
     )
     (pin "1" (uuid 70986486-6111-4f59-9b88-01b53809c499))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR04") (unit 1)
         )
@@ -7076,7 +7760,7 @@
     (pin "1" (uuid 5fe1104d-388c-47df-af83-8aacd9bbd0e8))
     (pin "2" (uuid 21c05856-cd83-4bb7-89ba-7bcf841b9651))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C9") (unit 1)
         )
@@ -7089,19 +7773,47 @@
     )
   )
 
-  (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 320.04 68.58 0) (mirror y) (unit 1)
+  (symbol (lib_id "2024-03-22_01-04-52:LM3940IMP-3.3_NOPB") (at 320.04 204.47 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d4980fed-dd65-48f8-9524-60fdb8c6e866)
+    (property "Reference" "U5" (at 340.36 195.58 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "LM3940IMP-3.3/NOPB" (at 340.36 198.12 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "MP04A" (at 320.04 204.47 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "LM3940IMP-3.3/NOPB" (at 320.04 204.47 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (pin "1" (uuid a117466c-62e5-4c87-a62e-1ebfaaeef4ed))
+    (pin "2" (uuid e39d63f2-42a2-438d-9ac9-3ade35243b80))
+    (pin "3" (uuid adb1999c-7a64-4685-b007-cb479b825e03))
+    (pin "4" (uuid 08900a8b-81c6-473b-bfef-ca12436eb90b))
+    (instances
+      (project "flight_stick"
+        (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+          (reference "U5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 344.17 54.61 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da8d39d4-436e-42b3-b1d9-95ca903d0075)
-    (property "Reference" "J10" (at 331.47 67.3099 0)
+    (property "Reference" "J10" (at 355.6 53.3399 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "USB_C_Receptacle_USB2.0" (at 312.42 77.47 0)
+    (property "Value" "USB_C_Receptacle_USB2.0" (at 336.55 63.5 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 316.23 68.58 0)
+    (property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 340.36 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 316.23 68.58 0)
+    (property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" (at 340.36 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "A1" (uuid 86ba3fe0-82c4-46dc-98d1-d1fd9deb3ffa))
@@ -7122,7 +7834,7 @@
     (pin "B9" (uuid 8c77d87e-0cad-4856-8919-355b6173f4ec))
     (pin "S1" (uuid 3202adb8-904f-475c-be57-c530305aab51))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "J10") (unit 1)
         )
@@ -7152,7 +7864,7 @@
     )
     (pin "1" (uuid f2e30d4a-1273-475b-aee1-e3c491103556))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR0101") (unit 1)
         )
@@ -7165,24 +7877,24 @@
     )
   )
 
-  (symbol (lib_name "+3.3V_1") (lib_id "power:+3.3V") (at 295.91 90.17 0) (unit 1)
+  (symbol (lib_name "+3.3V_1") (lib_id "power:+3.3V") (at 295.91 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dfb9eea6-de36-4367-9aa0-f3011202ad1a)
-    (property "Reference" "#PWR012" (at 295.91 93.98 0)
+    (property "Reference" "#PWR012" (at 295.91 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3.3V" (at 295.91 86.36 0)
+    (property "Value" "+3.3V" (at 295.91 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 295.91 90.17 0)
+    (property "Footprint" "" (at 295.91 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 295.91 90.17 0)
+    (property "Datasheet" "" (at 295.91 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1950cfa8-d449-48de-a4aa-a524915ddc85))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR012") (unit 1)
         )
@@ -7190,25 +7902,50 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 287.02 83.82 90) (unit 1)
+  (symbol (lib_name "GND_2") (lib_id "power:GND") (at 406.4 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e41dd02d-83f1-4a2b-9c6d-a6a29edbee03)
-    (property "Reference" "R22" (at 287.02 77.47 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "22" (at 287.02 80.01 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 287.274 82.804 90)
+    (uuid e111485c-b7e5-47cc-9cc7-75265a85b585)
+    (property "Reference" "#PWR053" (at 406.4 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 287.02 83.82 0)
+    (property "Value" "GND" (at 406.4 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 406.4 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 406.4 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d8b4fa6c-5e65-4567-b491-8967b389f3c5))
+    (instances
+      (project "flight_stick"
+        (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+          (reference "#PWR053") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 303.53 60.96 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e41dd02d-83f1-4a2b-9c6d-a6a29edbee03)
+    (property "Reference" "R22" (at 303.53 54.61 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "22" (at 303.53 57.15 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 303.784 59.944 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 303.53 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cd383e00-f809-4325-afd1-46b06ed75557))
     (pin "2" (uuid 1c360981-43bf-4cc0-80a1-1809895b3072))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R22") (unit 1)
         )
@@ -7238,7 +7975,7 @@
     )
     (pin "1" (uuid 7b793ea2-eabc-4d5b-b22e-d32c5f7b6503))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR010") (unit 1)
         )
@@ -7268,7 +8005,7 @@
     )
     (pin "1" (uuid e4940583-e90e-440c-a0ef-13372c14d502))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR025") (unit 1)
         )
@@ -7276,24 +8013,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 283.21 58.42 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 302.26 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eeed74b1-4966-4b3d-8f27-f8be5c6228f7)
-    (property "Reference" "#PWR032" (at 283.21 64.77 0)
+    (property "Reference" "#PWR032" (at 302.26 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 283.21 63.5 0)
+    (property "Value" "GND" (at 302.26 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 283.21 58.42 0)
+    (property "Footprint" "" (at 302.26 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 283.21 58.42 0)
+    (property "Datasheet" "" (at 302.26 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 51e0d1dd-d2ce-4e92-afa3-8981b6f45b95))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR032") (unit 1)
         )
@@ -7324,7 +8061,7 @@
     (pin "1" (uuid 169a36e9-5526-466e-aee9-d8292a44f90d))
     (pin "2" (uuid 242bf795-bed1-4d1c-9d00-849dfe3a043b))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R3") (unit 1)
         )
@@ -7332,6 +8069,31 @@
       (project "StrainGauge_Controlstick_Interface"
         (path "/c02972ce-12f7-4802-a362-236013b74ddd"
           (reference "R3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "GND_2") (lib_id "power:GND") (at 388.62 77.47 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f0dca5d1-dd65-4096-9207-be13226cdcc0)
+    (property "Reference" "#PWR011" (at 388.62 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 388.62 82.55 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 388.62 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 388.62 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 21a9532d-f177-4e8b-9eb2-455948faebee))
+    (instances
+      (project "flight_stick"
+        (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -7354,7 +8116,7 @@
     )
     (pin "1" (uuid b5f77332-56f1-4b25-927c-844576ad3a76))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR047") (unit 1)
         )
@@ -7380,7 +8142,7 @@
     (pin "1" (uuid 508aa38e-e0b2-4902-a435-0a69ff706066))
     (pin "2" (uuid 3b38817a-f9c2-40e1-b886-19240f535b49))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R1") (unit 1)
         )
@@ -7411,7 +8173,7 @@
     (pin "1" (uuid abc6421a-a329-4618-a22f-8b0988e85110))
     (pin "2" (uuid 9dc99e8e-e172-48d1-99e7-fcff5ff8a280))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R7") (unit 1)
         )
@@ -7442,7 +8204,7 @@
     (pin "1" (uuid ad8a6833-2364-4254-b5be-93fb8708c7f6))
     (pin "2" (uuid 9d53ea4a-29b2-4a0a-b84f-614c80c31267))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R29") (unit 1)
         )
@@ -7468,7 +8230,7 @@
     (pin "1" (uuid eb915082-daf3-4f47-aa07-62be3e3c36f7))
     (pin "2" (uuid 5a9d393f-b803-4cf9-99d7-65ed5c92f5eb))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "R12") (unit 1)
         )
@@ -7498,7 +8260,7 @@
     )
     (pin "1" (uuid b6aa9882-9bc5-4e95-8e6c-040993cccb93))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "#PWR07") (unit 1)
         )
@@ -7529,7 +8291,7 @@
     (pin "1" (uuid 936aac28-48bc-4e6b-95f6-d6285d845b4a))
     (pin "2" (uuid ace202a4-2fa4-49c0-96e3-162d9a4216e6))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "C8") (unit 1)
         )
@@ -7561,7 +8323,7 @@
     (pin "2" (uuid 60d9730f-d903-4f71-963b-705483ac9248))
     (pin "3" (uuid b239fc14-36a3-464c-a7ef-db13f6e9e3a3))
     (instances
-      (project "Controlstick 2.x"
+      (project "flight_stick"
         (path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
           (reference "Q8") (unit 1)
         )
