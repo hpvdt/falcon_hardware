@@ -9742,8 +9742,8 @@
 		(lib_id "Connector:Conn_01x04_Female")
 		(at 61.595 131.445 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "01eb92c2-ea6f-4c21-b0dd-762bd169d2e2")
@@ -10056,7 +10056,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100"
 			(at 323.85 137.7244 90)
 			(effects
 				(font
@@ -14955,7 +14955,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100"
 			(at 328.93 128.8344 90)
 			(effects
 				(font
@@ -15079,8 +15079,8 @@
 		(lib_id "Connector:Conn_01x04_Female")
 		(at 57.15 50.8 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9d51a91a-aba2-450c-b763-1b7be74f2691")
@@ -15882,8 +15882,8 @@
 		(lib_id "Connector:Conn_01x04_Female")
 		(at 53.34 66.04 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b82408a4-5007-40e5-a6c6-5659ca755b16")
@@ -16347,7 +16347,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "130"
+		(property "Value" "200"
 			(at 391.16 61.595 0)
 			(effects
 				(font

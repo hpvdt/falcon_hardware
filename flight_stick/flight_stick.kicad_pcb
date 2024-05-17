@@ -1345,7 +1345,7 @@
 		(path "/b82408a4-5007-40e5-a6c6-5659ca755b16")
 		(sheetname "Root")
 		(sheetfile "flight_stick.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -0.695 -0.685)
 			(end 0 -0.685)
@@ -3249,7 +3249,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100"
 			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "e4caf099-a701-4050-ae83-a68677ec5697")
@@ -8146,7 +8146,7 @@
 				)
 			)
 		)
-		(property "Value" "130"
+		(property "Value" "200"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "16caca58-4885-4821-aee6-4a3ae1331534")
@@ -15003,7 +15003,7 @@
 		(path "/01eb92c2-ea6f-4c21-b0dd-762bd169d2e2")
 		(sheetname "Root")
 		(sheetfile "flight_stick.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -0.695 -0.685)
 			(end 0 -0.685)
@@ -16330,7 +16330,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "100"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "8c036523-db6a-47db-99c3-82a30abe9f1b")
@@ -16858,7 +16858,7 @@
 		(path "/9d51a91a-aba2-450c-b763-1b7be74f2691")
 		(sheetname "Root")
 		(sheetfile "flight_stick.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -0.695 -0.685)
 			(end 0 -0.685)
@@ -18264,8 +18264,8 @@
 		(uuid "2d2df264-da85-4945-8f84-d6336e0d2ee5")
 	)
 	(gr_rect
-		(start 162.884144 106.197985)
-		(end 162.75635 107.001789)
+		(start 162.75635 106.197985)
+		(end 162.884144 107.001789)
 		(stroke
 			(width -0.000001)
 			(type solid)
@@ -18350,8 +18350,8 @@
 		(uuid "3369c143-cdd9-446d-aaf9-7d807f6697f2")
 	)
 	(gr_rect
-		(start 155.753624 107.127731)
-		(end 155.668427 107.612977)
+		(start 155.668427 107.127731)
+		(end 155.753624 107.612977)
 		(stroke
 			(width -0.000001)
 			(type solid)
@@ -22615,8 +22615,8 @@
 		(uuid "c4ecf543-e53a-4ced-9d00-49a7a682bd9b")
 	)
 	(gr_rect
-		(start 161.661769 107.361094)
-		(end 161.521011 107.451846)
+		(start 161.521011 107.361094)
+		(end 161.661769 107.451846)
 		(stroke
 			(width -0.000001)
 			(type solid)
@@ -23765,8 +23765,8 @@
 		(uuid "f6c9618f-82bc-45b6-b5c8-b0b72d7e7aad")
 	)
 	(gr_rect
-		(start 151.673483 107.127731)
-		(end 151.588289 107.612977)
+		(start 151.588289 107.127731)
+		(end 151.673483 107.612977)
 		(stroke
 			(width -0.000001)
 			(type solid)
