@@ -430,7 +430,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Symbol"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {

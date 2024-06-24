@@ -1,4 +1,4 @@
-23640354364378814
+23643792712796289
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -89642,6 +89642,13 @@ Logo FCC certification
 0
 0
 Symbol
+HPVDT-Logo_1526.1x139.6mm_SilkScreen
+
+
+0
+0
+0
+Symbol
 KiCad-Logo2_5mm_Copper
 KiCad Logo
 Logo KiCad
@@ -90086,6 +90093,13 @@ Symbol
 OSHW-Symbol_44.5x40mm_SilkScreen
 Open Source Hardware Symbol
 Logo Symbol OSHW
+0
+0
+0
+Symbol
+PCBWAY-Logo_23.7x23.7mm_SilkScreen
+
+
 0
 0
 0
