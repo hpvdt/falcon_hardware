@@ -21104,6 +21104,105 @@
 			(justify left bottom)
 		)
 	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "5a92d54b-16c9-457e-be31-23707e1f2e93")
+		(pts
+			(xy 131.6 67.1) (xy 117.35 100.25)
+		)
+		(height 24.804688)
+		(gr_text "36.0830 mm"
+			(at 100.630053 73.42491 66.73885953)
+			(layer "Cmts.User")
+			(uuid "5a92d54b-16c9-457e-be31-23707e1f2e93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "9cf255e8-8e94-4347-bd19-4da548885945")
+		(pts
+			(xy 113.15 58.243072) (xy 168.055 58.25)
+		)
+		(height -22.172497)
+		(gr_text "54.9050 mm"
+			(at 140.605443 34.924039 359.9927703)
+			(layer "Cmts.User")
+			(uuid "9cf255e8-8e94-4347-bd19-4da548885945")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "Cmts.User")
+		(uuid "cc581e1a-025a-4281-94c0-b125c26e84fc")
+		(pts
+			(xy 164.11 54.3) (xy 164.105 111.2)
+		)
+		(height -14.690864)
+		(gr_text "56.9000 mm"
+			(at 177.648364 82.75119 89.99496522)
+			(layer "Cmts.User")
+			(uuid "cc581e1a-025a-4281-94c0-b125c26e84fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
 	(segment
 		(start 152.985 68.353268)
 		(end 153.005 68.373268)
