@@ -53,8 +53,8 @@
       },
       "diff_pair_dimensions": [],
       "drc_exclusions": [
-        "solder_mask_bridge|151700000|79450000|5483cab6-a1a2-45e9-a822-138fd66bfb4b|8f43b963-9b69-433f-834c-bdf303de14ab",
-        "solder_mask_bridge|152450000|81350000|54d19418-4bfe-4461-989e-5ad1ed7250b8|106e8351-2d01-46f5-93d8-849dd45d5745"
+        "lib_footprint_mismatch|140167440|81392105|cc26e83c-c5c0-4272-9ca4-98db5d49b5ba|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|147092341|68115140|ff544ae7-0ffc-4c02-918e-996710e9508e|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -219,7 +219,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|1422400|1028700|c9777e91-84f4-413a-aab7-3bf9c973e3d5|a73f3ba4-0f19-4be2-b868-0aafc0b32479|/e7781990-9217-47e0-bccf-d5b77eec6675|/e7781990-9217-47e0-bccf-d5b77eec6675|/e7781990-9217-47e0-bccf-d5b77eec6675/b8d62bcf-a267-4b73-8ea2-f4a56f657ebf"
+    ],
     "meta": {
       "version": 0
     },
@@ -583,6 +585,10 @@
     [
       "e7781990-9217-47e0-bccf-d5b77eec6675",
       "Root"
+    ],
+    [
+      "b8d62bcf-a267-4b73-8ea2-f4a56f657ebf",
+      "Voltage Regulators"
     ]
   ],
   "text_variables": {}
