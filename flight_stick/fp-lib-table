@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "STM32F103C8T6_UFQFPN48")(type "KiCad")(uri "${KIPRJMOD}/STM32F103C8T6_UFQFPN48.pretty")(options "")(descr ""))
+  (lib (name "ADS131M03 Footprint")(type "KiCad")(uri "${KIPRJMOD}/ADS131M03 ADC/footprints.pretty/ADS131M03 Footprint.pretty")(options "")(descr ""))
+)
