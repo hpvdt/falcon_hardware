@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "kicad_symbol_editor")
 	(generator_version "8.0")
-	(symbol "ADS131M03IRUKR"
+	(symbol "ADS131M03IRUKx"
 		(pin_names
 			(offset 0.254)
 		)
@@ -17,7 +17,7 @@
 				)
 			)
 		)
-		(property "Value" "ADS131M03IRUKR"
+		(property "Value" "ADS131M03IRUKx"
 			(at 0 21.59 0)
 			(effects
 				(font
@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN_WQFN_RUK_TEX"
+		(property "Footprint" "flight_stick_footprints:QFN_WQFN_RUK_TEX"
 			(at 0 -19.05 0)
 			(effects
 				(font
@@ -34,7 +34,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "ADS131M03IRUKR"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ADS131M03"
 			(at 1.27 -16.51 0)
 			(effects
 				(font
@@ -43,8 +43,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at -25.4 13.97 0)
+		(property "Description" "Three-channel, 24-bit, 64-kSPS, simultaneous-sampling, delta-sigma ADC"
+			(at 0 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,15 +52,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "ADS131M03IRUKR"
+		(property "ki_keywords" "ADS131M03IRUKx"
 			(at 0 0 0)
 			(effects
 				(font
@@ -78,10 +70,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "ADS131M03IRUKR_1_1"
+		(symbol "ADS131M03IRUKx_1_1"
 			(rectangle
-				(start -17.78 19.05)
-				(end 16.51 -21.59)
+				(start -13.97 19.05)
+				(end 12.7 -21.59)
 				(stroke
 					(width 0)
 					(type default)
@@ -91,7 +83,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 13.97 0)
+				(at -17.78 13.97 0)
 				(length 3.81)
 				(name "AIN0P"
 					(effects
@@ -109,7 +101,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 7.62 180)
+				(at 16.51 7.62 180)
 				(length 3.81)
 				(name "~{CS}"
 					(effects
@@ -127,7 +119,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 16.51 180)
+				(at 16.51 16.51 180)
 				(length 3.81)
 				(name "DRDY"
 					(effects
@@ -145,7 +137,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 5.08 180)
+				(at 16.51 5.08 180)
 				(length 3.81)
 				(name "SCLK"
 					(effects
@@ -163,7 +155,7 @@
 				)
 			)
 			(pin output line
-				(at 20.32 0 180)
+				(at 16.51 0 180)
 				(length 3.81)
 				(name "DOUT"
 					(effects
@@ -181,7 +173,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 2.54 180)
+				(at 16.51 2.54 180)
 				(length 3.81)
 				(name "DIN"
 					(effects
@@ -199,7 +191,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 11.43 180)
+				(at 16.51 11.43 180)
 				(length 3.81)
 				(name "CLKIN"
 					(effects
@@ -217,7 +209,7 @@
 				)
 			)
 			(pin passive line
-				(at -21.59 -3.81 0)
+				(at 16.51 -12.7 180)
 				(length 3.81)
 				(name "CAP"
 					(effects
@@ -235,7 +227,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -17.78 180)
+				(at 16.51 -17.78 180)
 				(length 3.81)
 				(name "DGND"
 					(effects
@@ -253,7 +245,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -7.62 180)
+				(at 16.51 -7.62 180)
 				(length 3.81)
 				(name "DVDD"
 					(effects
@@ -271,7 +263,7 @@
 				)
 			)
 			(pin power_in line
-				(at -21.59 -8.89 0)
+				(at -17.78 -8.89 0)
 				(length 3.81)
 				(name "AVDD"
 					(effects
@@ -289,7 +281,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 11.43 0)
+				(at -17.78 11.43 0)
 				(length 3.81)
 				(name "AIN0N"
 					(effects
@@ -307,7 +299,7 @@
 				)
 			)
 			(pin power_in line
-				(at -21.59 -17.78 0)
+				(at -17.78 -17.78 0)
 				(length 3.81) hide
 				(name "AGND"
 					(effects
@@ -325,7 +317,7 @@
 				)
 			)
 			(pin power_in line
-				(at -21.59 -17.78 0)
+				(at -17.78 -17.78 0)
 				(length 3.81)
 				(name "AGND"
 					(effects
@@ -343,7 +335,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 6.35 0)
+				(at -17.78 6.35 0)
 				(length 3.81)
 				(name "AIN1N"
 					(effects
@@ -361,7 +353,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 8.89 0)
+				(at -17.78 8.89 0)
 				(length 3.81)
 				(name "AIN1P"
 					(effects
@@ -379,7 +371,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 3.81 0)
+				(at -17.78 3.81 0)
 				(length 3.81)
 				(name "AIN2P"
 					(effects
@@ -397,7 +389,7 @@
 				)
 			)
 			(pin input line
-				(at -21.59 1.27 0)
+				(at -17.78 1.27 0)
 				(length 3.81)
 				(name "AIN2N"
 					(effects
@@ -451,7 +443,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 13.97 180)
+				(at 16.51 13.97 180)
 				(length 3.81)
 				(name "~{RESET}"
 					(effects
@@ -468,6 +460,162 @@
 					)
 				)
 				(alternate "~{SYNC}" input line)
+			)
+		)
+	)
+	(symbol "LM3940IMP-3.3_NOPB"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "LM3940IMP-3.3/NOPB"
+			(at 0 3.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "flight_stick_footprints:MP04A"
+			(at 0 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/LM3940"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1-A, low-dropout voltage regulator for 5-V to 3.3-V conversion"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "LM3940IMP-3.3/NOPB"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "MP04A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LM3940IMP-3.3_NOPB_1_1"
+			(rectangle
+				(start -5.08 2.54)
+				(end 5.08 -7.62)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -8.89 0 0)
+				(length 3.81)
+				(name "IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -11.43 90)
+				(length 3.81)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 8.89 0 180)
+				(length 3.81)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -11.43 90)
+				(length 3.81) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 			)
 		)
 	)
