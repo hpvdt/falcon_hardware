@@ -8320,8 +8320,8 @@
 		)
 		(uuid "07367520-ad3a-4398-b21b-081c9af07ea0")
 	)
-	(label "Trans2"
-		(at 173.99 119.38 0)
+	(label "Trans1"
+		(at 173.99 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8329,7 +8329,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "07d51b6a-1b70-4838-80f9-07c8ae91ffad")
+		(uuid "0a39a65f-76a7-49fc-b12c-61375cc81617")
 	)
 	(label "button3"
 		(at 238.76 40.64 180)
@@ -8375,6 +8375,17 @@
 		)
 		(uuid "1cbb7c8d-f2ff-4126-af1e-dbc52ba10c2b")
 	)
+	(label "StatusLED_{B}"
+		(at 173.99 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ed4bbc1-b688-478b-9526-fda0ab486052")
+	)
 	(label "D-"
 		(at 20.32 156.21 0)
 		(fields_autoplaced yes)
@@ -8386,17 +8397,6 @@
 		)
 		(uuid "1fcbc0c4-5544-40ac-ad2d-4c166ec1ad33")
 	)
-	(label "Trans4"
-		(at 173.99 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "23eea5c2-9b36-4978-a39c-ad13b3fe6eba")
-	)
 	(label "button5"
 		(at 233.68 76.2 180)
 		(fields_autoplaced yes)
@@ -8407,6 +8407,17 @@
 			(justify right bottom)
 		)
 		(uuid "248bf59e-a090-41b0-b1fb-0f0137844e40")
+	)
+	(label "Trans2"
+		(at 173.99 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24b43c3c-dda4-4ae5-90d5-e6a25104cb32")
 	)
 	(label "D-"
 		(at 233.68 88.9 180)
@@ -8442,17 +8453,6 @@
 		(uuid "36c0ecda-10f7-4d3b-a4b1-8936875d85ee")
 	)
 	(label "Trans1"
-		(at 173.99 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "375abca8-6d2c-4535-a9ba-bc20965c75f2")
-	)
-	(label "Trans1"
 		(at 111.76 101.6 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8473,6 +8473,17 @@
 			(justify left bottom)
 		)
 		(uuid "394a6ce6-5dfc-48fe-a363-c3df156a8778")
+	)
+	(label "Trans5"
+		(at 173.99 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e19ac6a-a5eb-4a67-bc43-95e753e922f1")
 	)
 	(label "button2"
 		(at 233.68 63.5 180)
@@ -8506,6 +8517,17 @@
 			(justify left bottom)
 		)
 		(uuid "58e1bf41-385f-4161-aa97-be80eef685b7")
+	)
+	(label "Trans4"
+		(at 173.99 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5de6cd88-4c0f-4cd5-93ca-29ff2425de1c")
 	)
 	(label "D+"
 		(at 20.32 161.29 0)
@@ -8749,17 +8771,6 @@
 		)
 		(uuid "ab6defa6-ec0b-4ec4-8a23-16ead75e096c")
 	)
-	(label "StatusLED_{G}"
-		(at 173.99 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "acb7bb30-073e-4efa-9ca6-f401d154058b")
-	)
 	(label "ADC_CS"
 		(at 173.99 104.14 0)
 		(fields_autoplaced yes)
@@ -8793,17 +8804,6 @@
 		)
 		(uuid "b44eabca-05ba-436e-9a6c-1f6d9e2d6532")
 	)
-	(label "Trans5"
-		(at 173.99 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b53a1377-00ab-4132-b296-17b2c0dd8593")
-	)
 	(label "Programming_{RX}"
 		(at 233.68 68.58 180)
 		(fields_autoplaced yes)
@@ -8814,6 +8814,17 @@
 			(justify right bottom)
 		)
 		(uuid "b9460e49-0583-4e17-83f3-923f7b1fc3f3")
+	)
+	(label "StatusLED_{G}"
+		(at 173.99 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc926b07-f9ae-414c-b19a-e1e19892b9f8")
 	)
 	(label "ADC_SDO"
 		(at 127 41.91 0)
@@ -8869,17 +8880,6 @@
 			(justify right bottom)
 		)
 		(uuid "cba052db-39ee-45c1-a20e-856bc8409973")
-	)
-	(label "StatusLED_{B}"
-		(at 173.99 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd9bbfe5-29b4-4297-82e5-904ed8112cda")
 	)
 	(label "codeio"
 		(at 69.85 99.06 180)
