@@ -4450,151 +4450,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_FET:2N7002"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -5351,6 +5206,485 @@
 				)
 			)
 		)
+		(symbol "flight_stick:KMR223G_LFG"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 12.7 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KMR223G LFG"
+				(at 12.7 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "KMR2_G_CNK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "KMR223G LFG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "KMR223G LFG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "KMR2_G_CNK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "KMR223G_LFG_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 17.78 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -3.81) (xy 10.16 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 10.16 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 1.27) (xy 15.24 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -2.794) (xy 12.7 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 1.27) (xy 12.7 0.254)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.716 0) (xy 12.7 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.478 -6.35) (xy 16.002 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 14.986 -6.858) (xy 15.494 -6.858)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -5.08) (xy 15.24 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -3.81) (xy 10.16 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -2.54) (xy 15.24 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 0) (xy 17.78 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 1.27) (xy 15.24 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.748 -6.604) (xy 14.732 -6.604)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -7.62) (xy 17.78 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -5.08) (xy 15.24 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 -2.54) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 17.78 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 12.7 -3.81)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 12.7 -2.54)
+					(radius 0.254)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 12.7 0)
+					(radius 0.254)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 12.7 1.27)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 0 180)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -2.54 180)
+					(length 7.62)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 25.4 -5.08 180)
+					(length 7.62)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "flight_stick:LM3940IMP-3.3_NOPB"
 			(pin_names
 				(offset 0.254)
@@ -6055,6 +6389,12 @@
 		(uuid "745c9e67-0378-443b-bbe0-4283087702df")
 	)
 	(junction
+		(at 180.34 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7cfd2589-16b1-49d5-afb3-e980e6ab71b6")
+	)
+	(junction
 		(at 182.88 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6180,6 +6520,12 @@
 		(color 0 0 0 0)
 		(uuid "f4d57a0b-670f-4990-8adf-228ec0f9193d")
 	)
+	(junction
+		(at 180.34 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faa7ca59-4516-40b6-bfa2-2a35e2235c4c")
+	)
 	(no_connect
 		(at 111.76 115.57)
 		(uuid "042ed602-8bbe-4119-8e4f-56fdfa52db12")
@@ -6253,6 +6599,16 @@
 			(type default)
 		)
 		(uuid "07571da3-ea7c-49c0-90a3-7848e8fc05ba")
+	)
+	(wire
+		(pts
+			(xy 154.94 72.39) (xy 180.34 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a11b63b-28fd-4bd3-a29a-352dff136a28")
 	)
 	(wire
 		(pts
@@ -6343,6 +6699,16 @@
 			(type default)
 		)
 		(uuid "0c42506a-2ccc-475a-88c4-09aa09805fb2")
+	)
+	(wire
+		(pts
+			(xy 154.94 83.82) (xy 154.94 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e41b83c-fb96-4776-b75b-09a588f4e975")
 	)
 	(wire
 		(pts
@@ -6903,6 +7269,16 @@
 			(type default)
 		)
 		(uuid "519219ae-d5f4-4e55-9261-0fc337d7012d")
+	)
+	(wire
+		(pts
+			(xy 180.34 86.36) (xy 180.34 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551e49b1-f1a0-4f0a-9ec4-512ce28cb23d")
 	)
 	(wire
 		(pts
@@ -7883,6 +8259,16 @@
 			(type default)
 		)
 		(uuid "c2e89340-a997-45cb-b373-0f8c2e92f249")
+	)
+	(wire
+		(pts
+			(xy 180.34 72.39) (xy 180.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c41bca21-c15a-42a1-8a97-a6070c14e577")
 	)
 	(wire
 		(pts
@@ -9140,6 +9526,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C965815"
+			(at 254 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be4e6395-5bcc-4672-9512-b7c6bf3f5107")
 		)
@@ -9202,6 +9597,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 19.05 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C5243684"
 			(at 19.05 59.69 0)
 			(effects
 				(font
@@ -9281,6 +9685,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 54.61 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C73797"
 			(at 54.61 59.69 0)
 			(effects
 				(font
@@ -9428,6 +9841,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C73797"
+			(at 46.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ddc50ef6-259d-4783-b2d7-d44744c6be77")
 		)
@@ -9557,6 +9979,15 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 128KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, UFQFPN48"
+			(at 205.74 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C55506"
 			(at 205.74 125.73 0)
 			(effects
 				(font
@@ -9774,6 +10205,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 105.41 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 105.41 200.66 0)
 			(effects
 				(font
@@ -10046,6 +10486,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C73797"
+			(at 36.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14139d40-7ee8-4179-a87c-8494f158b34a")
 		)
@@ -10128,6 +10577,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 154.94 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2be51019-ef23-4990-8f69-c608baa23163")
+		(property "Reference" "#PWR022"
+			(at 154.94 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2b70caa-52b7-4b25-b6d0-26f7a636e0a8")
+		)
+		(instances
+			(project "flight_stick"
+				(path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 142.24 200.66 0)
 		(unit 1)
@@ -10174,6 +10689,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 142.24 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 142.24 200.66 0)
 			(effects
 				(font
@@ -10390,6 +10914,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C106857"
+			(at 127 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff85f5cb-2d50-4117-89e0-6b6b0a8a1e29")
 		)
@@ -10451,6 +10984,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 143.51 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C90806"
 			(at 143.51 170.18 0)
 			(effects
 				(font
@@ -10614,8 +11156,96 @@
 		)
 	)
 	(symbol
+		(lib_id "flight_stick:KMR223G_LFG")
+		(at 154.94 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35d99f7a-9f26-4b97-9563-2817053da996")
+		(property "Reference" "SW1"
+			(at 167.64 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KMR223G LFG"
+			(at 167.64 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "flight_stick_footprints:KMR2_G_CNK"
+			(at 154.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "KMR223G LFG"
+			(at 154.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C221678"
+			(at 154.94 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "301193bb-174c-40c3-952b-68c0bad3f705")
+		)
+		(pin "4"
+			(uuid "766b882f-1dbd-4a86-96c4-601e356175e0")
+		)
+		(pin "2"
+			(uuid "34e6905d-9e60-4cfc-a235-4aef1c997e97")
+		)
+		(pin "5"
+			(uuid "b0246013-2013-434b-9419-1e90e6a8266b")
+		)
+		(pin "3"
+			(uuid "148842ca-84f4-4f8e-8263-3e7bfe68a88a")
+		)
+		(instances
+			(project "flight_stick"
+				(path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 170.18 83.82 0)
+		(at 180.34 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10624,7 +11254,7 @@
 		(fields_autoplaced yes)
 		(uuid "38e43784-44ee-430d-a1d7-8fa466213e3f")
 		(property "Reference" "#PWR024"
-			(at 170.18 90.17 0)
+			(at 180.34 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10633,7 +11263,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 88.9 0)
+			(at 180.34 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10641,7 +11271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 83.82 0)
+			(at 180.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10650,7 +11280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 83.82 0)
+			(at 180.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10659,7 +11289,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 83.82 0)
+			(at 180.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10703,7 +11333,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47uF"
+		(property "Value" "470n"
 			(at 108.712 175.006 0)
 			(effects
 				(font
@@ -10731,6 +11361,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 115.57 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C106250"
 			(at 115.57 170.18 0)
 			(effects
 				(font
@@ -10806,6 +11445,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 182.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 182.88 27.94 0)
 			(effects
 				(font
@@ -10946,6 +11594,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 63.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C116838"
 			(at 63.5 57.15 0)
 			(effects
 				(font
@@ -11154,6 +11811,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74f4cee7-4e18-43ea-a80f-0f3b9ca62511")
 		)
@@ -11292,6 +11958,15 @@
 			)
 		)
 		(property "Description" "Three pin ceramic resonator"
+			(at 172.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C341522"
 			(at 172.72 102.87 0)
 			(effects
 				(font
@@ -11448,6 +12123,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C594232"
+			(at 238.76 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ee83640-074f-474a-a757-10f0f0ce0e56")
 		)
@@ -11519,6 +12203,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C116838"
 			(at 209.55 58.42 0)
 			(effects
 				(font
@@ -11734,6 +12427,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5224215"
+			(at 236.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "95a201df-9fb6-4cdb-b6a3-4ff760690276")
 		)
@@ -11798,6 +12500,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C116838"
 			(at 54.61 41.91 0)
 			(effects
 				(font
@@ -12006,6 +12717,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C73797"
+			(at 36.83 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ae4646a-758f-4bca-917e-3e9d829eca86")
 		)
@@ -12065,6 +12785,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 209.55 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C116838"
 			(at 209.55 71.12 0)
 			(effects
 				(font
@@ -12138,6 +12867,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 49.53 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23186"
 			(at 49.53 158.75 0)
 			(effects
 				(font
@@ -12220,6 +12958,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C105588"
+			(at 245.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd3943a0-44ba-48e4-9722-ab03b51f122e")
 		)
@@ -12289,6 +13036,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 165.1 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cb2dba9b-e309-4d9b-9b64-f49c5028ff94")
 		)
@@ -12348,6 +13104,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 36.83 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C849792"
 			(at 36.83 118.11 0)
 			(effects
 				(font
@@ -12560,6 +13325,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5224215"
+			(at 220.98 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2386bb17-0e66-4de3-8b54-604b6975b1b8")
 		)
@@ -12622,6 +13396,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 54.61 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C73797"
 			(at 54.61 62.23 0)
 			(effects
 				(font
@@ -12823,6 +13606,15 @@
 			)
 		)
 		(property "Description" "1-A, low-dropout voltage regulator for 5-V to 3.3-V conversion"
+			(at 124.46 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C140319"
 			(at 124.46 163.83 0)
 			(effects
 				(font
@@ -13037,6 +13829,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23345"
+			(at 27.94 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1352a793-cd9a-45cf-b2a2-55d11009d216")
 		)
@@ -13106,6 +13907,15 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 229.87 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5224215"
 			(at 229.87 44.45 0)
 			(effects
 				(font
@@ -13217,7 +14027,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 50.8 31.7499 0)
 			(effects
 				(font
@@ -13245,6 +14055,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 46.99 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C116838"
 			(at 46.99 30.48 0)
 			(effects
 				(font
@@ -13399,80 +14218,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 175.26 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9447058b-3ea6-4a83-b534-d198485935ff")
-		(property "Reference" "SW1"
-			(at 175.26 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 175.26 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
-			(at 175.26 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 175.26 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db39f84e-6834-41d1-962c-5a366de496be")
-		)
-		(pin "2"
-			(uuid "53060d39-f44f-4baa-8b92-6c578dedc42c")
-		)
-		(instances
-			(project "flight_stick"
-				(path "/594f9b09-cd7b-4dfb-a8eb-b099e26ad96c"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-			(project "StrainGauge_Controlstick_Interface"
-				(path "/c02972ce-12f7-4802-a362-236013b74ddd"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "flight_stick:ADS131M03IRUKx")
 		(at 101.6 44.45 0)
 		(unit 1)
@@ -13518,6 +14263,15 @@
 		)
 		(property "Description" "Three-channel, 24-bit, 64-kSPS, simultaneous-sampling, delta-sigma ADC"
 			(at 101.6 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5116472"
+			(at 101.6 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13649,6 +14403,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23186"
+			(at 49.53 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "927a4e90-d12a-4c98-bce9-5d2c3c1ae66d")
 		)
@@ -13716,6 +14479,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 191.77 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25804"
 			(at 191.77 27.94 0)
 			(effects
 				(font
@@ -13865,6 +14637,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C84256"
+			(at 152.4 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0373017-fbbb-4504-b5bc-2f601342f508")
 		)
@@ -13927,6 +14708,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 27.94 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C5243684"
 			(at 27.94 29.21 0)
 			(effects
 				(font
@@ -14152,6 +14942,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C90806"
+			(at 133.35 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efe2890b-c261-4f6b-923d-c33e9c65a2b8")
 		)
@@ -14211,6 +15010,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 209.55 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C116838"
 			(at 209.55 64.77 0)
 			(effects
 				(font
@@ -14361,6 +15169,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 173.99 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2576b523-699a-48fd-b378-1c317cb252b3")
 		)
@@ -14496,6 +15313,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C116838"
+			(at 209.55 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e01ccf02-6114-4910-8df1-c806cca3fdb5")
 		)
@@ -14569,6 +15395,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C105588"
+			(at 36.83 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "46a2d7a5-d921-4851-b95f-9d0051d6b399")
 		)
@@ -14631,6 +15466,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 27.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C5243684"
 			(at 27.94 40.64 0)
 			(effects
 				(font
@@ -14712,6 +15556,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 261.62 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C124379"
 			(at 261.62 39.37 0)
 			(effects
 				(font
@@ -14871,6 +15724,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C965818"
+			(at 97.79 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2b8fa9c2-e6d5-4306-acef-fecfc38d15d0")
 		)
@@ -14996,6 +15858,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 46.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C73797"
 			(at 46.99 43.18 0)
 			(effects
 				(font
@@ -15140,6 +16011,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C124379"
+			(at 176.53 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c87cd926-a7e5-49b5-ac1e-a1df09bd715c")
 		)
@@ -15218,6 +16098,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C8218"
+			(at 152.4 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aea90603-9b79-47f3-90ec-d5f206533011")
 		)
@@ -15280,6 +16169,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 124.46 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 124.46 200.66 0)
 			(effects
 				(font
@@ -15424,6 +16322,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2881912"
+			(at 99.06 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0772a42-6214-4b81-b60e-c2806f2d83ee")
 		)
@@ -15523,6 +16430,15 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 250.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5224215"
 			(at 250.19 22.86 0)
 			(effects
 				(font
@@ -15670,6 +16586,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23025"
+			(at 97.79 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a67b1df0-e267-4cb1-95d8-6f8c41d8c2ab")
 		)
@@ -15731,6 +16656,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 138.43 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C90806"
 			(at 138.43 170.18 0)
 			(effects
 				(font
@@ -15807,6 +16741,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C849792"
+			(at 36.83 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc049653-f6d5-4377-a22a-f2259e663959")
 		)
@@ -15870,6 +16813,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 74.93 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C165948"
 			(at 74.93 168.91 0)
 			(effects
 				(font
@@ -15990,6 +16942,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 140.97 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C116838"
 			(at 140.97 57.15 0)
 			(effects
 				(font
@@ -16194,6 +17155,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 27.94 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23345"
 			(at 27.94 172.72 0)
 			(effects
 				(font
@@ -16547,6 +17517,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 200.66 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad8a6833-2364-4254-b5be-93fb8708c7f6")
 		)
@@ -16616,6 +17595,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C116838"
+			(at 74.93 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f492011-7e15-4ffd-9a53-04936f9089c1")
 		)
@@ -16676,6 +17664,15 @@
 			)
 		)
 		(property "Description" "High Brightness Tri-Color LED, RGB, 3.5x2.8mm"
+			(at 48.26 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2842809"
 			(at 48.26 113.03 0)
 			(effects
 				(font
@@ -16825,6 +17822,15 @@
 			)
 		)
 		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 247.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5224215"
 			(at 247.65 46.99 0)
 			(effects
 				(font
