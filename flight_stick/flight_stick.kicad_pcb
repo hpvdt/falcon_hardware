@@ -182,7 +182,7 @@
 	(net 59 "/mcureset")
 	(net 60 "/Programming_{RX}")
 	(net 61 "/Programming_{TX}")
-	(net 62 "unconnected-(J10-SHIELD-PadS1)_0")
+	(net 62 "unconnected-(J10-SHIELD-PadS1)_3")
 	(net 63 "unconnected-(J10-SHIELD-PadS1)_1")
 	(net 64 "unconnected-(J10-SHIELD-PadS1)_2")
 	(net 65 "Net-(U1-AIN0P)")
@@ -2747,7 +2747,7 @@
 		(path "/b82408a4-5007-40e5-a6c6-5659ca755b16")
 		(sheetname "Root")
 		(sheetfile "flight_stick.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.11 -0.76)
 			(end 0 -0.76)
@@ -3070,7 +3070,7 @@
 		(path "/c644c46c-4945-464e-9fd9-edde533438f1")
 		(sheetname "Root")
 		(sheetfile "flight_stick.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -4685,7 +4685,7 @@
 			(drill oval 0.6 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 63 "unconnected-(J10-SHIELD-PadS1)_1")
+			(net 64 "unconnected-(J10-SHIELD-PadS1)_2")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
 			(uuid "94c5c405-4d5f-42f8-89dc-0fcbe3bba477")
@@ -4696,7 +4696,7 @@
 			(drill oval 0.6 1.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 64 "unconnected-(J10-SHIELD-PadS1)_2")
+			(net 62 "unconnected-(J10-SHIELD-PadS1)_3")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
 			(uuid "d74d92f3-9901-4cea-8659-70b956dc38eb")
@@ -4707,7 +4707,7 @@
 			(drill oval 0.6 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 62 "unconnected-(J10-SHIELD-PadS1)_0")
+			(net 63 "unconnected-(J10-SHIELD-PadS1)_1")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
 			(uuid "60575983-b024-4500-a577-2838d3c9f08f")
@@ -4763,6 +4763,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4775,6 +4776,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4787,6 +4789,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C221678"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00bb06ae-f810-478c-86d8-b80793bdfc42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9790,7 +9806,7 @@
 		(path "/2e33ab5e-910c-47e2-bdc0-0ec1f6ef2d7f")
 		(sheetname "Root")
 		(sheetfile "flight_stick.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
@@ -10411,7 +10427,7 @@
 		(path "/c7189ba5-fab0-465e-8a24-940491868475")
 		(sheetname "Root")
 		(sheetfile "flight_stick.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
@@ -11863,7 +11879,7 @@
 		(path "/9d51a91a-aba2-450c-b763-1b7be74f2691")
 		(sheetname "Root")
 		(sheetfile "flight_stick.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.11 -0.76)
 			(end 0 -0.76)
@@ -15705,7 +15721,7 @@
 		(path "/1dc4bcd1-da28-429b-8f83-e544439544d3")
 		(sheetname "Root")
 		(sheetfile "flight_stick.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
@@ -16513,7 +16529,7 @@
 		(path "/b83ae160-1656-48b0-ad95-a81ff3d56cab")
 		(sheetname "Root")
 		(sheetfile "flight_stick.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.33 1.27)
 			(end 1.33 11.49)
@@ -17281,7 +17297,7 @@
 		(path "/01eb92c2-ea6f-4c21-b0dd-762bd169d2e2")
 		(sheetname "Root")
 		(sheetfile "flight_stick.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -1.11 -0.76)
 			(end 0 -0.76)
