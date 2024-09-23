@@ -7,10 +7,16 @@ November 2022
 
 Aryan Ghosh
 
+Block diagram
+![image](https://github.com/user-attachments/assets/a0ad83c2-6817-4b16-9899-c1d551a5f59b)
+
+Schematic Layout
 ![image](https://github.com/user-attachments/assets/08623503-486a-40a5-aa58-99aede456de0)
 
+PCB 2-Layer Layout
 ![image](https://github.com/user-attachments/assets/f7a6a389-f91c-4039-a558-97fb62fedcd4)
 
+3D Render of PCB Layout
 ![image](https://github.com/user-attachments/assets/13b869fa-0417-47e1-9e46-4401be313791)
 
 
