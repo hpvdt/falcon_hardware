@@ -1,3 +1,6 @@
+>[!WARNING]
+>This repository is no longer being maintained. All board designs for Falcon are part of their respective project repositories under HPVDT. This repository can be considered a snapshot fo the project 2023 or so.
+
 # Falcon Hardware
 
 These are the collected files for all the custom circuit boards for the Falcon aircraft project. All circuits were designed in KiCad 7, and the Gerber files for the circuits as ordered are included.
